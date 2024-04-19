@@ -1,0 +1,10 @@
+C:\Users\al6113\Desktop\sample\oops\oops\bin\Debug\oops.exe.config
+C:\Users\al6113\Desktop\sample\oops\oops\bin\Debug\oops.exe
+C:\Users\al6113\Desktop\sample\oops\oops\bin\Debug\oops.pdb
+C:\Users\al6113\Desktop\sample\oops\oops\bin\Debug\ClassLibrary1.dll
+C:\Users\al6113\Desktop\sample\oops\oops\bin\Debug\ClassLibrary1.pdb
+C:\Users\al6113\Desktop\sample\oops\oops\obj\Debug\oops.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\oops\oops\obj\Debug\oops.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\oops\oops\obj\Debug\oops.csproj.Up2Date
+C:\Users\al6113\Desktop\sample\oops\oops\obj\Debug\oops.exe
+C:\Users\al6113\Desktop\sample\oops\oops\obj\Debug\oops.pdb

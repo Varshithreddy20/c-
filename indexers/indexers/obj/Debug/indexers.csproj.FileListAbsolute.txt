@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\indexers\indexers\bin\Debug\indexers.exe.config
+C:\Users\al6113\Desktop\sample\indexers\indexers\bin\Debug\indexers.exe
+C:\Users\al6113\Desktop\sample\indexers\indexers\bin\Debug\indexers.pdb
+C:\Users\al6113\Desktop\sample\indexers\indexers\obj\Debug\indexers.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\indexers\indexers\obj\Debug\indexers.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\indexers\indexers\obj\Debug\indexers.exe
+C:\Users\al6113\Desktop\sample\indexers\indexers\obj\Debug\indexers.pdb

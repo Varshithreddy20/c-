@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\propertiesindexers\propertiesindexers\bin\Debug\propertiesindexers.exe.config
+C:\Users\al6113\Desktop\sample\propertiesindexers\propertiesindexers\bin\Debug\propertiesindexers.exe
+C:\Users\al6113\Desktop\sample\propertiesindexers\propertiesindexers\bin\Debug\propertiesindexers.pdb
+C:\Users\al6113\Desktop\sample\propertiesindexers\propertiesindexers\obj\Debug\propertiesindexers.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\propertiesindexers\propertiesindexers\obj\Debug\propertiesindexers.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\propertiesindexers\propertiesindexers\obj\Debug\propertiesindexers.exe
+C:\Users\al6113\Desktop\sample\propertiesindexers\propertiesindexers\obj\Debug\propertiesindexers.pdb

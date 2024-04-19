@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\ArrayObjects\ArrayObjects\bin\Debug\ArrayObjects.exe.config
+C:\Users\al6113\Desktop\sample\ArrayObjects\ArrayObjects\bin\Debug\ArrayObjects.exe
+C:\Users\al6113\Desktop\sample\ArrayObjects\ArrayObjects\bin\Debug\ArrayObjects.pdb
+C:\Users\al6113\Desktop\sample\ArrayObjects\ArrayObjects\obj\Debug\ArrayObjects.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\ArrayObjects\ArrayObjects\obj\Debug\ArrayObjects.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\ArrayObjects\ArrayObjects\obj\Debug\ArrayObjects.exe
+C:\Users\al6113\Desktop\sample\ArrayObjects\ArrayObjects\obj\Debug\ArrayObjects.pdb

@@ -1,0 +1,6 @@
+C:\Users\al6113\Desktop\sample\methods2\patient\bin\Debug\patient.dll
+C:\Users\al6113\Desktop\sample\methods2\patient\bin\Debug\patient.pdb
+C:\Users\al6113\Desktop\sample\methods2\patient\obj\Debug\patient.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\methods2\patient\obj\Debug\patient.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\methods2\patient\obj\Debug\patient.dll
+C:\Users\al6113\Desktop\sample\methods2\patient\obj\Debug\patient.pdb

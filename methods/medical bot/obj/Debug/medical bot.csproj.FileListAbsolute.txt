@@ -1,0 +1,2 @@
+C:\Users\al6113\Desktop\sample\methods\medical bot\obj\Debug\medical bot.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\methods\medical bot\obj\Debug\medical bot.csproj.CoreCompileInputs.cache

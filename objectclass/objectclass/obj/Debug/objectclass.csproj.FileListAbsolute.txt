@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\objectclass\objectclass\bin\Debug\objectclass.exe.config
+C:\Users\al6113\Desktop\sample\objectclass\objectclass\bin\Debug\objectclass.exe
+C:\Users\al6113\Desktop\sample\objectclass\objectclass\bin\Debug\objectclass.pdb
+C:\Users\al6113\Desktop\sample\objectclass\objectclass\obj\Debug\objectclass.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\objectclass\objectclass\obj\Debug\objectclass.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\objectclass\objectclass\obj\Debug\objectclass.exe
+C:\Users\al6113\Desktop\sample\objectclass\objectclass\obj\Debug\objectclass.pdb

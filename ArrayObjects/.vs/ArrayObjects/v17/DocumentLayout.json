@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\ArrayObjects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C5E3B4-97E8-4F59-88AB-EB6EA05BECC1}|ArrayObjects\\ArrayObjects.csproj|C:\\Users\\al6113\\Desktop\\sample\\ArrayObjects\\arrayobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C5E3B4-97E8-4F59-88AB-EB6EA05BECC1}|ArrayObjects\\ArrayObjects.csproj|solutionrelative:arrayobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C5E3B4-97E8-4F59-88AB-EB6EA05BECC1}|ArrayObjects\\ArrayObjects.csproj|c:\\users\\al6113\\desktop\\sample\\arrayobjects\\arrayobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C5E3B4-97E8-4F59-88AB-EB6EA05BECC1}|ArrayObjects\\ArrayObjects.csproj|solutionrelative:arrayobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\ArrayObjects\\ArrayObjects\\Class1.cs",
+              "RelativeDocumentMoniker": "ArrayObjects\\Class1.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\ArrayObjects\\ArrayObjects\\Class1.cs",
+              "RelativeToolTip": "ArrayObjects\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:32:25.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\ArrayObjects\\ArrayObjects\\Program.cs",
+              "RelativeDocumentMoniker": "ArrayObjects\\Program.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\ArrayObjects\\ArrayObjects\\Program.cs",
+              "RelativeToolTip": "ArrayObjects\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:32:05.725Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

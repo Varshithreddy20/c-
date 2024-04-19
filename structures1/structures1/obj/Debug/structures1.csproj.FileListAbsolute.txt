@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\structures1\structures1\bin\Debug\structures1.exe.config
+C:\Users\al6113\Desktop\sample\structures1\structures1\bin\Debug\structures1.exe
+C:\Users\al6113\Desktop\sample\structures1\structures1\bin\Debug\structures1.pdb
+C:\Users\al6113\Desktop\sample\structures1\structures1\obj\Debug\structures1.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\structures1\structures1\obj\Debug\structures1.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\structures1\structures1\obj\Debug\structures1.exe
+C:\Users\al6113\Desktop\sample\structures1\structures1\obj\Debug\structures1.pdb

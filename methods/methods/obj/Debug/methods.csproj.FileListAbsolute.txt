@@ -1,0 +1,10 @@
+C:\Users\al6113\Desktop\sample\methods\methods\bin\Debug\methods.exe.config
+C:\Users\al6113\Desktop\sample\methods\methods\bin\Debug\methods.exe
+C:\Users\al6113\Desktop\sample\methods\methods\bin\Debug\methods.pdb
+C:\Users\al6113\Desktop\sample\methods\methods\bin\Debug\@class.dll
+C:\Users\al6113\Desktop\sample\methods\methods\bin\Debug\@class.pdb
+C:\Users\al6113\Desktop\sample\methods\methods\obj\Debug\methods.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\methods\methods\obj\Debug\methods.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\methods\methods\obj\Debug\methods.csproj.Up2Date
+C:\Users\al6113\Desktop\sample\methods\methods\obj\Debug\methods.exe
+C:\Users\al6113\Desktop\sample\methods\methods\obj\Debug\methods.pdb

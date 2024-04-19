@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\Pattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{823654BA-41C6-46AF-B291-EB1A3F2B0D90}|Pattern\\Pattern.csproj|c:\\users\\al6113\\desktop\\sample\\pattern\\pattern\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823654BA-41C6-46AF-B291-EB1A3F2B0D90}|Pattern\\Pattern.csproj|solutionrelative:pattern\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823654BA-41C6-46AF-B291-EB1A3F2B0D90}|Pattern\\Pattern.csproj|c:\\users\\al6113\\desktop\\sample\\pattern\\pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823654BA-41C6-46AF-B291-EB1A3F2B0D90}|Pattern\\Pattern.csproj|solutionrelative:pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Pattern\\Pattern\\Class1.cs",
+              "RelativeDocumentMoniker": "Pattern\\Class1.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Pattern\\Pattern\\Class1.cs",
+              "RelativeToolTip": "Pattern\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T07:04:46.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Pattern\\Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Pattern\\Program.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Pattern\\Pattern\\Program.cs",
+              "RelativeToolTip": "Pattern\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T07:04:19.342Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

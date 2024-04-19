@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|c:\\users\\al6113\\desktop\\sample\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|C:\\Users\\al6113\\Desktop\\sample\\Library\\library\\iprintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|solutionrelative:library\\iprintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|C:\\Users\\al6113\\Desktop\\sample\\Library\\library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|solutionrelative:library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|C:\\Users\\al6113\\Desktop\\sample\\Library\\library\\cd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|solutionrelative:library\\cd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|C:\\Users\\al6113\\Desktop\\sample\\Library\\library\\dvd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|solutionrelative:library\\dvd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|C:\\Users\\al6113\\Desktop\\sample\\Library\\library\\iloanable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDE63CA-29E6-43D7-8A3B-55C0D9A8D2C6}|Library\\Library.csproj|solutionrelative:library\\iloanable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\Program.cs",
+              "RelativeDocumentMoniker": "Library\\Program.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\Program.cs",
+              "RelativeToolTip": "Library\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T07:19:07.007Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPrintable.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\IPrintable.cs",
+              "RelativeDocumentMoniker": "Library\\IPrintable.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\IPrintable.cs",
+              "RelativeToolTip": "Library\\IPrintable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T07:32:01.176Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ILoanable.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\ILoanable.cs",
+              "RelativeDocumentMoniker": "Library\\ILoanable.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\ILoanable.cs",
+              "RelativeToolTip": "Library\\ILoanable.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T07:31:30.393Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\Book.cs",
+              "RelativeDocumentMoniker": "Library\\Book.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\Book.cs",
+              "RelativeToolTip": "Library\\Book.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T07:27:35.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DVD.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\DVD.cs",
+              "RelativeDocumentMoniker": "Library\\DVD.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\DVD.cs",
+              "RelativeToolTip": "Library\\DVD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T07:27:46.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CD.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\CD.cs",
+              "RelativeDocumentMoniker": "Library\\CD.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\Library\\CD.cs",
+              "RelativeToolTip": "Library\\CD.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T07:27:58.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

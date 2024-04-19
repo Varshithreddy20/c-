@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\Strutures\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08D4435F-6C12-45CF-96A1-BD0C8752C323}|Strutures\\Strutures.csproj|c:\\users\\al6113\\desktop\\sample\\strutures\\strutures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D4435F-6C12-45CF-96A1-BD0C8752C323}|Strutures\\Strutures.csproj|solutionrelative:strutures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08D4435F-6C12-45CF-96A1-BD0C8752C323}|Strutures\\Strutures.csproj|c:\\users\\al6113\\desktop\\sample\\strutures\\strutures\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D4435F-6C12-45CF-96A1-BD0C8752C323}|Strutures\\Strutures.csproj|solutionrelative:strutures\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Strutures\\Strutures\\Program.cs",
+              "RelativeDocumentMoniker": "Strutures\\Program.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Strutures\\Strutures\\Program.cs",
+              "RelativeToolTip": "Strutures\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T10:05:01.426Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Strutures\\Strutures\\Category.cs",
+              "RelativeDocumentMoniker": "Strutures\\Category.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Strutures\\Strutures\\Category.cs",
+              "RelativeToolTip": "Strutures\\Category.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T10:05:56.454Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

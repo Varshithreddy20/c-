@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\Collection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF545DE-3D66-4778-A802-E91DA1F954FD}|Collection\\Collection.csproj|c:\\users\\al6113\\desktop\\sample\\collection\\collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF545DE-3D66-4778-A802-E91DA1F954FD}|Collection\\Collection.csproj|solutionrelative:collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Collection\\Collection\\Program.cs",
+              "RelativeDocumentMoniker": "Collection\\Program.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Collection\\Collection\\Program.cs",
+              "RelativeToolTip": "Collection\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T07:29:26.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

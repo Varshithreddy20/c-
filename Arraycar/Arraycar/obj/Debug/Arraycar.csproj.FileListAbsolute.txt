@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\Arraycar\Arraycar\bin\Debug\Arraycar.exe.config
+C:\Users\al6113\Desktop\sample\Arraycar\Arraycar\bin\Debug\Arraycar.exe
+C:\Users\al6113\Desktop\sample\Arraycar\Arraycar\bin\Debug\Arraycar.pdb
+C:\Users\al6113\Desktop\sample\Arraycar\Arraycar\obj\Debug\Arraycar.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\Arraycar\Arraycar\obj\Debug\Arraycar.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\Arraycar\Arraycar\obj\Debug\Arraycar.exe
+C:\Users\al6113\Desktop\sample\Arraycar\Arraycar\obj\Debug\Arraycar.pdb
