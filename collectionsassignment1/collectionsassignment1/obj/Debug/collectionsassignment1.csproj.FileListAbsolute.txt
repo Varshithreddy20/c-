@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\collectionsassignment1\collectionsassignment1\bin\Debug\collectionsassignment1.exe.config
+C:\Users\al6113\Desktop\sample\collectionsassignment1\collectionsassignment1\bin\Debug\collectionsassignment1.exe
+C:\Users\al6113\Desktop\sample\collectionsassignment1\collectionsassignment1\bin\Debug\collectionsassignment1.pdb
+C:\Users\al6113\Desktop\sample\collectionsassignment1\collectionsassignment1\obj\Debug\collectionsassignment1.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\collectionsassignment1\collectionsassignment1\obj\Debug\collectionsassignment1.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\collectionsassignment1\collectionsassignment1\obj\Debug\collectionsassignment1.exe
+C:\Users\al6113\Desktop\sample\collectionsassignment1\collectionsassignment1\obj\Debug\collectionsassignment1.pdb

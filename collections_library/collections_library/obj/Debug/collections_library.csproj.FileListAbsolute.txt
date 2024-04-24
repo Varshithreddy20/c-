@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\collections_library\collections_library\bin\Debug\collections_library.exe.config
+C:\Users\al6113\Desktop\sample\collections_library\collections_library\bin\Debug\collections_library.exe
+C:\Users\al6113\Desktop\sample\collections_library\collections_library\bin\Debug\collections_library.pdb
+C:\Users\al6113\Desktop\sample\collections_library\collections_library\obj\Debug\collections_library.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\collections_library\collections_library\obj\Debug\collections_library.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\collections_library\collections_library\obj\Debug\collections_library.exe
+C:\Users\al6113\Desktop\sample\collections_library\collections_library\obj\Debug\collections_library.pdb

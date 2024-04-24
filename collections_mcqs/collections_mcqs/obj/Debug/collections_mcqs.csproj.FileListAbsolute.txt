@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\collections_mcqs\collections_mcqs\bin\Debug\collections_mcqs.exe.config
+C:\Users\al6113\Desktop\sample\collections_mcqs\collections_mcqs\bin\Debug\collections_mcqs.exe
+C:\Users\al6113\Desktop\sample\collections_mcqs\collections_mcqs\bin\Debug\collections_mcqs.pdb
+C:\Users\al6113\Desktop\sample\collections_mcqs\collections_mcqs\obj\Debug\collections_mcqs.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\collections_mcqs\collections_mcqs\obj\Debug\collections_mcqs.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\collections_mcqs\collections_mcqs\obj\Debug\collections_mcqs.exe
+C:\Users\al6113\Desktop\sample\collections_mcqs\collections_mcqs\obj\Debug\collections_mcqs.pdb

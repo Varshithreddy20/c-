@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\Sortedarrays\Sortedarrays\bin\Debug\Sortedarrays.exe.config
+C:\Users\al6113\Desktop\sample\Sortedarrays\Sortedarrays\bin\Debug\Sortedarrays.exe
+C:\Users\al6113\Desktop\sample\Sortedarrays\Sortedarrays\bin\Debug\Sortedarrays.pdb
+C:\Users\al6113\Desktop\sample\Sortedarrays\Sortedarrays\obj\Debug\Sortedarrays.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\Sortedarrays\Sortedarrays\obj\Debug\Sortedarrays.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\Sortedarrays\Sortedarrays\obj\Debug\Sortedarrays.exe
+C:\Users\al6113\Desktop\sample\Sortedarrays\Sortedarrays\obj\Debug\Sortedarrays.pdb

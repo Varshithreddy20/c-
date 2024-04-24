@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\tuple\tuple\bin\Debug\tuple.exe.config
+C:\Users\al6113\Desktop\sample\tuple\tuple\bin\Debug\tuple.exe
+C:\Users\al6113\Desktop\sample\tuple\tuple\bin\Debug\tuple.pdb
+C:\Users\al6113\Desktop\sample\tuple\tuple\obj\Debug\tuple.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\tuple\tuple\obj\Debug\tuple.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\tuple\tuple\obj\Debug\tuple.exe
+C:\Users\al6113\Desktop\sample\tuple\tuple\obj\Debug\tuple.pdb
