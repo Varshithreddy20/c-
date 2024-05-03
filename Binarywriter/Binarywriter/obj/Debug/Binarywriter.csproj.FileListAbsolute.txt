@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\Binarywriter\Binarywriter\bin\Debug\Binarywriter.exe.config
+C:\Users\al6113\Desktop\sample\Binarywriter\Binarywriter\bin\Debug\Binarywriter.exe
+C:\Users\al6113\Desktop\sample\Binarywriter\Binarywriter\bin\Debug\Binarywriter.pdb
+C:\Users\al6113\Desktop\sample\Binarywriter\Binarywriter\obj\Debug\Binarywriter.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\Binarywriter\Binarywriter\obj\Debug\Binarywriter.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\Binarywriter\Binarywriter\obj\Debug\Binarywriter.exe
+C:\Users\al6113\Desktop\sample\Binarywriter\Binarywriter\obj\Debug\Binarywriter.pdb

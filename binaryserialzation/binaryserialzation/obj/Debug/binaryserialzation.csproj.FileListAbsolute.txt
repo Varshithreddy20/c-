@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\binaryserialzation\binaryserialzation\bin\Debug\binaryserialzation.exe.config
+C:\Users\al6113\Desktop\sample\binaryserialzation\binaryserialzation\bin\Debug\binaryserialzation.exe
+C:\Users\al6113\Desktop\sample\binaryserialzation\binaryserialzation\bin\Debug\binaryserialzation.pdb
+C:\Users\al6113\Desktop\sample\binaryserialzation\binaryserialzation\obj\Debug\binaryserialzation.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\binaryserialzation\binaryserialzation\obj\Debug\binaryserialzation.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\binaryserialzation\binaryserialzation\obj\Debug\binaryserialzation.exe
+C:\Users\al6113\Desktop\sample\binaryserialzation\binaryserialzation\obj\Debug\binaryserialzation.pdb

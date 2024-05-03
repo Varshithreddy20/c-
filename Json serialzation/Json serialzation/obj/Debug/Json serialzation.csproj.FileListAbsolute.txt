@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\Json serialzation\Json serialzation\bin\Debug\Json serialzation.exe.config
+C:\Users\al6113\Desktop\sample\Json serialzation\Json serialzation\bin\Debug\Json serialzation.exe
+C:\Users\al6113\Desktop\sample\Json serialzation\Json serialzation\bin\Debug\Json serialzation.pdb
+C:\Users\al6113\Desktop\sample\Json serialzation\Json serialzation\obj\Debug\Json serialzation.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\Json serialzation\Json serialzation\obj\Debug\Json serialzation.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\Json serialzation\Json serialzation\obj\Debug\Json serialzation.exe
+C:\Users\al6113\Desktop\sample\Json serialzation\Json serialzation\obj\Debug\Json serialzation.pdb

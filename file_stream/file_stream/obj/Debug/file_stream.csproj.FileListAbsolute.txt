@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\file_stream\file_stream\bin\Debug\file_stream.exe.config
+C:\Users\al6113\Desktop\sample\file_stream\file_stream\bin\Debug\file_stream.exe
+C:\Users\al6113\Desktop\sample\file_stream\file_stream\bin\Debug\file_stream.pdb
+C:\Users\al6113\Desktop\sample\file_stream\file_stream\obj\Debug\file_stream.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\file_stream\file_stream\obj\Debug\file_stream.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\file_stream\file_stream\obj\Debug\file_stream.exe
+C:\Users\al6113\Desktop\sample\file_stream\file_stream\obj\Debug\file_stream.pdb

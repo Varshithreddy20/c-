@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\string_assignment\string_assignment\bin\Debug\string_assignment.exe.config
+C:\Users\al6113\Desktop\sample\string_assignment\string_assignment\bin\Debug\string_assignment.exe
+C:\Users\al6113\Desktop\sample\string_assignment\string_assignment\bin\Debug\string_assignment.pdb
+C:\Users\al6113\Desktop\sample\string_assignment\string_assignment\obj\Debug\string_assignment.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\string_assignment\string_assignment\obj\Debug\string_assignment.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\string_assignment\string_assignment\obj\Debug\string_assignment.exe
+C:\Users\al6113\Desktop\sample\string_assignment\string_assignment\obj\Debug\string_assignment.pdb

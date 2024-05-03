@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\Json serialzation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91256B16-5C67-4F29-A79C-61852104F8F2}|Json serialzation\\Json serialzation.csproj|c:\\users\\al6113\\desktop\\sample\\json serialzation\\json serialzation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91256B16-5C67-4F29-A79C-61852104F8F2}|Json serialzation\\Json serialzation.csproj|solutionrelative:json serialzation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Json serialzation\\Json serialzation\\Program.cs",
+              "RelativeDocumentMoniker": "Json serialzation\\Program.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Json serialzation\\Json serialzation\\Program.cs",
+              "RelativeToolTip": "Json serialzation\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T07:56:56.533Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

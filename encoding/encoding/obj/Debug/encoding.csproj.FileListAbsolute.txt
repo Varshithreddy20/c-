@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\encoding\encoding\bin\Debug\encoding.exe.config
+C:\Users\al6113\Desktop\sample\encoding\encoding\bin\Debug\encoding.exe
+C:\Users\al6113\Desktop\sample\encoding\encoding\bin\Debug\encoding.pdb
+C:\Users\al6113\Desktop\sample\encoding\encoding\obj\Debug\encoding.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\encoding\encoding\obj\Debug\encoding.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\encoding\encoding\obj\Debug\encoding.exe
+C:\Users\al6113\Desktop\sample\encoding\encoding\obj\Debug\encoding.pdb

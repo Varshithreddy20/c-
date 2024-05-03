@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using shopping;
@@ -24,8 +25,8 @@ namespace LINQ_assignment
             {
                 new product { ProductId = 1,ProductName=" mobile", Price= 35000},
                 new product { ProductId = 2,ProductName=" laptop", Price = 80000 },
-                new product { ProductId = 1, ProductName = "mobile", Price = 35000 },
-                new product { ProductId = 2, ProductName = "laptop", Price = 80000 },
+                new product { ProductId = 1, ProductName = "mouse", Price = 35000 },
+                new product { ProductId = 2, ProductName = "Charger", Price = 80000 },
                 new product { ProductId = 3, ProductName = "tablet", Price = 25000 },
                 new product { ProductId = 4, ProductName = "smartwatch", Price = 5000 },
                 new product { ProductId = 5, ProductName = "headphones", Price = 3000 },
@@ -35,7 +36,7 @@ namespace LINQ_assignment
                 new product { ProductId = 9, ProductName = "speaker", Price = 8000 },
                 new product { ProductId = 10, ProductName = "external hard drive", Price = 5000 }
             };
-            List<Order> orders = new List<Order>() 
+            List<Order> orders = new List<Order>()
             {
                 new Order { OrderId = 1, OrderDate = new DateTime()},
                 new Order { OrderId = 2, OrderDate = new DateTime()},
@@ -44,7 +45,7 @@ namespace LINQ_assignment
                 new Order { OrderId = 5, OrderDate = new DateTime()},
             };
 
-            List<OrderDetail> ordersDetail = new List<OrderDetail>() 
+            List<OrderDetail> ordersDetail = new List<OrderDetail>()
             {
                 new OrderDetail { OrderId = 1,CustomerId = 2, ProductName = " mobile", OrderDispatched = " yes",Location="USA"},
                 new OrderDetail { OrderId = 1, CustomerId = 5, ProductName = "mobile", OrderDispatched = "no" ,Location="UK"},
@@ -68,7 +69,7 @@ namespace LINQ_assignment
                 Console.WriteLine($"Id: {item.CustomerId}, Name: {item.CustomerName}, Email: {item.Email}");
             }
 
-            Console.WriteLine();    
+            Console.WriteLine();
             var productPrice = products.OrderBy(Product => Product.Price).ToList();
             Console.WriteLine("List of all products in order of unit price, from highest to lowest ");
             Console.WriteLine();
@@ -78,7 +79,7 @@ namespace LINQ_assignment
                 Console.WriteLine($"Id: {item.ProductId}, Name: {item.ProductName}, Email: {item.Price}");
             }
             Console.WriteLine();
-       
+
             var custlocation = ordersDetail.Where(OrderDetail => OrderDetail.Location.Contains("USA")).OrderBy(OrderDetail => OrderDetail.Location).ToList();
 
             Console.WriteLine(" list of all orders that were shipped to customers in the USA");
@@ -88,6 +89,7 @@ namespace LINQ_assignment
             {
                 Console.WriteLine($"Id: {item.OrderId}, Name: {item.CustomerId}, Product Name: {item.ProductName}, Location: {item.Location}, Order Dispatched: {item.OrderDispatched}");
             }
-        }
+            Console.WriteLine();
+        }   
     }
 }

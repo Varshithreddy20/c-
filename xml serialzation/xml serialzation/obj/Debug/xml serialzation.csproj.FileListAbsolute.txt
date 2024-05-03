@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\xml serialzation\xml serialzation\bin\Debug\xml serialzation.exe.config
+C:\Users\al6113\Desktop\sample\xml serialzation\xml serialzation\bin\Debug\xml serialzation.exe
+C:\Users\al6113\Desktop\sample\xml serialzation\xml serialzation\bin\Debug\xml serialzation.pdb
+C:\Users\al6113\Desktop\sample\xml serialzation\xml serialzation\obj\Debug\xml serialzation.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\xml serialzation\xml serialzation\obj\Debug\xml serialzation.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\xml serialzation\xml serialzation\obj\Debug\xml serialzation.exe
+C:\Users\al6113\Desktop\sample\xml serialzation\xml serialzation\obj\Debug\xml serialzation.pdb

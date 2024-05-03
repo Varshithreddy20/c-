@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\file_task\file_task\bin\Debug\file_task.exe.config
+C:\Users\al6113\Desktop\sample\file_task\file_task\bin\Debug\file_task.exe
+C:\Users\al6113\Desktop\sample\file_task\file_task\bin\Debug\file_task.pdb
+C:\Users\al6113\Desktop\sample\file_task\file_task\obj\Debug\file_task.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\file_task\file_task\obj\Debug\file_task.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\file_task\file_task\obj\Debug\file_task.exe
+C:\Users\al6113\Desktop\sample\file_task\file_task\obj\Debug\file_task.pdb
