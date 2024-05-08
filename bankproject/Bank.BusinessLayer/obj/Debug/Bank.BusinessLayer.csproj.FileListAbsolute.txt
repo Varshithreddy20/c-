@@ -1,0 +1,15 @@
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\bin\Debug\Bank.BusinessLayer.dll
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\bin\Debug\Bank.BusinessLayer.pdb
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\bin\Debug\Bank.Configuration.dll
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\bin\Debug\bank.dataaccess.dll
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\bin\Debug\Bank.Expections.dll
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\bin\Debug\bankentities.dll
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\bin\Debug\Bank.Configuration.pdb
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\bin\Debug\bank.dataaccess.pdb
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\bin\Debug\Bank.Expections.pdb
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\bin\Debug\bankentities.pdb
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\obj\Debug\Bank.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\obj\Debug\Bank.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\obj\Debug\Bank.Bus.EDA8FE88.Up2Date
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\obj\Debug\Bank.BusinessLayer.dll
+C:\Users\al6113\Desktop\sample\bankproject\Bank.BusinessLayer\obj\Debug\Bank.BusinessLayer.pdb

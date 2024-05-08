@@ -1,4 +1,5 @@
 ﻿using System;
+using bank.presentation;
 
 namespace bankproject
 {
@@ -233,39 +234,23 @@ namespace bankproject
             do
             {
                 Console.WriteLine("\n <<<<<<<<<<< CUSTOMER MENU >>>>>>>>>>>");
-                Console.WriteLine("1.Add account");
-                Console.WriteLine("2.Edit account");
-                Console.WriteLine("3.Update account");
-                Console.WriteLine("4.Delete account");
-                Console.WriteLine("5.View account");
-                Console.WriteLine("0.Go back to main menu ");
+                Console.WriteLine("1.Add Customer");
+                Console.WriteLine("2.Edit Customer");
+                Console.WriteLine("3.Update Customer");
+                Console.WriteLine("4.Serach Customer");
+                Console.WriteLine("5.Delete Customer");
+                Console.WriteLine("6.View Customer");
+                Console.WriteLine("0.Go back to main menu  ");
 
                 Console.Write("Enter the choice: ");
                 CustomerMenuChoice = Convert.ToInt32(Console.ReadLine());
 
                 switch (CustomerMenuChoice)
                 {
-                    case 1:
+                    case 1:CusPresentation.AddCustomer();
                         // Implement Add account functionality
                         break;
-                    case 2:
-                        // Implement Edit account functionality
-                        break;
-                    case 3:
-                        // Implement Update account functionality
-                        break;
-                    case 4:
-                        // Implement Delete account functionality
-                        break;
-                    case 5:
-                        // Implement View account functionality
-                        break;
-                    case 0:
-                        // Simply exits the loop and returns to main menu
-                        break;
-                    default:
-                        Console.WriteLine("Invalid choice, please try again.");
-                        break;
+                    
                 }
             } while (CustomerMenuChoice != 0);
         }

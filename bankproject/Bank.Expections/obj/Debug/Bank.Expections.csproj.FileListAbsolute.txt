@@ -1,0 +1,6 @@
+C:\Users\al6113\Desktop\sample\bankproject\Bank.Expections\bin\Debug\Bank.Expections.dll
+C:\Users\al6113\Desktop\sample\bankproject\Bank.Expections\bin\Debug\Bank.Expections.pdb
+C:\Users\al6113\Desktop\sample\bankproject\Bank.Expections\obj\Debug\Bank.Expections.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\bankproject\Bank.Expections\obj\Debug\Bank.Expections.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\bankproject\Bank.Expections\obj\Debug\Bank.Expections.dll
+C:\Users\al6113\Desktop\sample\bankproject\Bank.Expections\obj\Debug\Bank.Expections.pdb

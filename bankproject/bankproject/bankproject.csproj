@@ -43,11 +43,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CusPresentation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bank.BusinessLayer\Bank.BusinessLayer.csproj">
+      <Project>{5899b4b2-8ce5-4c92-988d-f507a323d1c7}</Project>
+      <Name>Bank.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bank.Configuration\Bank.Configuration.csproj">
+      <Project>{b01ddff2-e6d9-438c-8130-c623c6fa1407}</Project>
+      <Name>Bank.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bank.Expections\Bank.Expections.csproj">
+      <Project>{52438423-a1ab-48db-b5d5-90c307e683f7}</Project>
+      <Name>Bank.Expections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\bankentities\Bank.Entities.csproj">
+      <Project>{21c09410-0082-4b4e-b231-fce0b2f23e44}</Project>
+      <Name>Bank.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
