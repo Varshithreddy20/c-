@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|c:\\users\\al6113\\desktop\\sample\\bankproject\\bank.dataaccess\\cusdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\cusdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|c:\\users\\al6113\\desktop\\sample\\bankproject\\bank.businesslayer\\cusbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.businesslayer\\cusbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|solutionrelative:bank.businesslayer\\cusbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|solutionrelative:bankproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|c:\\users\\al6113\\desktop\\sample\\bankproject\\bankproject\\cuspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|solutionrelative:bankproject\\cuspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,49 +22,36 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CusBAL.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\CusBAL.cs",
-              "RelativeDocumentMoniker": "Bank.BusinessLayer\\CusBAL.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\CusBAL.cs",
-              "RelativeToolTip": "Bank.BusinessLayer\\CusBAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Title": "CusPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\CusPresentation.cs",
+              "RelativeDocumentMoniker": "bankproject\\CusPresentation.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\CusPresentation.cs",
+              "RelativeToolTip": "bankproject\\CusPresentation.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwCAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T10:21:18.303Z",
+              "WhenOpened": "2024-05-09T07:47:23.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CusDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\CusDataAccess.cs",
-              "RelativeDocumentMoniker": "bank.dataaccess\\CusDataAccess.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\CusDataAccess.cs",
-              "RelativeToolTip": "bank.dataaccess\\CusDataAccess.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHwAAAAAAAAA",
+              "Title": "CusBAL.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\CusBAL.cs",
+              "RelativeDocumentMoniker": "Bank.BusinessLayer\\CusBAL.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\CusBAL.cs",
+              "RelativeToolTip": "Bank.BusinessLayer\\CusBAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T10:20:06.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\Program.cs",
-              "RelativeDocumentMoniker": "bankproject\\Program.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\Program.cs",
-              "RelativeToolTip": "bankproject\\Program.cs",
-              "ViewState": "AQIAAMAAAAAAAAAAAAAwwPAAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T07:14:08.355Z",
+              "WhenOpened": "2024-05-08T10:21:18.303Z",
               "EditorCaption": ""
             }
           ]

@@ -1,11 +1,7 @@
 ﻿using Bank.BusinessLayer.BALContracts;
 using bankentities;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
+
 using Bank.BusinessLayer;
 
 namespace bank.presentation
@@ -18,13 +14,13 @@ namespace bank.presentation
             {
                 Customer customer = new Customer();
                 Console.WriteLine("\n********ADD CUSTOMER*********");
-                Console.Write("Customer Name");
+                Console.Write("Customer Name :");
                 customer.CustomerName = Console.ReadLine();
-                Console.Write("Address");
+                Console.Write("Address :");
                 customer.Address = Console.ReadLine();
-                Console.Write("Country");
+                Console.Write("Country :");
                 customer.Country = Console.ReadLine();
-                Console.Write("Mobile");
+                Console.Write("Mobile :");
                 customer.Mobile = Console.ReadLine();
 
                 ICusBAL cusBAL = new CusBAL();

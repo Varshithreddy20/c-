@@ -17,11 +17,15 @@ namespace Bank.BusinessLayer
             _customersDataAccess = customersDataAccess;
         }
 
+        public CusBAL()
+        {
+        }
+
         public List<Customer> GetCustomer()
         {
             try
             {
-                return _customersDataAccess.GetCustomers();
+                return _customersDataAccess.GetCustomer();
             }
             catch (CustomerException)
             {
@@ -53,9 +57,7 @@ namespace Bank.BusinessLayer
         {
             try
             {
-                // Implement your logic for generating customer code here
-                // For example:
-                // customer.CustomerCode = GenerateCustomerCode();
+                customer.CustomerCode = GenerateCustomerCode();
                 return _customersDataAccess.AddCustomer(customer);
             }
             catch (CustomerException)
@@ -66,6 +68,11 @@ namespace Bank.BusinessLayer
             {
                 throw;
             }
+        }
+
+        private long GenerateCustomerCode()
+        {
+            throw new NotImplementedException();
         }
 
         public bool UpdateCustomer(Customer customer)

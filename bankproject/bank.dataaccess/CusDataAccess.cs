@@ -120,5 +120,30 @@ namespace bank.dataaccess
                 throw;
             }
         }
+
+        List<Customer> ICusDataAccess.GetCustomer()
+        {
+            throw new NotImplementedException();
+        }
+
+        List<Customer> ICusDataAccess.GetCustomerByCondition(Predicate<Customer> predicate)
+        {
+            throw new NotImplementedException();
+        }
+
+        Guid ICusDataAccess.AddCustomer(Customer customer)
+        {
+            throw new NotImplementedException();
+        }
+
+        bool ICusDataAccess.UpdateCustomer(Customer customer)
+        {
+            throw new NotImplementedException();
+        }
+
+        bool ICusDataAccess.DeleteCustomer(Guid customerID)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
