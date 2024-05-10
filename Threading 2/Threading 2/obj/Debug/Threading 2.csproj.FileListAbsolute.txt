@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\Threading 2\Threading 2\bin\Debug\Threading 2.exe.config
+C:\Users\al6113\Desktop\sample\Threading 2\Threading 2\bin\Debug\Threading 2.exe
+C:\Users\al6113\Desktop\sample\Threading 2\Threading 2\bin\Debug\Threading 2.pdb
+C:\Users\al6113\Desktop\sample\Threading 2\Threading 2\obj\Debug\Threading 2.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\Threading 2\Threading 2\obj\Debug\Threading 2.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\Threading 2\Threading 2\obj\Debug\Threading 2.exe
+C:\Users\al6113\Desktop\sample\Threading 2\Threading 2\obj\Debug\Threading 2.pdb

@@ -10,22 +10,25 @@ namespace Bank.BusinessLayer
 {
     public class CusBAL : ICusBAL
     {
-        private ICusDataAccess _customersDataAccess;
-
-        public CusBAL(ICusDataAccess customersDataAccess)
-        {
-            _customersDataAccess = customersDataAccess;
-        }
+        private ICusDataAccess _cusDataAccess;
 
         public CusBAL()
         {
+            _cusDataAccess = new CusDataAccess();
         }
 
+        private ICusBAL CusDataAccess
+        {
+            set => _cusDataAccess = value;
+            get => _cusDataAccess;
+        }
+
+        //methods
         public List<Customer> GetCustomer()
         {
             try
             {
-                return _customersDataAccess.GetCustomer();
+                return _cusDataAccess.GetCustomer();
             }
             catch (CustomerException)
             {
@@ -37,11 +40,13 @@ namespace Bank.BusinessLayer
             }
         }
 
+
+
         public List<Customer> GetCustomerByCondition(Predicate<Customer> predicate)
         {
             try
             {
-                return _customersDataAccess.GetCustomerByCondition(predicate);
+                return CusDataAccess.GetCustomerByCondition(predicate);
             }
             catch (CustomerException)
             {
@@ -57,8 +62,29 @@ namespace Bank.BusinessLayer
         {
             try
             {
-                customer.CustomerCode = GenerateCustomerCode();
-                return _customersDataAccess.AddCustomer(customer);
+                //get all customers
+                List<Customer> allCustomers = CusDataAccess.customer();
+                long maxCustCode = 0;
+                foreach (var item in allCustomers)
+                {
+                    if (item.CustomerCode > maxCustCode)
+                    {
+                        maxCustCode = item.CustomerCode;
+                    }
+                }
+
+                //generate new customer no
+                if (allCustomers.Count >= 1)
+                {
+                    customer.CustomerCode = maxCustCode + 1;
+                }
+                else
+                {
+                    customer.CustomerCode = Bank.Configuration.Settings.BaseCustomerNo + 1;
+                }
+
+                //invoke DAL
+                return CusDataAccess.AddCustomer(customer);
             }
             catch (CustomerException)
             {
@@ -70,41 +96,58 @@ namespace Bank.BusinessLayer
             }
         }
 
-        private long GenerateCustomerCode()
-        {
-            throw new NotImplementedException();
-        }
+        //public Guid AddCustomer(Customer customer)
+        //{
+        //    try
+        //    {
+        //        customer.CustomerCode = GenerateCustomerCode();
+        //        return _cusDataAccess.AddCustomer(customer);
+        //    }
+        //    catch (CustomerException)
+        //    {
+        //        throw;
+        //    }
+        //    catch (Exception)
+        //    {
+        //        throw;
+        //    }
+        //}
 
-        public bool UpdateCustomer(Customer customer)
-        {
-            try
-            {
-                return _customersDataAccess.UpdateCustomer(customer);
-            }
-            catch (CustomerException)
-            {
-                throw;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-        }
+        //private long GenerateCustomerCode()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public bool DeleteCustomer(Guid customerID)
-        {
-            try
-            {
-                return _customersDataAccess.DeleteCustomer(customerID);
-            }
-            catch (CustomerException)
-            {
-                throw;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-        }
+        //public bool UpdateCustomer(Customer customer)
+        //{
+        //    try
+        //    {
+        //        return _cusDataAccess.UpdateCustomer(customer);
+        //    }
+        //    catch (CustomerException)
+        //    {
+        //        throw;
+        //    }
+        //    catch (Exception)
+        //    {
+        //        throw;
+        //    }
+        //}
+
+        //public bool DeleteCustomer(Guid customerID)
+        //{
+        //    try
+        //    {
+        //        return _cusDataAccess.DeleteCustomer(customerID);
+        //    }
+        //    catch (CustomerException)
+        //    {
+        //        throw;
+        //    }
+        //    catch (Exception)
+        //    {
+        //        throw;
+        //    }
+        //}
     }
 }

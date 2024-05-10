@@ -8,14 +8,14 @@ namespace bank.dataaccess
 {
     public class CusDataAccess : ICusDataAccess
     {
-        private List<Customer> _customers;
+        private static List<Customer> _customers;
 
-        public CusDataAccess()
+         static CusDataAccess()
         {
             _customers = new List<Customer>();
         }
 
-        public List<Customer> Customers
+        public static List<Customer> Customers
         {
             set => _customers = value;
             get => _customers;
