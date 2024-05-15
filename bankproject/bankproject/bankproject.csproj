@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccPresentation.cs" />
     <Compile Include="CusPresentation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransferPresentation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

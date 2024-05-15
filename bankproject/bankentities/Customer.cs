@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using bankentities;
-using Bank.Expections;
+﻿using Bank.Expections;
 using bankentities.Contracts;
+using System;
 
 
 namespace bankentities
@@ -26,8 +21,8 @@ namespace bankentities
         #region Properties
         public Guid CustomerID { get => _customerID; set => _customerID = value; }
 
-        public long CustomerCode { get => _customerCode; set => _customerCode = value; }
-        public long CstomerCode
+       
+        public long CustomerCode
         {
             get => _customerCode;
             set
@@ -81,7 +76,7 @@ namespace bankentities
         #region Methods
         public object Clone()
         {
-            return new Customer() { CustomerID = this.CustomerID, CustomerName = this.CustomerName,Address=this.Address,Country=this.Country,Mobile=this.Mobile };
+            return new Customer() { CustomerID = this.CustomerID, CustomerCode = this.CustomerCode, CustomerName = this.CustomerName,Address=this.Address,Country=this.Country,Mobile=this.Mobile };
         }
         #endregion
     }

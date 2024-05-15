@@ -7,3 +7,12 @@ C:\Users\al6113\Desktop\sample\bankproject\bankentities\obj\Debug\Bank.Entities.
 C:\Users\al6113\Desktop\sample\bankproject\bankentities\obj\Debug\Bank.Ent.D86A59A8.Up2Date
 C:\Users\al6113\Desktop\sample\bankproject\bankentities\obj\Debug\bankentities.dll
 C:\Users\al6113\Desktop\sample\bankproject\bankentities\obj\Debug\bankentities.pdb
+C:\Users\al6113\Desktop\bankproject\bankproject\bankentities\bin\Debug\bankentities.dll
+C:\Users\al6113\Desktop\bankproject\bankproject\bankentities\bin\Debug\bankentities.pdb
+C:\Users\al6113\Desktop\bankproject\bankproject\bankentities\bin\Debug\Bank.Expections.dll
+C:\Users\al6113\Desktop\bankproject\bankproject\bankentities\bin\Debug\Bank.Expections.pdb
+C:\Users\al6113\Desktop\bankproject\bankproject\bankentities\obj\Debug\Bank.Entities.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\bankproject\bankproject\bankentities\obj\Debug\Bank.Entities.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\bankproject\bankproject\bankentities\obj\Debug\Bank.Ent.D86A59A8.Up2Date
+C:\Users\al6113\Desktop\bankproject\bankproject\bankentities\obj\Debug\bankentities.dll
+C:\Users\al6113\Desktop\bankproject\bankproject\bankentities\obj\Debug\bankentities.pdb

@@ -1,32 +1,50 @@
-﻿using System;
-using System.Collections.Generic;
-using bankentities;
+﻿using bank.dataaccess.DALContracts;
 using Bank.Expections;
-using bank.dataaccess.DALContracts;
+using bankentities;
+using System;
+using System.Collections.Generic;
 
 namespace bank.dataaccess
 {
     public class CusDataAccess : ICusDataAccess
     {
+        #region Fields
         private static List<Customer> _customers;
+        #endregion
 
-         static CusDataAccess()
+
+        #region Constructors
+        static CusDataAccess()
         {
-            _customers = new List<Customer>();
+            _customers = new List<Customer>() 
+            {
+                new Customer() { CustomerID = Guid.Parse("8C12BEA9-8FB0-4744-8422-1996533805E8"), CustomerCode = 1001, CustomerName = "Accion", Country = "India", Address = "Mumbai", Mobile = "9876598765" }
+             };
         }
+        #endregion
 
-        public static List<Customer> Customers
+
+        #region Properties
+     
+        private static List<Customer> Customers
         {
             set => _customers = value;
             get => _customers;
         }
+        #endregion
 
+
+        #region Methods
+    
         public List<Customer> GetCustomers()
         {
             try
             {
+                //create a new customers list
                 List<Customer> customersList = new List<Customer>();
-                _customers.ForEach(item => customersList.Add(item.Clone() as Customer));
+
+                //copy all customers from the soruce collection into the newCustomers list
+                Customers.ForEach(item => customersList.Add(item.Clone() as Customer));
                 return customersList;
             }
             catch (CustomerException)
@@ -39,12 +57,17 @@ namespace bank.dataaccess
             }
         }
 
-        public List<Customer> GetCustomerByCondition(Predicate<Customer> predicate)
+        public List<Customer> GetCustomersByCondition(Predicate<Customer> predicate)
         {
             try
             {
-                List<Customer> filteredCustomers = _customers.FindAll(predicate);
+                //create a new customers list
                 List<Customer> customersList = new List<Customer>();
+
+                //filter the collection
+                List<Customer> filteredCustomers = Customers.FindAll(predicate);
+
+                //copy all customers from the soruce collection into the newCustomers list
                 filteredCustomers.ForEach(item => customersList.Add(item.Clone() as Customer));
                 return customersList;
             }
@@ -58,12 +81,18 @@ namespace bank.dataaccess
             }
         }
 
+
+ 
         public Guid AddCustomer(Customer customer)
         {
             try
             {
+                //generate new Guid
                 customer.CustomerID = Guid.NewGuid();
-                _customers.Add(customer);
+
+                //add customer
+                Customers.Add(customer);
+
                 return customer.CustomerID;
             }
             catch (CustomerException)
@@ -80,7 +109,10 @@ namespace bank.dataaccess
         {
             try
             {
-                Customer existingCustomer = _customers.Find(item => item.CustomerID == customer.CustomerID);
+                //find existing customer by CustomerID
+                Customer existingCustomer = Customers.Find(item => item.CustomerID == customer.CustomerID);
+
+                //update all details of customer
                 if (existingCustomer != null)
                 {
                     existingCustomer.CustomerCode = customer.CustomerCode;
@@ -88,11 +120,12 @@ namespace bank.dataaccess
                     existingCustomer.Address = customer.Address;
                     existingCustomer.Country = customer.Country;
                     existingCustomer.Mobile = customer.Mobile;
-                    return true;
+
+                    return true; //indicates the customer is updated
                 }
                 else
                 {
-                    return false;
+                    return false; //indicates no object is updated
                 }
             }
             catch (CustomerException)
@@ -104,12 +137,21 @@ namespace bank.dataaccess
                 throw;
             }
         }
+
 
         public bool DeleteCustomer(Guid customerID)
         {
             try
             {
-                return _customers.RemoveAll(item => item.CustomerID == customerID) > 0;
+                //delete customer by CustomerID
+                if (Customers.RemoveAll(item => item.CustomerID == customerID) > 0)
+                {
+                    return true;  //indicates one or more customers are deleted
+                }
+                else
+                {
+                    return false; //indicates no customer is deleted
+                }
             }
             catch (CustomerException)
             {
@@ -120,30 +162,6 @@ namespace bank.dataaccess
                 throw;
             }
         }
-
-        List<Customer> ICusDataAccess.GetCustomer()
-        {
-            throw new NotImplementedException();
-        }
-
-        List<Customer> ICusDataAccess.GetCustomerByCondition(Predicate<Customer> predicate)
-        {
-            throw new NotImplementedException();
-        }
-
-        Guid ICusDataAccess.AddCustomer(Customer customer)
-        {
-            throw new NotImplementedException();
-        }
-
-        bool ICusDataAccess.UpdateCustomer(Customer customer)
-        {
-            throw new NotImplementedException();
-        }
-
-        bool ICusDataAccess.DeleteCustomer(Guid customerID)
-        {
-            throw new NotImplementedException();
-        }
+        #endregion
     }
 }

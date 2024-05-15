@@ -1,34 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using bankentities;
-using Bank.BusinessLayer.BALContracts;
-using bank.dataaccess;
+﻿using bank.dataaccess;
 using bank.dataaccess.DALContracts;
+using Bank.BusinessLayer.BALContracts;
 using Bank.Expections;
+using bankentities;
+using System;
+using System.Collections.Generic;
 
 namespace Bank.BusinessLayer
 {
     public class CusBAL : ICusBAL
     {
-        private ICusDataAccess _cusDataAccess;
 
+        #region Private Fields
+        private ICusDataAccess _customersDataAccessLayer;
+        #endregion
+
+        #region Constructors
+        
         public CusBAL()
         {
-            _cusDataAccess = new CusDataAccess();
+            _customersDataAccessLayer = new CusDataAccess();
         }
+        #endregion
 
-        private ICusBAL CusDataAccess
+
+        #region Properties
+       
+        private ICusDataAccess CustomersDataAccessLayer
         {
-            set => _cusDataAccess = value;
-            get => _cusDataAccess;
+            set => _customersDataAccessLayer = value;
+            get => _customersDataAccessLayer;
         }
+        #endregion
 
-        //methods
-        public List<Customer> GetCustomer()
+
+        #region Methods
+       
+        public List<Customer> GetCustomers()
         {
             try
             {
-                return _cusDataAccess.GetCustomer();
+               
+                return CustomersDataAccessLayer.GetCustomers();
             }
             catch (CustomerException)
             {
@@ -40,13 +53,13 @@ namespace Bank.BusinessLayer
             }
         }
 
-
-
-        public List<Customer> GetCustomerByCondition(Predicate<Customer> predicate)
+       
+        public List<Customer> GetCustomersByCondition(Predicate<Customer> predicate)
         {
             try
             {
-                return CusDataAccess.GetCustomerByCondition(predicate);
+               
+                return CustomersDataAccessLayer.GetCustomersByCondition(predicate);
             }
             catch (CustomerException)
             {
@@ -58,12 +71,13 @@ namespace Bank.BusinessLayer
             }
         }
 
+      
         public Guid AddCustomer(Customer customer)
         {
             try
             {
-                //get all customers
-                List<Customer> allCustomers = CusDataAccess.customer();
+                
+                List<Customer> allCustomers = CustomersDataAccessLayer.GetCustomers();
                 long maxCustCode = 0;
                 foreach (var item in allCustomers)
                 {
@@ -73,7 +87,7 @@ namespace Bank.BusinessLayer
                     }
                 }
 
-                //generate new customer no
+                
                 if (allCustomers.Count >= 1)
                 {
                     customer.CustomerCode = maxCustCode + 1;
@@ -83,8 +97,8 @@ namespace Bank.BusinessLayer
                     customer.CustomerCode = Bank.Configuration.Settings.BaseCustomerNo + 1;
                 }
 
-                //invoke DAL
-                return CusDataAccess.AddCustomer(customer);
+               
+                return CustomersDataAccessLayer.AddCustomer(customer);
             }
             catch (CustomerException)
             {
@@ -96,58 +110,41 @@ namespace Bank.BusinessLayer
             }
         }
 
-        //public Guid AddCustomer(Customer customer)
-        //{
-        //    try
-        //    {
-        //        customer.CustomerCode = GenerateCustomerCode();
-        //        return _cusDataAccess.AddCustomer(customer);
-        //    }
-        //    catch (CustomerException)
-        //    {
-        //        throw;
-        //    }
-        //    catch (Exception)
-        //    {
-        //        throw;
-        //    }
-        //}
+       
+        public bool UpdateCustomer(Customer customer)
+        {
+            try
+            {
+                
+                return CustomersDataAccessLayer.UpdateCustomer(customer);
+            }
+            catch (CustomerException)
+            {
+                throw;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
 
-        //private long GenerateCustomerCode()
-        //{
-        //    throw new NotImplementedException();
-        //}
-
-        //public bool UpdateCustomer(Customer customer)
-        //{
-        //    try
-        //    {
-        //        return _cusDataAccess.UpdateCustomer(customer);
-        //    }
-        //    catch (CustomerException)
-        //    {
-        //        throw;
-        //    }
-        //    catch (Exception)
-        //    {
-        //        throw;
-        //    }
-        //}
-
-        //public bool DeleteCustomer(Guid customerID)
-        //{
-        //    try
-        //    {
-        //        return _cusDataAccess.DeleteCustomer(customerID);
-        //    }
-        //    catch (CustomerException)
-        //    {
-        //        throw;
-        //    }
-        //    catch (Exception)
-        //    {
-        //        throw;
-        //    }
-        //}
+       
+        public bool DeleteCustomer(Guid customerID)
+        {
+            try
+            {
+                //invoke DAL
+                return CustomersDataAccessLayer.DeleteCustomer(customerID);
+            }
+            catch (CustomerException)
+            {
+                throw;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        #endregion
     }
 }

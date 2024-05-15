@@ -1,258 +1,158 @@
-﻿using System;
-using bank.presentation;
+﻿
+using bankproject;
+using HarshaBank.Presentation;
+using System;
 
-namespace bankproject
+class Program
 {
-    class Program
+    //Application execution starts here
+    static void Main()
     {
-        private static int mainMenuChoice;
+        //display title
+        Console.WriteLine("************** Accion Bank *****************");
+        Console.WriteLine("::Login Page::");
 
-        static void Main(string[] args)
+        //declare variables to store username and password;
+        string userName = null, password = null;
+
+
+        //check username and password
+        while (true)
         {
-            Console.WriteLine("****** ACCION BANK ******");
-            Console.WriteLine(" ### LOGIN PAGE ### ");
+            //read userName from keyboard
+            Console.Write("Username (Press ENTER to exit): ");
+            userName = Console.ReadLine();
 
-            string username = null, password = null;
-
-            Console.Write(" Username : ");
-            username = Console.ReadLine();
-
-            if (!string.IsNullOrWhiteSpace(username))
+            //read password from keyboard only if username is entered
+            if (userName != "")
             {
-                Console.Write(" Password : ");
+                Console.Write("Password: ");
                 password = Console.ReadLine();
-            }
-
-            if (username == "Varshith" && password == "bank")
-            {
-                Console.WriteLine(" Thank you ");
-                do
-                {
-                    Console.WriteLine("\n:::MAIN MENU:::");
-                    Console.WriteLine(" 1.Accounts");
-                    Console.WriteLine(" 2.Funds");
-                    Console.WriteLine(" 3.Savings");
-                    Console.WriteLine(" 4.Current");
-                    Console.WriteLine(" 5.Customer");
-                    Console.WriteLine(" 0.Exit");
-
-                    Console.Write("Enter the Choice : ");
-                    mainMenuChoice = int.Parse(Console.ReadLine());
-
-                    switch (mainMenuChoice)
-                    {
-                        case 1:
-                            AccountsMenu();
-                            break;
-                        case 2:
-                           FundsMenu();
-                            break;
-                        case 3:
-                            SavingsMenu();
-                            break;
-                        case 4:
-                            CurrentMenu(); 
-                            break;
-                        case 5:
-                            CustomerMenu();
-                            break;
-                        case 0:
-                            Console.WriteLine("<-<-<-<- KINDLY CLOSE THE BROWSER ->->->->");
-                            break;
-                        default:
-                            Console.WriteLine("Invalid choice, please try again.");
-                            break;
-                    }
-                } while (mainMenuChoice != 0);
-                Console.WriteLine(" Thank you and Visit again ");
             }
             else
             {
-                Console.WriteLine(" Username or Password is incorrect ");
+                break;
             }
-            Console.ReadKey();
-        }
-        static void AccountsMenu()
-        {
-            int AccountsMenuChoice = -1;
-            do
+
+            //declare variable to store menu choice
+            int mainMenuChoice = -1;
+
+            if (userName == "Varshith" && password == "bank")
             {
-                Console.WriteLine("\n <<<<<<<<<<< ACCOUNTS MENU >>>>>>>>>>>");
-                Console.WriteLine("1.Add account");
-                Console.WriteLine("2.Edit account");
-                Console.WriteLine("3.Update account");
-                Console.WriteLine("4.Delete account");
-                Console.WriteLine("5.View account");
-                Console.WriteLine("0.Go back to main menu ");
 
-                Console.Write("Enter the choice: ");
-                AccountsMenuChoice = Convert.ToInt32(Console.ReadLine());
 
-                switch (AccountsMenuChoice)
+                do
                 {
-                    case 1:
-                        // Implement Add account functionality
-                        break;
-                    case 2:
-                        // Implement Edit account functionality
-                        break;
-                    case 3:
-                        // Implement Update account functionality
-                        break;
-                    case 4:
-                        // Implement Delete account functionality
-                        break;
-                    case 5:
-                        // Implement View account functionality
-                        break;
-                    case 0:
-                        // Simply exits the loop and returns to main menu
-                        break;
-                    default:
-                        Console.WriteLine("Invalid choice, please try again.");
-                        break;
-                }
-            } while (AccountsMenuChoice != 0);
-        }
-        static void FundsMenu()
-        {
-            int FundsMenuChoice = -1;
-            do
+                    //show main menu
+                    Console.WriteLine("\n:::Main menu:::");
+                    Console.WriteLine("1. Customers");
+                    Console.WriteLine("2. Accounts");
+                    Console.WriteLine("3. Funds Transfer");
+                    Console.WriteLine("4. Account Statement");
+                    Console.WriteLine("0. Exit");
+
+                    //accept menu choice from keyboard
+                    Console.Write("Enter choice: ");
+                    while (!int.TryParse(Console.ReadLine(), out mainMenuChoice))
+                    {
+                        Console.Write("Enter choice: ");
+                    }
+
+                    //switch-case to check menu choice
+                    switch (mainMenuChoice)
+                    {
+                        case 1: CustomersMenu(); break;
+                        case 2: AccountsMenu(); break;
+                        case 3: TransferPresentation.AddTransaction(); break;
+                        case 4: TransferPresentation.ViewTransactions(); break;
+                        case 0: break;
+                    }
+                } while (mainMenuChoice != 0);
+            }
+            else
             {
-                Console.WriteLine("\n <<<<<<<<<<< FUNDS MENU Menu >>>>>>>>>>>");
-                Console.WriteLine("1.Add Fund");
-                Console.WriteLine("2.Update Nominee");
-                Console.WriteLine("3.Add Nominee");
-                Console.WriteLine("0.Go back to main menu ");
+                Console.WriteLine("Invalid username or password.\n");
+            }
 
-                Console.Write("Enter the choice: ");
-                FundsMenuChoice = Convert.ToInt32(Console.ReadLine());
-
-                switch (FundsMenuChoice)
-                {
-                    case 1:
-                        // Implement Add account functionality
-                        break;
-                    case 2:
-                        // Implement Edit account functionality
-                        break;
-                    case 3:
-                        // Implement Update account functionality
-                        break;
-                    case 0:
-                        // Simply exits the loop and returns to main menu
-                        break;
-                    default:
-                        Console.WriteLine("Invalid choice, please try again.");
-                        break;
-                }
-            } while (FundsMenuChoice != 0);
-
+            if (mainMenuChoice == 0)
+                break;
         }
-        static void SavingsMenu()
+
+        //about to exit
+        Console.WriteLine("Thank you! Visit again.");
+        Console.ReadKey();
+    }
+
+    static void CustomersMenu()
+    {
+        //variable to store customers menu choice
+        int customerMenuChoice = -1;
+
+        //do-while loop starts
+        do
         {
-            int SavingsMenuChoice = -1;
-            do
+            //print customers menu
+            Console.WriteLine("\n:::Customers menu:::");
+            Console.WriteLine("1. Add Customer");
+            Console.WriteLine("2. Delete Customer");
+            Console.WriteLine("3. Update Customer");
+            Console.WriteLine("4. Search Customers");
+            Console.WriteLine("5. View Customers");
+            Console.WriteLine("0. Back to Main Menu");
+
+            //accept customers menu choice
+            Console.Write("Enter choice: ");
+            customerMenuChoice = Convert.ToInt32(Console.ReadLine());
+
+            //switch case
+            switch (customerMenuChoice)
             {
-                Console.WriteLine("\n <<<<<<<<<<< SAVINGS MENU >>>>>>>>>>>");
-                Console.WriteLine("1.Open Account");
-                Console.WriteLine("2.Edit Account");
-                Console.WriteLine("3.Update account");
-                Console.WriteLine("4.Delete account");
-                Console.WriteLine("0.Go back to main menu ");
+                case 1: CustomersPresentation.AddCustomer(); break;
+                case 2: CustomersPresentation.DeleteCustomer(); break;
+                case 3: CustomersPresentation.UpdateCustomer(); break;
+                case 4: CustomersPresentation.SearchCustomer(); break;
+                case 5: CustomersPresentation.ViewCustomers(); break;
+            }
+        } while (customerMenuChoice != 0);
+    }
 
-                Console.Write("Enter the choice: ");
-                SavingsMenuChoice = Convert.ToInt32(Console.ReadLine());
 
-                switch (SavingsMenuChoice)
-                {
-                    case 1:
-                        // Implement Add account functionality
-                        break;
-                    case 2:
-                        // Implement Edit account functionality
-                        break;
-                    case 3:
-                        // Implement Update account functionality
-                        break;
-                    case 4:
-                        // Implement Delete account functionality
-                        break;
-                    case 0:
-                        // Simply exits the loop and returns to main menu
-                        break;
-                    default:
-                        Console.WriteLine("Invalid choice, please try again.");
-                        break;
-                }
-            } while (SavingsMenuChoice != 0);
-        }
-        static void CurrentMenu()
+    static void AccountsMenu()
+    {
+        //variable to store accounts menu choice
+        int accountsMenuChoice;
+
+        //do-while loop starts
+        do
         {
-            int CurrentMenuChoice = -1;
-            do
+            //print  accounts menu
+            Console.WriteLine("\n:::Accounts menu:::");
+            Console.WriteLine("1. Add Account");
+            Console.WriteLine("2. Delete Account");
+            Console.WriteLine("3. Update Account");
+            Console.WriteLine("4. Search Accounts");
+            Console.WriteLine("5. View Accounts");
+            Console.WriteLine("0. Back to Main Menu");
+
+            //accept accounts menu choice
+            Console.Write("Enter choice: ");
+            while (!(int.TryParse(Console.ReadLine(), out accountsMenuChoice)))
             {
-                Console.WriteLine("\n <<<<<<<<<<< CURRENT MENU >>>>>>>>>>>");
-                Console.WriteLine("1.Open Account");
-                Console.WriteLine("2.Edit Account");
-                Console.WriteLine("3.Update account");
-                Console.WriteLine("4.Delete account");
-                Console.WriteLine("0.Go back to main menu ");
+                Console.Write("Enter choice: ");
+            }
 
-                Console.Write("Enter the choice: ");
-                CurrentMenuChoice = Convert.ToInt32(Console.ReadLine());
 
-                switch (CurrentMenuChoice)
-                {
-                    case 1:
-                        // Implement Add account functionality
-                        break;
-                    case 2:
-                        // Implement Edit account functionality
-                        break;
-                    case 3:
-                        // Implement Update account functionality
-                        break;
-                    case 4:
-                        // Implement Delete account functionality
-                        break;
-                    case 5:
-                        // Implement View account functionality
-                        break;
-                    case 0:
-                        // Simply exits the loop and returns to main menu
-                        break;
-                    default:
-                        Console.WriteLine("Invalid choice, please try again.");
-                        break;
-                }
-            } while (CurrentMenuChoice != 0);
-        }
-        static void CustomerMenu()
-        {
-            int CustomerMenuChoice = -1;
-            do
+            //switch case
+            switch (accountsMenuChoice)
             {
-                Console.WriteLine("\n <<<<<<<<<<< CUSTOMER MENU >>>>>>>>>>>");
-                Console.WriteLine("1.Add Customer");
-                Console.WriteLine("2.Edit Customer");
-                Console.WriteLine("3.Update Customer");
-                Console.WriteLine("4.Serach Customer");
-                Console.WriteLine("5.Delete Customer");
-                Console.WriteLine("6.View Customer");
-                Console.WriteLine("0.Go back to main menu  ");
-
-                Console.Write("Enter the choice: ");
-                CustomerMenuChoice = Convert.ToInt32(Console.ReadLine());
-
-                switch (CustomerMenuChoice)
-                {
-                    case 1:CusPresentation.AddCustomer();
-                        // Implement Add account functionality
-                        break;
-                    
-                }
-            } while (CustomerMenuChoice != 0);
-        }
+                case 1: AccPresentation.AddAccount(); break;
+                case 2: AccPresentation.DeleteAccount(); break;
+                case 3: AccPresentation.UpdateAccount(); break;
+                case 4: AccPresentation.SearchAccount(); break;
+                case 5: AccPresentation.ViewAccounts(); break;
+            }
+        } while (accountsMenuChoice != 0);
     }
 }
+
+
