@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\Students\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D80D1107-E58F-4B00-A3A8-8A70585EA3A7}|Students\\Students.csproj|c:\\users\\al6113\\desktop\\sample\\students\\students\\dbcontext\\studb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80D1107-E58F-4B00-A3A8-8A70585EA3A7}|Students\\Students.csproj|solutionrelative:students\\dbcontext\\studb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80D1107-E58F-4B00-A3A8-8A70585EA3A7}|Students\\Students.csproj|c:\\users\\al6113\\desktop\\sample\\students\\students\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80D1107-E58F-4B00-A3A8-8A70585EA3A7}|Students\\Students.csproj|solutionrelative:students\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80D1107-E58F-4B00-A3A8-8A70585EA3A7}|Students\\Students.csproj|c:\\users\\al6113\\desktop\\sample\\students\\students\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D80D1107-E58F-4B00-A3A8-8A70585EA3A7}|Students\\Students.csproj|solutionrelative:students\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80D1107-E58F-4B00-A3A8-8A70585EA3A7}|Students\\Students.csproj|c:\\users\\al6113\\desktop\\sample\\students\\students\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D80D1107-E58F-4B00-A3A8-8A70585EA3A7}|Students\\Students.csproj|solutionrelative:students\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StuDB.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Students\\Students\\DbContext\\StuDB.cs",
+              "RelativeDocumentMoniker": "Students\\DbContext\\StuDB.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Students\\Students\\DbContext\\StuDB.cs*",
+              "RelativeToolTip": "Students\\DbContext\\StuDB.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T06:16:43.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Students\\Students\\Program.cs",
+              "RelativeDocumentMoniker": "Students\\Program.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Students\\Students\\Program.cs*",
+              "RelativeToolTip": "Students\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T06:15:40.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Students\\Students\\appsettings.json",
+              "RelativeDocumentMoniker": "Students\\appsettings.json",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Students\\Students\\appsettings.json",
+              "RelativeToolTip": "Students\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T06:13:46.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Students\\Students\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Students\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Students\\Students\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Students\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T06:13:38.403Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

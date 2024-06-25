@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\delegates assignment 2\delegates assignment 2\bin\Debug\delegates assignment 2.exe.config
+C:\Users\al6113\Desktop\sample\delegates assignment 2\delegates assignment 2\bin\Debug\delegates assignment 2.exe
+C:\Users\al6113\Desktop\sample\delegates assignment 2\delegates assignment 2\bin\Debug\delegates assignment 2.pdb
+C:\Users\al6113\Desktop\sample\delegates assignment 2\delegates assignment 2\obj\Debug\delegates assignment 2.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\delegates assignment 2\delegates assignment 2\obj\Debug\delegates assignment 2.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\delegates assignment 2\delegates assignment 2\obj\Debug\delegates assignment 2.exe
+C:\Users\al6113\Desktop\sample\delegates assignment 2\delegates assignment 2\obj\Debug\delegates assignment 2.pdb

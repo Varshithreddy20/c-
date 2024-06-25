@@ -1,109 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\",
+  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|c:\\users\\al6113\\desktop\\bankproject\\bankproject\\bankproject\\transferpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|solutionrelative:bankproject\\transferpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|solutionrelative:bankproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankproject\\cuspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\cuspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|solutionrelative:bankproject\\cuspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankproject\\accpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|solutionrelative:bankproject\\accpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.expections\\transactionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|solutionrelative:bank.expections\\transactionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.expections\\customerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|solutionrelative:bank.expections\\customerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.expections\\accountexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|solutionrelative:bank.expections\\accountexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|solutionrelative:bankentities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|solutionrelative:bankentities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|solutionrelative:bankentities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\transactiondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\transactiondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\cusdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\cusdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\accdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\accdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\dalcontracts\\itransactiondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\dalcontracts\\itransactiondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\dalcontracts\\icusdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\dalcontracts\\icusdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\dalcontracts\\iaccdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\dalcontracts\\iaccdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B01DDFF2-E6D9-438C-8130-C623C6FA1407}|Bank.Configuration\\Bank.Configuration.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.configuration\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B01DDFF2-E6D9-438C-8130-C623C6FA1407}|Bank.Configuration\\Bank.Configuration.csproj|solutionrelative:bank.configuration\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.businesslayer\\transactionbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.businesslayer\\transactionbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|solutionrelative:bank.businesslayer\\transactionbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.businesslayer\\cusbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|solutionrelative:bank.businesslayer\\cusbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.businesslayer\\accbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.businesslayer\\accbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|solutionrelative:bank.businesslayer\\accbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.businesslayer\\balcontracts\\itransactionbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|solutionrelative:bankproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\accpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|solutionrelative:bankproject\\accpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|solutionrelative:bankentities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|c:\\users\\al6113\\desktop\\sample\\bankproject\\bankproject\\transferpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2266ADA8-2D7D-44B3-AE42-88C480FEE56D}|bankproject\\bankproject.csproj|solutionrelative:bankproject\\transferpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.expections\\transactionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|solutionrelative:bank.expections\\transactionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.expections\\customerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|solutionrelative:bank.expections\\customerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.expections\\accountexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52438423-A1AB-48DB-B5D5-90C307E683F7}|Bank.Expections\\Bank.Expections.csproj|solutionrelative:bank.expections\\accountexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|solutionrelative:bankentities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|solutionrelative:bankentities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\transactiondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\transactiondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\cusdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\cusdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\accdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\accdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\dalcontracts\\itransactiondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\dalcontracts\\itransactiondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\dalcontracts\\icusdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\dalcontracts\\icusdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\dalcontracts\\iaccdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC6865E-1E00-457B-9C9B-9BE737AED893}|bank.dataaccess\\Bank.DataAccess.csproj|solutionrelative:bank.dataaccess\\dalcontracts\\iaccdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01DDFF2-E6D9-438C-8130-C623C6FA1407}|Bank.Configuration\\Bank.Configuration.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.configuration\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01DDFF2-E6D9-438C-8130-C623C6FA1407}|Bank.Configuration\\Bank.Configuration.csproj|solutionrelative:bank.configuration\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.businesslayer\\cusbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|solutionrelative:bank.businesslayer\\cusbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.businesslayer\\balcontracts\\itransactionbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|solutionrelative:bank.businesslayer\\balcontracts\\itransactionbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.businesslayer\\balcontracts\\icusbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.businesslayer\\balcontracts\\icusbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|solutionrelative:bank.businesslayer\\balcontracts\\icusbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.businesslayer\\balcontracts\\iaccbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.businesslayer\\balcontracts\\iaccbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5899B4B2-8CE5-4C92-988D-F507A323D1C7}|Bank.BusinessLayer\\Bank.BusinessLayer.csproj|solutionrelative:bank.businesslayer\\balcontracts\\iaccbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\contracts\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\contracts\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|solutionrelative:bankentities\\contracts\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\contracts\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\contracts\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|solutionrelative:bankentities\\contracts\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\contracts\\iaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\contracts\\iaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21C09410-0082-4B4E-B231-FCE0B2F23E44}|bankentities\\Bank.Entities.csproj|solutionrelative:bankentities\\contracts\\iaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,72 +126,102 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\Program.cs",
+              "RelativeDocumentMoniker": "bankproject\\Program.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\Program.cs",
+              "RelativeToolTip": "bankproject\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwJ4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:57:31.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccBAL.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\AccBAL.cs",
+              "RelativeDocumentMoniker": "Bank.BusinessLayer\\AccBAL.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\AccBAL.cs",
+              "RelativeToolTip": "Bank.BusinessLayer\\AccBAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:38:29.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionBAL.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\TransactionBAL.cs",
+              "RelativeDocumentMoniker": "Bank.BusinessLayer\\TransactionBAL.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\TransactionBAL.cs",
+              "RelativeToolTip": "Bank.BusinessLayer\\TransactionBAL.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:40:45.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\Account.cs",
+              "RelativeDocumentMoniker": "bankentities\\Account.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\Account.cs",
+              "RelativeToolTip": "bankentities\\Account.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAADwvzAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:56:51.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CusPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\CusPresentation.cs",
+              "RelativeDocumentMoniker": "bankproject\\CusPresentation.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\CusPresentation.cs",
+              "RelativeToolTip": "bankproject\\CusPresentation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:37:18.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\AccPresentation.cs",
+              "RelativeDocumentMoniker": "bankproject\\AccPresentation.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\AccPresentation.cs",
+              "RelativeToolTip": "bankproject\\AccPresentation.cs",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAowCABAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:38:15.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TransferPresentation.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankproject\\TransferPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\TransferPresentation.cs",
               "RelativeDocumentMoniker": "bankproject\\TransferPresentation.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankproject\\TransferPresentation.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankproject\\TransferPresentation.cs",
               "RelativeToolTip": "bankproject\\TransferPresentation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAFcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T09:37:01.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccPresentation.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankproject\\AccPresentation.cs",
-              "RelativeDocumentMoniker": "bankproject\\AccPresentation.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankproject\\AccPresentation.cs",
-              "RelativeToolTip": "bankproject\\AccPresentation.cs",
-              "ViewState": "AQIAAKQAAAAAAAAAAAAgwBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T09:38:15.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TransactionException.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.Expections\\TransactionException.cs",
-              "RelativeDocumentMoniker": "Bank.Expections\\TransactionException.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.Expections\\TransactionException.cs",
-              "RelativeToolTip": "Bank.Expections\\TransactionException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T09:57:14.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CusPresentation.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankproject\\CusPresentation.cs",
-              "RelativeDocumentMoniker": "bankproject\\CusPresentation.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankproject\\CusPresentation.cs",
-              "RelativeToolTip": "bankproject\\CusPresentation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T09:37:18.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankproject\\Program.cs",
-              "RelativeDocumentMoniker": "bankproject\\Program.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankproject\\Program.cs",
-              "RelativeToolTip": "bankproject\\Program.cs",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAgwEYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T09:57:31.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CustomerException.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.Expections\\CustomerException.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.Expections\\CustomerException.cs",
               "RelativeDocumentMoniker": "Bank.Expections\\CustomerException.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.Expections\\CustomerException.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.Expections\\CustomerException.cs",
               "RelativeToolTip": "Bank.Expections\\CustomerException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,11 +229,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "TransactionException.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.Expections\\TransactionException.cs",
+              "RelativeDocumentMoniker": "Bank.Expections\\TransactionException.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.Expections\\TransactionException.cs",
+              "RelativeToolTip": "Bank.Expections\\TransactionException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:57:14.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AccountException.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.Expections\\AccountException.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.Expections\\AccountException.cs",
               "RelativeDocumentMoniker": "Bank.Expections\\AccountException.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.Expections\\AccountException.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.Expections\\AccountException.cs",
               "RelativeToolTip": "Bank.Expections\\AccountException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,11 +253,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\Transaction.cs",
               "RelativeDocumentMoniker": "bankentities\\Transaction.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\Transaction.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\Transaction.cs",
               "RelativeToolTip": "bankentities\\Transaction.cs",
               "ViewState": "AQIAAFEAAAAAAAAAAAAwwEUAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -223,11 +265,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\Customer.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\Customer.cs",
               "RelativeDocumentMoniker": "bankentities\\Customer.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\Customer.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\Customer.cs",
               "RelativeToolTip": "bankentities\\Customer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,23 +277,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\Account.cs",
-              "RelativeDocumentMoniker": "bankentities\\Account.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\Account.cs",
-              "RelativeToolTip": "bankentities\\Account.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwDAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T09:56:51.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "TransactionDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\TransactionDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\TransactionDataAccess.cs",
               "RelativeDocumentMoniker": "bank.dataaccess\\TransactionDataAccess.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\TransactionDataAccess.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\TransactionDataAccess.cs",
               "RelativeToolTip": "bank.dataaccess\\TransactionDataAccess.cs",
               "ViewState": "AQIAAJwAAAAAAAAAAAAwwBgAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -259,11 +289,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CusDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\CusDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\CusDataAccess.cs",
               "RelativeDocumentMoniker": "bank.dataaccess\\CusDataAccess.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\CusDataAccess.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\CusDataAccess.cs",
               "RelativeToolTip": "bank.dataaccess\\CusDataAccess.cs",
               "ViewState": "AQIAAKcAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -271,11 +301,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AccDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\AccDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\AccDataAccess.cs",
               "RelativeDocumentMoniker": "bank.dataaccess\\AccDataAccess.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\AccDataAccess.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\AccDataAccess.cs",
               "RelativeToolTip": "bank.dataaccess\\AccDataAccess.cs",
               "ViewState": "AQIAAJcAAAAAAAAAAAAwwJEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -283,11 +313,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ITransactionDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\DALContracts\\ITransactionDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\DALContracts\\ITransactionDataAccess.cs",
               "RelativeDocumentMoniker": "bank.dataaccess\\DALContracts\\ITransactionDataAccess.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\DALContracts\\ITransactionDataAccess.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\DALContracts\\ITransactionDataAccess.cs",
               "RelativeToolTip": "bank.dataaccess\\DALContracts\\ITransactionDataAccess.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -295,11 +325,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ICusDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\DALContracts\\ICusDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\DALContracts\\ICusDataAccess.cs",
               "RelativeDocumentMoniker": "bank.dataaccess\\DALContracts\\ICusDataAccess.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\DALContracts\\ICusDataAccess.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\DALContracts\\ICusDataAccess.cs",
               "RelativeToolTip": "bank.dataaccess\\DALContracts\\ICusDataAccess.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -307,11 +337,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "IAccDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\DALContracts\\IAccDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\DALContracts\\IAccDataAccess.cs",
               "RelativeDocumentMoniker": "bank.dataaccess\\DALContracts\\IAccDataAccess.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bank.dataaccess\\DALContracts\\IAccDataAccess.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bank.dataaccess\\DALContracts\\IAccDataAccess.cs",
               "RelativeToolTip": "bank.dataaccess\\DALContracts\\IAccDataAccess.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -319,11 +349,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Settings.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.Configuration\\Settings.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.Configuration\\Settings.cs",
               "RelativeDocumentMoniker": "Bank.Configuration\\Settings.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.Configuration\\Settings.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.Configuration\\Settings.cs",
               "RelativeToolTip": "Bank.Configuration\\Settings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -331,23 +361,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TransactionBAL.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\TransactionBAL.cs",
-              "RelativeDocumentMoniker": "Bank.BusinessLayer\\TransactionBAL.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\TransactionBAL.cs",
-              "RelativeToolTip": "Bank.BusinessLayer\\TransactionBAL.cs",
-              "ViewState": "AQIAAJoAAAAAAAAAAADwvxQAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T09:40:45.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CusBAL.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\CusBAL.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\CusBAL.cs",
               "RelativeDocumentMoniker": "Bank.BusinessLayer\\CusBAL.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\CusBAL.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\CusBAL.cs",
               "RelativeToolTip": "Bank.BusinessLayer\\CusBAL.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAADwv5QAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -355,23 +373,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AccBAL.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\AccBAL.cs",
-              "RelativeDocumentMoniker": "Bank.BusinessLayer\\AccBAL.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\AccBAL.cs",
-              "RelativeToolTip": "Bank.BusinessLayer\\AccBAL.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAIYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T09:38:29.776Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 20,
               "Title": "ITransactionBAL.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\BALContracts\\ITransactionBAL.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\BALContracts\\ITransactionBAL.cs",
               "RelativeDocumentMoniker": "Bank.BusinessLayer\\BALContracts\\ITransactionBAL.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\BALContracts\\ITransactionBAL.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\BALContracts\\ITransactionBAL.cs",
               "RelativeToolTip": "Bank.BusinessLayer\\BALContracts\\ITransactionBAL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -381,9 +387,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "ICusBAL.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\BALContracts\\ICusBAL.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\BALContracts\\ICusBAL.cs",
               "RelativeDocumentMoniker": "Bank.BusinessLayer\\BALContracts\\ICusBAL.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\BALContracts\\ICusBAL.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\BALContracts\\ICusBAL.cs",
               "RelativeToolTip": "Bank.BusinessLayer\\BALContracts\\ICusBAL.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAIwBMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -393,9 +399,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "IAccBAL.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\BALContracts\\IAccBAL.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\BALContracts\\IAccBAL.cs",
               "RelativeDocumentMoniker": "Bank.BusinessLayer\\BALContracts\\IAccBAL.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\Bank.BusinessLayer\\BALContracts\\IAccBAL.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\Bank.BusinessLayer\\BALContracts\\IAccBAL.cs",
               "RelativeToolTip": "Bank.BusinessLayer\\BALContracts\\IAccBAL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -405,9 +411,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "ITransaction.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\contracts\\ITransaction.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\contracts\\ITransaction.cs",
               "RelativeDocumentMoniker": "bankentities\\contracts\\ITransaction.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\contracts\\ITransaction.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\contracts\\ITransaction.cs",
               "RelativeToolTip": "bankentities\\contracts\\ITransaction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -417,9 +423,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "ICustomer.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\contracts\\ICustomer.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\contracts\\ICustomer.cs",
               "RelativeDocumentMoniker": "bankentities\\contracts\\ICustomer.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\contracts\\ICustomer.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\contracts\\ICustomer.cs",
               "RelativeToolTip": "bankentities\\contracts\\ICustomer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -429,9 +435,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "IAccount.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\contracts\\IAccount.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\contracts\\IAccount.cs",
               "RelativeDocumentMoniker": "bankentities\\contracts\\IAccount.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\bankproject\\bankproject\\bankentities\\contracts\\IAccount.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\bankproject\\bankentities\\contracts\\IAccount.cs",
               "RelativeToolTip": "bankentities\\contracts\\IAccount.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

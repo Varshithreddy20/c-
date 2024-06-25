@@ -1,0 +1,7 @@
+C:\Users\al6113\Desktop\sample\async assignment\async assignment\bin\Debug\async assignment.exe.config
+C:\Users\al6113\Desktop\sample\async assignment\async assignment\bin\Debug\async assignment.exe
+C:\Users\al6113\Desktop\sample\async assignment\async assignment\bin\Debug\async assignment.pdb
+C:\Users\al6113\Desktop\sample\async assignment\async assignment\obj\Debug\async assignment.csproj.AssemblyReference.cache
+C:\Users\al6113\Desktop\sample\async assignment\async assignment\obj\Debug\async assignment.csproj.CoreCompileInputs.cache
+C:\Users\al6113\Desktop\sample\async assignment\async assignment\obj\Debug\async assignment.exe
+C:\Users\al6113\Desktop\sample\async assignment\async assignment\obj\Debug\async assignment.pdb

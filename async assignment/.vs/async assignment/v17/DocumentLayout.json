@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\async assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2327417-2368-4393-946B-3B52E3659FEE}|async assignment\\async assignment.csproj|c:\\users\\al6113\\desktop\\sample\\async assignment\\async assignment\\price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2327417-2368-4393-946B-3B52E3659FEE}|async assignment\\async assignment.csproj|solutionrelative:async assignment\\price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2327417-2368-4393-946B-3B52E3659FEE}|async assignment\\async assignment.csproj|c:\\users\\al6113\\desktop\\sample\\async assignment\\async assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2327417-2368-4393-946B-3B52E3659FEE}|async assignment\\async assignment.csproj|solutionrelative:async assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2327417-2368-4393-946B-3B52E3659FEE}|async assignment\\async assignment.csproj|c:\\users\\al6113\\desktop\\sample\\async assignment\\async assignment\\stockevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2327417-2368-4393-946B-3B52E3659FEE}|async assignment\\async assignment.csproj|solutionrelative:async assignment\\stockevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2327417-2368-4393-946B-3B52E3659FEE}|async assignment\\async assignment.csproj|c:\\users\\al6113\\desktop\\sample\\async assignment\\async assignment\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2327417-2368-4393-946B-3B52E3659FEE}|async assignment\\async assignment.csproj|solutionrelative:async assignment\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StockEvent.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\async assignment\\async assignment\\StockEvent.cs",
+              "RelativeDocumentMoniker": "async assignment\\StockEvent.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\async assignment\\async assignment\\StockEvent.cs",
+              "RelativeToolTip": "async assignment\\StockEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:19:42.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\async assignment\\async assignment\\Stock.cs",
+              "RelativeDocumentMoniker": "async assignment\\Stock.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\async assignment\\async assignment\\Stock.cs",
+              "RelativeToolTip": "async assignment\\Stock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:12:35.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Price.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\async assignment\\async assignment\\Price.cs",
+              "RelativeDocumentMoniker": "async assignment\\Price.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\async assignment\\async assignment\\Price.cs",
+              "RelativeToolTip": "async assignment\\Price.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:08:11.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\async assignment\\async assignment\\Program.cs",
+              "RelativeDocumentMoniker": "async assignment\\Program.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\async assignment\\async assignment\\Program.cs",
+              "RelativeToolTip": "async assignment\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:07:22.208Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
