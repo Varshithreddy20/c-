@@ -1,57 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\",
+  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\service\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\service\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\service\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\service\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\studentapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\studentapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\studentapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\aaaaa\\studentapp\\studentapp\\migrations\\20240606083001_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|c:\\users\\al6113\\desktop\\sample\\library\\studentapp\\studentapp\\migrations\\20240606083001_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9F3574E-946A-4A8D-AACC-E98979EE22AD}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\migrations\\20240606083001_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,32 +62,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "StudentApp\\Models\\Login.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Models\\Login.cs",
-              "RelativeToolTip": "StudentApp\\Models\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:10:52.547Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "StudentApp\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Models\\Login.cs",
+              "RelativeToolTip": "StudentApp\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:10:52.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Signup.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Models\\Signup.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Models\\Signup.cs",
               "RelativeDocumentMoniker": "StudentApp\\Models\\Signup.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Models\\Signup.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Models\\Signup.cs",
               "RelativeToolTip": "StudentApp\\Models\\Signup.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -96,24 +99,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Service\\StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Service\\StudentService.cs",
               "RelativeDocumentMoniker": "StudentApp\\Service\\StudentService.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Service\\StudentService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Service\\StudentService.cs",
               "RelativeToolTip": "StudentApp\\Service\\StudentService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwDUAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T05:32:44.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Models\\Student.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Models\\Student.cs",
               "RelativeDocumentMoniker": "StudentApp\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Models\\Student.cs",
               "RelativeToolTip": "StudentApp\\Models\\Student.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -122,80 +125,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Controllers\\StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "StudentApp\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Controllers\\StudentController.cs",
               "RelativeToolTip": "StudentApp\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwBQAAAARAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T10:42:51.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "IStudentService.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Service\\IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Service\\IStudentService.cs",
               "RelativeDocumentMoniker": "StudentApp\\Service\\IStudentService.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Service\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Service\\IStudentService.cs",
               "RelativeToolTip": "StudentApp\\Service\\IStudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T05:31:47.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\AppDbContext.cs",
               "RelativeDocumentMoniker": "StudentApp\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\AppDbContext.cs",
               "RelativeToolTip": "StudentApp\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:26:42.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T05:26:42.375Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "StudentApp\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Properties\\launchSettings.json",
               "RelativeToolTip": "StudentApp\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-25T05:52:41.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2024-06-25T05:52:41.823Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Program.cs",
               "RelativeDocumentMoniker": "StudentApp\\Program.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Program.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Program.cs",
               "RelativeToolTip": "StudentApp\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T08:21:05.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T08:21:05.85Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\appsettings.json",
               "RelativeDocumentMoniker": "StudentApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\appsettings.json",
               "RelativeToolTip": "StudentApp\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -205,9 +201,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Migrations\\AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "StudentApp\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeToolTip": "StudentApp\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAwA0AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -217,9 +213,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "StudentApp.http",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\StudentApp.http",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\StudentApp.http",
               "RelativeDocumentMoniker": "StudentApp\\StudentApp.http",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\StudentApp.http",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\StudentApp.http",
               "RelativeToolTip": "StudentApp\\StudentApp.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -229,9 +225,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "20240606083001_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Migrations\\20240606083001_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Migrations\\20240606083001_InitialCreate.cs",
               "RelativeDocumentMoniker": "StudentApp\\Migrations\\20240606083001_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\Migrations\\20240606083001_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\Migrations\\20240606083001_InitialCreate.cs",
               "RelativeToolTip": "StudentApp\\Migrations\\20240606083001_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

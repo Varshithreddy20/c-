@@ -4850,11 +4850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\StudentApp.csproj",
+      "projectUniqueName": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\StudentApp.csproj",
       "projectName": "StudentApp",
-      "projectPath": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\StudentApp.csproj",
+      "projectPath": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\StudentApp.csproj",
       "packagesPath": "C:\\Users\\al6113\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\al6113\\Desktop\\aaaaa\\StudentApp\\StudentApp\\obj\\",
+      "outputPath": "C:\\Users\\al6113\\Desktop\\sample\\Library\\StudentApp\\StudentApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\al6113\\AppData\\Roaming\\NuGet\\NuGet.Config",

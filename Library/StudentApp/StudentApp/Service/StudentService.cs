@@ -52,8 +52,6 @@ namespace StudentApp.Services
         {
             try
             {
-                // Generate unique ID using GUID
-                student.StudentID = Guid.NewGuid();
 
                 using (var connection = new SqlConnection(_connectionString))
                 {

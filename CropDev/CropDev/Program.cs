@@ -1,0 +1,51 @@
+using CropDev.Repository.Concrete;
+using CropDev.Repository.Interface;
+using CropDev.Service.Concrete;
+using CropDev.Service.Interface;
+using CropDev.Utilities;
+
+
+public class Program
+{
+    public static AppSettings? AppSettings { get; set; }
+    public static void Main(string[] args) 
+    {
+        var builder = WebApplication.CreateBuilder(args);
+        var configuration = builder.Configuration;
+        AppSettings =configuration.GetSection("AppSettings").Get<AppSettings>();
+        builder.Services.AddScoped<IFarmersRepository, FarmersRepository>();   
+        builder.Services.AddScoped<IFarmersService, FarmersService>();
+
+        // Add services to the container.
+
+        builder.Services.AddControllers();
+        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
+        builder.Services.Configure<AppSettings>(configuration.GetSection("AppSettings"));
+
+        var app = builder.Build();
+
+        // Configure the HTTP request pipeline.
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
+        }
+
+        app.UseHttpsRedirection();
+
+        app.UseAuthorization();
+
+        app.MapControllers();
+
+        app.Run();
+    }
+}
+
+
+
+
+
+
+
