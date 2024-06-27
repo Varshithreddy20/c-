@@ -15,6 +15,13 @@ public class Program
         AppSettings =configuration.GetSection("AppSettings").Get<AppSettings>();
         builder.Services.AddScoped<IFarmersRepository, FarmersRepository>();   
         builder.Services.AddScoped<IFarmersService, FarmersService>();
+        builder.Services.AddScoped<IFarmerLandDetailsService, FarmerLandDetailsService>();
+        builder.Services.AddScoped<IFarmerLandDetailsRepository, FarmerLandDetailsRepository>();
+        builder.Services.AddScoped<IAgentUsersRepository, AgentUsersRepository>();
+        builder.Services.AddScoped<IAgentUsersService, AgentUsersService>();
+        builder.Services.AddScoped<IPriceQuoteService, PriceQuoteService>();
+        builder.Services.AddScoped<IPriceQuoteRepository, PriceQuoteRepository>();
+
 
         // Add services to the container.
 

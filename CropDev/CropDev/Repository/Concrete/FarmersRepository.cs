@@ -1,14 +1,10 @@
 ﻿using CropDev.Models;
 using CropDev.Repository.Interface;
-using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Threading.Tasks;
 using CropDev.Utilities;
 using CropDev.Utilities.Enums;
-using Microsoft.Extensions.Logging;
+using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Options;
+using System.Data;
 
 namespace CropDev.Repository.Concrete
 {
