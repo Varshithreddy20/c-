@@ -1,6 +1,7 @@
 using CropDev.Repository.Concrete;
 using CropDev.Repository.Interface;
 using CropDev.Service.Concrete;
+using CropDev.Service.Concrete.CropDev.Service.Concrete;
 using CropDev.Service.Interface;
 using CropDev.Utilities;
 
@@ -21,6 +22,10 @@ public class Program
         builder.Services.AddScoped<IAgentUsersService, AgentUsersService>();
         builder.Services.AddScoped<IPriceQuoteService, PriceQuoteService>();
         builder.Services.AddScoped<IPriceQuoteRepository, PriceQuoteRepository>();
+        builder.Services.AddScoped<IFarmerRequestRepository, FarmerRequestRepository>();
+        builder.Services.AddScoped<IFarmerRequestService, FarmerRequestService>();
+        builder.Services.AddScoped<IFarmerPaymentTransactionRepository, FarmerPaymentTransactionRepository>();
+        builder.Services.AddScoped<IFarmerPaymentTransactionService, FarmerPaymentTransactionService>();
 
 
         // Add services to the container.

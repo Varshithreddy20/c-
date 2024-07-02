@@ -4,6 +4,7 @@ using CropDev.Service.Interface;
 using CropDev.Utilities.Enums;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using CropDev.Models.Farmers;
 
 namespace CropDev.Service.Concrete
 {
@@ -21,14 +22,14 @@ namespace CropDev.Service.Concrete
             return await _farmerRepository.GetAll();
         }
 
-        public async Task<ResultStatus> Create(Farmers farmers)
+        public async Task<ResultStatus> Create(CreateFarmers createFarmers)
         {
-            return await _farmerRepository.Create(farmers);
+            return await _farmerRepository.Create(createFarmers);
         }
 
-        public async Task<ResultStatus> Update(Farmers farmers)
+        public async Task<ResultStatus> Update(UpdateFarmers updateFarmers)
         {
-            return await _farmerRepository.Update(farmers);
+            return await _farmerRepository.Update(updateFarmers);
         }
 
         public async Task<Farmers> GetById(int farmerId)

@@ -1,5 +1,6 @@
 ﻿using CropDev.Models;
 using CropDev.Utilities.Enums;
+using CropDev.Models.FarmerLadDetails;
 
 namespace CropDev.Repository.Interface
 {
@@ -8,8 +9,8 @@ namespace CropDev.Repository.Interface
         Task<ResultStatus> SoftDelete(int farmerLandDetailsId, string updatedBy);
         Task<ResultStatus> Restore(int farmerLandDetailsId, string updatedBy);
         Task<FarmerLandDetails> GetById(int farmerLandDetailsId);
-        Task<ResultStatus> Update(FarmerLandDetails farmerLandDetails);
-        Task<ResultStatus> Create(FarmerLandDetails farmerLandDetails);
+        Task<ResultStatus> Update(UpdateFarmerLandDetails updateFarmerLandDetails);
+        Task<ResultStatus> Create(CreateFarmerLandDetails createFarmerLandDetails);
         Task<List<FarmerLandDetails>> GetAll();
     }
 }

@@ -9,6 +9,7 @@ using System.Data;
 using System.Threading.Tasks;
 using CropDev.Utilities;
 using CropDev.Utilities.Enums;
+using CropDev.Models.FarmerLadDetails;
 
 namespace CropDev.Repository.Concrete
 {
@@ -59,7 +60,7 @@ namespace CropDev.Repository.Concrete
         }
         public async Task<FarmerLandDetails> GetById(int farmerLandDetailsId)
         {
-            FarmerLandDetails farmerLandDetails = null;
+            FarmerLandDetails? farmerLandDetails = null;
 
             try
             {
@@ -107,7 +108,7 @@ namespace CropDev.Repository.Concrete
             return farmerLandDetails;
         }
 
-        public async Task<ResultStatus> Update(FarmerLandDetails farmerLandDetails)
+        public async Task<ResultStatus> Update(UpdateFarmerLandDetails UpdateFarmerLandDetails)
         {
             try
             {
@@ -120,16 +121,16 @@ namespace CropDev.Repository.Concrete
                         sqlCommand.CommandType = CommandType.StoredProcedure;
 
                         // Input parameters
-                        sqlCommand.Parameters.Add(new SqlParameter("@FarmerLandDetailsId", SqlDbType.Int) { Value = farmerLandDetails.FarmerLandDetailsId });
-                        sqlCommand.Parameters.Add(new SqlParameter("@FarmerId", SqlDbType.Int) { Value = farmerLandDetails.FarmerId });
-                        sqlCommand.Parameters.Add(new SqlParameter("@LandLocation", SqlDbType.VarChar, 50) { Value = farmerLandDetails.LandLocation });
-                        sqlCommand.Parameters.Add(new SqlParameter("@Zipcode", SqlDbType.Int) { Value = (object)farmerLandDetails.Zipcode ?? DBNull.Value });
-                        sqlCommand.Parameters.Add(new SqlParameter("@LandSize", SqlDbType.Decimal) { Value = (object)farmerLandDetails.LandSize ?? DBNull.Value });
-                        sqlCommand.Parameters.Add(new SqlParameter("@IsElectricityAvailable", SqlDbType.Bit) { Value = farmerLandDetails.IsElectricityAvailable });
-                        sqlCommand.Parameters.Add(new SqlParameter("@IsWaterAvailable", SqlDbType.Bit) { Value = farmerLandDetails.IsWaterAvailable });
-                        sqlCommand.Parameters.Add(new SqlParameter("@SoilTypeId", SqlDbType.SmallInt) { Value = (object)farmerLandDetails.SoilTypeId ?? DBNull.Value });
-                        sqlCommand.Parameters.Add(new SqlParameter("@LastCrop", SqlDbType.VarChar, 50) { Value = farmerLandDetails.LastCrop });
-                        sqlCommand.Parameters.Add(new SqlParameter("@UpdatedBy", SqlDbType.NVarChar, 50) { Value = farmerLandDetails.UpdatedBy });
+                        sqlCommand.Parameters.Add(new SqlParameter("@FarmerLandDetailsId", SqlDbType.Int) { Value = UpdateFarmerLandDetails.FarmerLandDetailsId });
+                        sqlCommand.Parameters.Add(new SqlParameter("@FarmerId", SqlDbType.Int) { Value = UpdateFarmerLandDetails.FarmerId });
+                        sqlCommand.Parameters.Add(new SqlParameter("@LandLocation", SqlDbType.VarChar, 50) { Value = UpdateFarmerLandDetails.LandLocation });
+                        sqlCommand.Parameters.Add(new SqlParameter("@Zipcode", SqlDbType.Int) { Value = (object)UpdateFarmerLandDetails.Zipcode ?? DBNull.Value });
+                        sqlCommand.Parameters.Add(new SqlParameter("@LandSize", SqlDbType.Decimal) { Value = (object)UpdateFarmerLandDetails.LandSize ?? DBNull.Value });
+                        sqlCommand.Parameters.Add(new SqlParameter("@IsElectricityAvailable", SqlDbType.Bit) { Value = UpdateFarmerLandDetails.IsElectricityAvailable });
+                        sqlCommand.Parameters.Add(new SqlParameter("@IsWaterAvailable", SqlDbType.Bit) { Value = UpdateFarmerLandDetails.IsWaterAvailable });
+                        sqlCommand.Parameters.Add(new SqlParameter("@SoilTypeId", SqlDbType.SmallInt) { Value = (object)UpdateFarmerLandDetails.SoilTypeId ?? DBNull.Value });
+                        sqlCommand.Parameters.Add(new SqlParameter("@LastCrop", SqlDbType.VarChar, 50) { Value = UpdateFarmerLandDetails.LastCrop });
+                        sqlCommand.Parameters.Add(new SqlParameter("@UpdatedBy", SqlDbType.NVarChar, 50) { Value = UpdateFarmerLandDetails.UpdatedBy });
 
                         // Output parameter
                         var statusParameter = new SqlParameter("@StatusOutPut", SqlDbType.Int) { Direction = ParameterDirection.Output };
@@ -196,7 +197,7 @@ namespace CropDev.Repository.Concrete
             return farmers;
         }
 
-        public async Task<ResultStatus> Create(FarmerLandDetails farmerLandDetails)
+        public async Task<ResultStatus> Create(CreateFarmerLandDetails createFarmerLandDetails)
         {
             try
             {
@@ -209,16 +210,15 @@ namespace CropDev.Repository.Concrete
                         sqlCommand.CommandType = CommandType.StoredProcedure;
 
                         // Input parameters
-                        sqlCommand.Parameters.Add(new SqlParameter("@FarmerId", SqlDbType.Int) { Value = farmerLandDetails.FarmerId });
-                        sqlCommand.Parameters.Add(new SqlParameter("@LandLocation", SqlDbType.VarChar, 50) { Value = farmerLandDetails.LandLocation });
-                        sqlCommand.Parameters.Add(new SqlParameter("@Zipcode", SqlDbType.Int) { Value = (object)farmerLandDetails.Zipcode ?? DBNull.Value });
-                        sqlCommand.Parameters.Add(new SqlParameter("@LandSize", SqlDbType.Decimal) { Value = (object)farmerLandDetails.LandSize ?? DBNull.Value });
-                        sqlCommand.Parameters.Add(new SqlParameter("@IsElectricityAvailable", SqlDbType.Bit) { Value = farmerLandDetails.IsElectricityAvailable });
-                        sqlCommand.Parameters.Add(new SqlParameter("@IsWaterAvailable", SqlDbType.Bit) { Value = farmerLandDetails.IsWaterAvailable });
-                        sqlCommand.Parameters.Add(new SqlParameter("@SoilTypeId", SqlDbType.SmallInt) { Value = (object)farmerLandDetails.SoilTypeId ?? DBNull.Value });
-                        sqlCommand.Parameters.Add(new SqlParameter("@LastCrop", SqlDbType.VarChar, 50) { Value = farmerLandDetails.LastCrop });
-                        sqlCommand.Parameters.Add(new SqlParameter("@CreatedBy", SqlDbType.NVarChar, 50) { Value = farmerLandDetails.CreatedBy });
-                        sqlCommand.Parameters.Add(new SqlParameter("@UpdatedBy", SqlDbType.NVarChar, 50) { Value = farmerLandDetails.UpdatedBy });
+                        sqlCommand.Parameters.Add(new SqlParameter("@FarmerId", SqlDbType.Int) { Value = createFarmerLandDetails.FarmerId });
+                        sqlCommand.Parameters.Add(new SqlParameter("@LandLocation", SqlDbType.VarChar, 50) { Value = createFarmerLandDetails.LandLocation });
+                        sqlCommand.Parameters.Add(new SqlParameter("@Zipcode", SqlDbType.Int) { Value = (object)createFarmerLandDetails.Zipcode ?? DBNull.Value });
+                        sqlCommand.Parameters.Add(new SqlParameter("@LandSize", SqlDbType.Decimal) { Value = (object)createFarmerLandDetails.LandSize ?? DBNull.Value });
+                        sqlCommand.Parameters.Add(new SqlParameter("@IsElectricityAvailable", SqlDbType.Bit) { Value = createFarmerLandDetails.IsElectricityAvailable });
+                        sqlCommand.Parameters.Add(new SqlParameter("@IsWaterAvailable", SqlDbType.Bit) { Value = createFarmerLandDetails.IsWaterAvailable });
+                        sqlCommand.Parameters.Add(new SqlParameter("@SoilTypeId", SqlDbType.SmallInt) { Value = (object)createFarmerLandDetails.SoilTypeId ?? DBNull.Value });
+                        sqlCommand.Parameters.Add(new SqlParameter("@LastCrop", SqlDbType.VarChar, 50) { Value = createFarmerLandDetails.LastCrop });
+                        sqlCommand.Parameters.Add(new SqlParameter("@CreatedBy", SqlDbType.NVarChar, 50) { Value = createFarmerLandDetails.CreatedBy });
 
                         // Output parameter
                         var statusParameter = new SqlParameter("@StatusOutPut", SqlDbType.Int) { Direction = ParameterDirection.Output };

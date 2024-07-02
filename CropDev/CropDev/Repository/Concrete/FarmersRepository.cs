@@ -1,4 +1,5 @@
 ﻿using CropDev.Models;
+using CropDev.Models.Farmers;
 using CropDev.Repository.Interface;
 using CropDev.Utilities;
 using CropDev.Utilities.Enums;
@@ -18,17 +19,34 @@ namespace CropDev.Repository.Concrete
             this.appSettings = appSettings;
             this.logger = logger;
         }
-
+/// <summary>
+/// 
+/// </summary>
+/// <param name="farmerId"></param>
+/// <param name="updatedBy"></param>
+/// <returns></returns>
         public async Task<ResultStatus> SoftDelete(int farmerId, string updatedBy)
         {
             return await ExecuteNonQuery("[dbo].[SoftDeleteFarmerById]", farmerId, updatedBy);
         }
+/// <summary>
+/// 
+/// </summary>
+/// <param name="farmerId"></param>
+/// <param name="updatedBy"></param>
+/// <returns></returns>
 
         public async Task<ResultStatus> Restore(int farmerId, string updatedBy)
         {
             return await ExecuteNonQuery("[dbo].[RestoreFarmerById]", farmerId, updatedBy);
         }
-
+/// <summary>
+/// 
+/// </summary>
+/// <param name="storedProcedure"></param>
+/// <param name="farmerId"></param>
+/// <param name="updatedBy"></param>
+/// <returns></returns>
         private async Task<ResultStatus> ExecuteNonQuery(string storedProcedure, int farmerId, string updatedBy)
         {
             try
@@ -54,10 +72,14 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-
+/// <summary>
+/// 
+/// </summary>
+/// <param name="farmerId"></param>
+/// <returns></returns>
         public async Task<Farmers> GetById(int farmerId)
         {
-            Farmers farmer = null;
+            Farmers? farmer = null;
 
             try
             {
@@ -100,8 +122,12 @@ namespace CropDev.Repository.Concrete
 
             return farmer;
         }
-
-        public async Task<ResultStatus> Update(Farmers farmers)
+/// <summary>
+/// 
+/// </summary>
+/// <param name="farmers"></param>
+/// <returns></returns>
+        public async Task<ResultStatus> Update(UpdateFarmers updateFarmers)
         {
             try
             {
@@ -109,16 +135,16 @@ namespace CropDev.Repository.Concrete
                 using var sqlCommand = new SqlCommand("[dbo].[UpdateFarmer]", sqlConnection);
                 sqlCommand.CommandType = CommandType.StoredProcedure;
 
-                sqlCommand.Parameters.Add(new SqlParameter("@FarmerId", SqlDbType.Int) { Value = farmers.FarmerId });
-                sqlCommand.Parameters.Add(new SqlParameter("@FirstName", SqlDbType.VarChar) { Value = farmers.FirstName });
-                sqlCommand.Parameters.Add(new SqlParameter("@LastName", SqlDbType.VarChar) { Value = farmers.LastName });
-                sqlCommand.Parameters.Add(new SqlParameter("@City", SqlDbType.VarChar) { Value = farmers.City });
-                sqlCommand.Parameters.Add(new SqlParameter("@State", SqlDbType.VarChar) { Value = farmers.State });
-                sqlCommand.Parameters.Add(new SqlParameter("@ZipCode", SqlDbType.Int) { Value = farmers.ZipCode });
-                sqlCommand.Parameters.Add(new SqlParameter("@Country", SqlDbType.VarChar) { Value = farmers.Country });
-                sqlCommand.Parameters.Add(new SqlParameter("@PhoneNumber", SqlDbType.VarChar) { Value = farmers.PhoneNumber });
-                sqlCommand.Parameters.Add(new SqlParameter("@SecondaryPhoneNumber", SqlDbType.VarChar) { Value = farmers.SecondaryPhoneNumber });
-                sqlCommand.Parameters.Add(new SqlParameter("@UpdatedBy", SqlDbType.VarChar) { Value = farmers.UpdatedBy });
+                sqlCommand.Parameters.Add(new SqlParameter("@FarmerId", SqlDbType.Int) { Value = updateFarmers.FarmerId });
+                sqlCommand.Parameters.Add(new SqlParameter("@FirstName", SqlDbType.VarChar) { Value = updateFarmers.FirstName });
+                sqlCommand.Parameters.Add(new SqlParameter("@LastName", SqlDbType.VarChar) { Value = updateFarmers.LastName });
+                sqlCommand.Parameters.Add(new SqlParameter("@City", SqlDbType.VarChar) { Value = updateFarmers.City });
+                sqlCommand.Parameters.Add(new SqlParameter("@State", SqlDbType.VarChar) { Value = updateFarmers.State });
+                sqlCommand.Parameters.Add(new SqlParameter("@ZipCode", SqlDbType.Int) { Value = updateFarmers.ZipCode });
+                sqlCommand.Parameters.Add(new SqlParameter("@Country", SqlDbType.VarChar) { Value = updateFarmers.Country });
+                sqlCommand.Parameters.Add(new SqlParameter("@PhoneNumber", SqlDbType.VarChar) { Value = updateFarmers.PhoneNumber });
+                sqlCommand.Parameters.Add(new SqlParameter("@SecondaryPhoneNumber", SqlDbType.VarChar) { Value = updateFarmers.SecondaryPhoneNumber });
+                sqlCommand.Parameters.Add(new SqlParameter("@UpdatedBy", SqlDbType.VarChar) { Value = updateFarmers.UpdatedBy });
 
                 var outputParameter = sqlCommand.Parameters.Add(new SqlParameter("@StatusOutput", SqlDbType.Int) { Direction = ParameterDirection.Output });
 
@@ -130,12 +156,16 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, $"Error updating farmer with id {farmers.FarmerId}");
+                logger.LogError(ex, $"Error updating farmer with id {updateFarmers.FarmerId}");
                 return ResultStatus.Failed;
             }
         }
-
-        public async Task<ResultStatus> Create(Farmers farmers)
+/// <summary>
+/// 
+/// </summary>
+/// <param name="farmers"></param>
+/// <returns></returns>
+        public async Task<ResultStatus> Create(CreateFarmers createFarmers)
         {
             try
             {
@@ -143,16 +173,15 @@ namespace CropDev.Repository.Concrete
                 using var sqlCommand = new SqlCommand("[dbo].[CreateFarmer]", sqlConnection);
                 sqlCommand.CommandType = CommandType.StoredProcedure;
 
-                sqlCommand.Parameters.Add(new SqlParameter("@FirstName", SqlDbType.NVarChar, 100) { Value = farmers.FirstName });
-                sqlCommand.Parameters.Add(new SqlParameter("@LastName", SqlDbType.NVarChar, 100) { Value = farmers.LastName });
-                sqlCommand.Parameters.Add(new SqlParameter("@City", SqlDbType.NVarChar, 100) { Value = farmers.City });
-                sqlCommand.Parameters.Add(new SqlParameter("@State", SqlDbType.NVarChar, 50) { Value = farmers.State });
-                sqlCommand.Parameters.Add(new SqlParameter("@ZipCode", SqlDbType.Int) { Value = farmers.ZipCode });
-                sqlCommand.Parameters.Add(new SqlParameter("@Country", SqlDbType.NVarChar, 50) { Value = farmers.Country });
-                sqlCommand.Parameters.Add(new SqlParameter("@PhoneNumber", SqlDbType.NVarChar, 20) { Value = farmers.PhoneNumber });
-                sqlCommand.Parameters.Add(new SqlParameter("@SecondaryPhoneNumber", SqlDbType.NVarChar, 20) { Value = farmers.SecondaryPhoneNumber });
-                sqlCommand.Parameters.Add(new SqlParameter("@CreatedBy", SqlDbType.NVarChar, 50) { Value = farmers.CreatedBy });
-                sqlCommand.Parameters.Add(new SqlParameter("@UpdatedBy", SqlDbType.NVarChar, 50) { Value = farmers.UpdatedBy });
+                sqlCommand.Parameters.Add(new SqlParameter("@FirstName", SqlDbType.NVarChar, 100) { Value = createFarmers.FirstName });
+                sqlCommand.Parameters.Add(new SqlParameter("@LastName", SqlDbType.NVarChar, 100) { Value = createFarmers.LastName });
+                sqlCommand.Parameters.Add(new SqlParameter("@City", SqlDbType.NVarChar, 100) { Value = createFarmers.City });
+                sqlCommand.Parameters.Add(new SqlParameter("@State", SqlDbType.NVarChar, 50) { Value = createFarmers.State });
+                sqlCommand.Parameters.Add(new SqlParameter("@ZipCode", SqlDbType.Int) { Value = createFarmers.ZipCode });
+                sqlCommand.Parameters.Add(new SqlParameter("@Country", SqlDbType.NVarChar, 50) { Value = createFarmers.Country });
+                sqlCommand.Parameters.Add(new SqlParameter("@PhoneNumber", SqlDbType.NVarChar, 20) { Value = createFarmers.PhoneNumber });
+                sqlCommand.Parameters.Add(new SqlParameter("@SecondaryPhoneNumber", SqlDbType.NVarChar, 20) { Value = createFarmers.SecondaryPhoneNumber });
+                sqlCommand.Parameters.Add(new SqlParameter("@CreatedBy", SqlDbType.NVarChar, 50) { Value = createFarmers.CreatedBy });
 
                 var outputParameter = sqlCommand.Parameters.Add(new SqlParameter("@StatusOutPut", SqlDbType.Int) { Direction = ParameterDirection.Output });
 
@@ -168,7 +197,10 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-
+/// <summary>
+/// 
+/// </summary>
+/// <returns></returns>
         public async Task<List<Farmers>> GetAll()
         {
             List<Farmers> farmers = new List<Farmers>();
@@ -211,5 +243,6 @@ namespace CropDev.Repository.Concrete
 
             return farmers;
         }
+
     }
 }

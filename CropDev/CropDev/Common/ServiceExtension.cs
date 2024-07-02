@@ -1,6 +1,7 @@
 ﻿using CropDev.Repository.Concrete;
 using CropDev.Repository.Interface;
 using CropDev.Service.Concrete;
+using CropDev.Service.Concrete.CropDev.Service.Concrete;
 using CropDev.Service.Interface;
 using CropDev.Utilities;
 using System.Runtime.CompilerServices;
@@ -22,6 +23,10 @@ namespace CropDev.Common
             services.AddScoped<IAgentUsersService, AgentUsersService>();
             services.AddScoped<IPriceQuoteRepository, PriceQuoteRepository>();
             services.AddScoped<IPriceQuoteService, PriceQuoteService>();
+            services.AddScoped<IFarmerRequestService, FarmerRequestService>();
+            services.AddScoped<IFarmerRequestRepository, FarmerRequestRepository>();
+            services.AddScoped<IFarmerPaymentTransactionService, FarmerPaymentTransactionService>();
+            services.AddScoped<IFarmerPaymentTransactionRepository, FarmerPaymentTransactionRepository>();
 
             return services;
         }

@@ -5,6 +5,7 @@ using CropDev.Utilities.Enums;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using CropDev.Models.AgentUsers;
 
 namespace CropDev.Controllers
 {
@@ -19,22 +20,22 @@ namespace CropDev.Controllers
             _agentUsersService = agentUsersService;
         }
 
-        [HttpGet("GetAllAgents")]
+        [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             var agentUsers = await _agentUsersService.GetAll();
             return Ok(agentUsers);
         }
 
-        [HttpPost("CreateAgent")]
-        public async Task<IActionResult> Create([FromBody] AgentUsers agentUsers)
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] CreateAgentUser createAgentUser)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            var result = await _agentUsersService.Create(agentUsers);
+            var result = await _agentUsersService.Create(createAgentUser);
 
             return result switch
             {
@@ -43,13 +44,14 @@ namespace CropDev.Controllers
                 _ => BadRequest("Unable to create the agent."),
             };
         }
-        [HttpPut("UpdateAgent")]
-        public async Task<IActionResult> Update([FromBody] AgentUsers agentUsers)
+
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] UpdateAgentUser updateAgentUser)
         {
-            if (!ModelState.IsValid || agentUsers.AgentUserId == null)
+            if (!ModelState.IsValid || updateAgentUser.AgentUserId == null)
                 return StatusCode(StatusCodes.Status400BadRequest, "Required Data Not found");
 
-            var result = await _agentUsersService.Update(agentUsers);
+            var result = await _agentUsersService.Update(updateAgentUser);
 
             return result == ResultStatus.Success ? Ok(result)
                     : StatusCode(StatusCodes.Status400BadRequest, "Unable to Update Agent");
@@ -61,6 +63,28 @@ namespace CropDev.Controllers
             var result = await _agentUsersService.GetById(agentUserId);
 
             return (result != null && result.AgentUserId != 0) ? Ok(result) : StatusCode(StatusCodes.Status204NoContent, "No Results Found.");
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> SoftDelete(int id, [FromQuery] string updatedBy)
+        {
+            var result = await _agentUsersService.SoftDelete(id, updatedBy);
+            if (result == ResultStatus.Success)
+            {
+                return Ok("AgentUser is soft deleted successfully.");
+            }
+            return BadRequest("Failed to soft delete the AgentUser.");
+        }
+
+        [HttpPatch]
+        public async Task<IActionResult> Restore(int id, [FromQuery] string updatedBy)
+        {
+            var result = await _agentUsersService.Restore(id, updatedBy);
+            if (result == ResultStatus.Success)
+            {
+                return Ok("AgentUser restored successfully.");
+            }
+            return BadRequest("Failed to restore the AgentUser.");
         }
     }
 }

@@ -4,7 +4,7 @@ using CropDev.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using CropDev.Utilities.Enums;
-using CropDev.Repository.Concrete;
+using CropDev.Models.AgentUsers;
 
 namespace CropDev.Service.Concrete
 {
@@ -17,23 +17,34 @@ namespace CropDev.Service.Concrete
             _agentUsersRepository = agentUsersRepository;
         }
 
-        public async Task<List<AgentUsers>> GetAll()
+        public async Task<List<AgentUser>> GetAll()
         {
             return await _agentUsersRepository.GetAll();
         }
 
-        public async Task<ResultStatus> Create(AgentUsers agentUsers)
+        public async Task<ResultStatus> Create(CreateAgentUser createAgentUser)
         {
-            return await _agentUsersRepository.Create(agentUsers);
+            return await _agentUsersRepository.Create(createAgentUser);
         }
 
-        public async Task<ResultStatus> Update(AgentUsers agentUsers)
+        public async Task<ResultStatus> Update(UpdateAgentUser updateAgentUser)
         {
-            return await _agentUsersRepository.Update(agentUsers);
+            return await _agentUsersRepository.Update(updateAgentUser);
         }
-        public async Task<AgentUsers> GetById(int agentUserId)
+
+        public async Task<AgentUser> GetById(int agentUserId)
         {
             return await _agentUsersRepository.GetById(agentUserId);
+        }
+
+        public async Task<ResultStatus> SoftDelete(int agentUserId, string updatedBy)
+        {
+            return await _agentUsersRepository.SoftDelete(agentUserId, updatedBy);
+        }
+
+        public async Task<ResultStatus> Restore(int agentUserId, string updatedBy)
+        {
+            return await _agentUsersRepository.Restore(agentUserId, updatedBy);
         }
     }
 }

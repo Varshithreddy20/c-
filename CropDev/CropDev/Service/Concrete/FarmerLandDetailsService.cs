@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using CropDev.Repository.Concrete;
 using CropDev.Utilities.Enums;
+using CropDev.Models.FarmerLadDetails;
 
 namespace CropDev.Service.Concrete
 {
@@ -21,13 +22,13 @@ namespace CropDev.Service.Concrete
         {
             return await _farmerLandDetailsRepository.GetAll();
         }
-        public async Task<ResultStatus> Create(FarmerLandDetails farmerLandDetails)
+        public async Task<ResultStatus> Create(CreateFarmerLandDetails createFarmerLandDetails)
         {
-            return await _farmerLandDetailsRepository.Create(farmerLandDetails);
+            return await _farmerLandDetailsRepository.Create(createFarmerLandDetails);
         }
-        public async Task<ResultStatus> Update(FarmerLandDetails farmerLandDetails)
+        public async Task<ResultStatus> Update(UpdateFarmerLandDetails updateFarmerLandDetails)
         {
-            return await _farmerLandDetailsRepository.Update(farmerLandDetails);
+            return await _farmerLandDetailsRepository.Update(updateFarmerLandDetails);
         }
         public async Task<FarmerLandDetails> GetById(int farmerLandDetailsId)
         {

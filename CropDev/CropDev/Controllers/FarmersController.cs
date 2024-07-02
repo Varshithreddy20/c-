@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using CropDev.Models.Farmers;
 
 namespace CropDev.Controllers
 {
@@ -19,33 +20,33 @@ namespace CropDev.Controllers
             _farmersService = farmersService;
         }
 
-        [HttpGet("GetAllFarmers")]
+        [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             var farmers = await _farmersService.GetAll();
             return Ok(farmers);
         }
 
-        [HttpPost("CreateFarmer")]
-        public async Task<IActionResult> Create([FromBody] Farmers farmers)
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] CreateFarmers createFarmers)
         {
             if (!ModelState.IsValid)
                 return StatusCode(StatusCodes.Status400BadRequest, "Required Data Not found");
 
-            var result = await _farmersService.Create(farmers);
+            var result = await _farmersService.Create(createFarmers);
 
             return (result == ResultStatus.Success) ? Ok(result)
                     : (result == ResultStatus.DuplicateEntry) ? StatusCode(StatusCodes.Status409Conflict, "Farmer already exists.")
                     : StatusCode(StatusCodes.Status400BadRequest, "Unable to post the data");
         }
 
-        [HttpPut("UpdateFarmer")]
-        public async Task<IActionResult> Update([FromBody] Farmers farmers)
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] UpdateFarmers updateFarmers)
         {
-            if (!ModelState.IsValid || farmers.FarmerId == null)
+            if (!ModelState.IsValid || updateFarmers.FarmerId == null)
                 return StatusCode(StatusCodes.Status400BadRequest, "Required Data Not found");
 
-            var result = await _farmersService.Update(farmers);
+            var result = await _farmersService.Update(updateFarmers);
 
             return result == ResultStatus.Success ? Ok(result)
                     : StatusCode(StatusCodes.Status400BadRequest, "Unable to Update Farmer");
@@ -59,7 +60,7 @@ namespace CropDev.Controllers
             return (result != null && result.FarmerId != 0) ? Ok(result) : StatusCode(StatusCodes.Status204NoContent, "No Results Found.");
         }
 
-        [HttpDelete("Delete/{id}")]
+        [HttpDelete]
         public async Task<IActionResult> SoftDelete(int id, [FromQuery] string updatedBy)
         {
             var result = await _farmersService.SoftDelete(id,updatedBy);
@@ -70,7 +71,7 @@ namespace CropDev.Controllers
             return BadRequest("Failed to soft delete the farmer.");
         }
 
-        [HttpPatch("restore/{id}")]
+        [HttpPatch]
         public async Task<IActionResult> Restore(int id, [FromQuery] string updatedBy)
         {
             var result = await _farmersService.Restore(id, updatedBy);
