@@ -23,6 +23,12 @@ namespace CropDev.Repository.Concrete
             this.appSettings = appSettings;
             this.logger = logger;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="farmerLandDetailsId"></param>
+        /// <param name="updatedBy"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> SoftDelete(int farmerLandDetailsId, string updatedBy)
         {
             return await ExecuteNonQuery("[dbo].[SoftDeleteFarmerLandDetailById]", farmerLandDetailsId, updatedBy);
@@ -58,6 +64,11 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="farmerLandDetailsId"></param>
+        /// <returns></returns>
         public async Task<FarmerLandDetails> GetById(int farmerLandDetailsId)
         {
             FarmerLandDetails? farmerLandDetails = null;
@@ -107,7 +118,11 @@ namespace CropDev.Repository.Concrete
 
             return farmerLandDetails;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="UpdateFarmerLandDetails"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Update(UpdateFarmerLandDetails UpdateFarmerLandDetails)
         {
             try
@@ -152,7 +167,10 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<FarmerLandDetails>> GetAll()
         {
             List<FarmerLandDetails> farmers = new List<FarmerLandDetails>();
@@ -196,7 +214,11 @@ namespace CropDev.Repository.Concrete
 
             return farmers;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="createFarmerLandDetails"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Create(CreateFarmerLandDetails createFarmerLandDetails)
         {
             try

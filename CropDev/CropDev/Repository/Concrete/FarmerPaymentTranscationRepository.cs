@@ -22,7 +22,12 @@ namespace CropDev.Repository.Concrete
             _appSettings = appSettings;
             _logger = logger;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="updatedBy"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> SoftDelete(int id, string updatedBy)
         {
             return await ExecuteNonQuery("[dbo].[SoftDeleteFTPById]", id, updatedBy);
@@ -58,7 +63,11 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="updateFarmerPaymentTransaction"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Update(UpdateFarmerPaymentTransaction updateFarmerPaymentTransaction)
         {
             try
@@ -90,7 +99,11 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="farmerPaymentTransactionId"></param>
+        /// <returns></returns>
         public async Task<FarmerPaymentTransaction> GetById(int farmerPaymentTransactionId)
         {
             FarmerPaymentTransaction? farmerPaymentTransaction = null;
@@ -133,7 +146,11 @@ namespace CropDev.Repository.Concrete
 
             return farmerPaymentTransaction;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="createFarmerPaymentTransaction"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Create(CreateFarmerPaymentTransaction createFarmerPaymentTransaction)
         {
             try
@@ -164,7 +181,10 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<FarmerPaymentTransaction>> GetAll()
         {
             var farmerPaymentTransactions = new List<FarmerPaymentTransaction>();

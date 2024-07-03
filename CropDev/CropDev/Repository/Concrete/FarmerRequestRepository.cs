@@ -22,6 +22,12 @@ namespace CropDev.Repository.Concrete
             _appSettings = appSettings;
             _logger = logger;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="farmerRequestId"></param>
+        /// <param name="updatedBy"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> SoftDelete(int farmerRequestId, string updatedBy)
         {
             return await ExecuteNonQuery("[dbo].[SoftDeleteFarmerRequestById]", farmerRequestId, updatedBy);
@@ -57,6 +63,11 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="updateFarmerRequest"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Update(UpdateFarmerRequest updateFarmerRequest)
         {
             try
@@ -93,7 +104,11 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="createFarmerRequest"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Create(CreateFarmerRequest createFarmerRequest)
         {
             try
@@ -124,7 +139,10 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<FarmerRequest>> GetAll()
         {
             var farmerRequests = new List<FarmerRequest>();
@@ -169,41 +187,39 @@ namespace CropDev.Repository.Concrete
 
             return farmerRequests;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="farmerRequestId"></param>
+        /// <returns></returns>
         public async Task<FarmerRequest> GetById(int farmerRequestId)
         {
-            FarmerRequest farmerRequest = null;
+            FarmerRequest? farmerRequest = null;
 
             try
             {
-                using (var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection))
+                using var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection);
+                await sqlConnection.OpenAsync();
+
+                using var sqlCommand = new SqlCommand("[dbo].[GetFarmerRequestById]", sqlConnection);
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+                sqlCommand.Parameters.AddWithValue("@FarmerRequestId", farmerRequestId);
+
+                using var reader = await sqlCommand.ExecuteReaderAsync();
+                if (await reader.ReadAsync())
                 {
-                    await sqlConnection.OpenAsync();
-
-                    using (var sqlCommand = new SqlCommand("[dbo].[GetFarmerRequestById]", sqlConnection))
+                    farmerRequest = new FarmerRequest
                     {
-                        sqlCommand.CommandType = CommandType.StoredProcedure;
-                        sqlCommand.Parameters.AddWithValue("@FarmerRequestId", farmerRequestId);
-
-                        using (var reader = await sqlCommand.ExecuteReaderAsync())
-                        {
-                            if (await reader.ReadAsync())
-                            {
-                                farmerRequest = new FarmerRequest
-                                {
-                                    FarmerRequestId = reader["FarmerRequestId"] != DBNull.Value ? Convert.ToInt32(reader["FarmerRequestId"]) : (int?)null,
-                                    FarmerLandDetailsId = reader["FarmerLandDetailsId"] != DBNull.Value ? Convert.ToInt32(reader["FarmerLandDetailsId"]) : (int?)null,
-                                    RequestQuery = reader["RequestQuery"] != DBNull.Value ? Convert.ToString(reader["RequestQuery"]) : string.Empty,
-                                    AgentUserId = reader["AgentUserId"] != DBNull.Value ? Convert.ToInt32(reader["AgentUserId"]) : (int?)null,
-                                    StatusId = reader["StatusId"] != DBNull.Value ? Convert.ToByte(reader["StatusId"]) : (byte?)null,
-                                    CreatedBy = reader["CreatedBy"] != DBNull.Value ? Convert.ToString(reader["CreatedBy"]) : string.Empty,
-                                    CreatedOn = Convert.ToDateTime(reader["CreatedOn"]),
-                                    UpdatedBy = reader["UpdatedBy"] != DBNull.Value ? Convert.ToString(reader["UpdatedBy"]) : string.Empty,
-                                    UpdatedOn = reader["UpdatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["UpdatedOn"]) : (DateTime?)null,
-                                };
-                            }
-                        }
-                    }
+                        FarmerRequestId = reader["FarmerRequestId"] != DBNull.Value ? Convert.ToInt32(reader["FarmerRequestId"]) : (int?)null,
+                        FarmerLandDetailsId = reader["FarmerLandDetailsId"] != DBNull.Value ? Convert.ToInt32(reader["FarmerLandDetailsId"]) : (int?)null,
+                        RequestQuery = reader["RequestQuery"] != DBNull.Value ? Convert.ToString(reader["RequestQuery"]) : string.Empty,
+                        AgentUserId = reader["AgentUserId"] != DBNull.Value ? Convert.ToInt32(reader["AgentUserId"]) : (int?)null,
+                        StatusId = reader["StatusId"] != DBNull.Value ? Convert.ToByte(reader["StatusId"]) : (byte?)null,
+                        CreatedBy = reader["CreatedBy"] != DBNull.Value ? Convert.ToString(reader["CreatedBy"]) : string.Empty,
+                        CreatedOn = Convert.ToDateTime(reader["CreatedOn"]),
+                        UpdatedBy = reader["UpdatedBy"] != DBNull.Value ? Convert.ToString(reader["UpdatedBy"]) : string.Empty,
+                        UpdatedOn = reader["UpdatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["UpdatedOn"]) : (DateTime?)null,
+                    };
                 }
             }
             catch (Exception ex)

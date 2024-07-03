@@ -19,34 +19,23 @@ namespace CropDev.Repository.Concrete
             this.appSettings = appSettings;
             this.logger = logger;
         }
-/// <summary>
-/// 
-/// </summary>
-/// <param name="farmerId"></param>
-/// <param name="updatedBy"></param>
-/// <returns></returns>
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="farmerId"></param>
+        /// <param name="updatedBy"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> SoftDelete(int farmerId, string updatedBy)
         {
             return await ExecuteNonQuery("[dbo].[SoftDeleteFarmerById]", farmerId, updatedBy);
         }
-/// <summary>
-/// 
-/// </summary>
-/// <param name="farmerId"></param>
-/// <param name="updatedBy"></param>
-/// <returns></returns>
+
 
         public async Task<ResultStatus> Restore(int farmerId, string updatedBy)
         {
             return await ExecuteNonQuery("[dbo].[RestoreFarmerById]", farmerId, updatedBy);
         }
-/// <summary>
-/// 
-/// </summary>
-/// <param name="storedProcedure"></param>
-/// <param name="farmerId"></param>
-/// <param name="updatedBy"></param>
-/// <returns></returns>
+
         private async Task<ResultStatus> ExecuteNonQuery(string storedProcedure, int farmerId, string updatedBy)
         {
             try
@@ -72,14 +61,14 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-/// <summary>
-/// 
-/// </summary>
-/// <param name="farmerId"></param>
-/// <returns></returns>
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="farmerId"></param>
+        /// <returns></returns>
         public async Task<Farmers> GetById(int farmerId)
         {
-            Farmers? farmer = null;
+            Farmers farmer = null;
 
             try
             {
@@ -91,27 +80,25 @@ namespace CropDev.Repository.Concrete
 
                 await sqlConnection.OpenAsync();
 
-                using (var reader = await sqlCommand.ExecuteReaderAsync())
+                using var reader = await sqlCommand.ExecuteReaderAsync();
+                if (await reader.ReadAsync())
                 {
-                    if (await reader.ReadAsync())
+                    farmer = new Farmers
                     {
-                        farmer = new Farmers
-                        {
-                            FarmerId = reader["FarmerId"] != DBNull.Value ? Convert.ToInt32(reader["FarmerId"]) : 0,
-                            FirstName = reader["FirstName"] != DBNull.Value ? Convert.ToString(reader["FirstName"]) : string.Empty,
-                            LastName = reader["LastName"] != DBNull.Value ? Convert.ToString(reader["LastName"]) : string.Empty,
-                            City = reader["City"] != DBNull.Value ? Convert.ToString(reader["City"]) : string.Empty,
-                            ZipCode = reader["ZipCode"] != DBNull.Value ? (int?)Convert.ToInt32(reader["ZipCode"]) : null,
-                            Country = reader["Country"] != DBNull.Value ? Convert.ToString(reader["Country"]) : string.Empty,
-                            State = reader["State"] != DBNull.Value ? Convert.ToString(reader["State"]) : string.Empty,
-                            PhoneNumber = reader["PhoneNumber"] != DBNull.Value ? Convert.ToString(reader["PhoneNumber"]) : string.Empty,
-                            SecondaryPhoneNumber = reader["SecondaryPhoneNumber"] != DBNull.Value ? Convert.ToString(reader["SecondaryPhoneNumber"]) : null,
-                            CreatedBy = reader["CreatedBy"] != DBNull.Value ? Convert.ToString(reader["CreatedBy"]) : string.Empty,
-                            CreatedOn = reader["CreatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["CreatedOn"]) : DateTime.MinValue,
-                            UpdatedBy = reader["UpdatedBy"] != DBNull.Value ? Convert.ToString(reader["UpdatedBy"]) : null,
-                            UpdatedOn = reader["UpdatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["UpdatedOn"]) : (DateTime?)null
-                        };
-                    }
+                        FarmerId = reader["FarmerId"] != DBNull.Value ? Convert.ToInt32(reader["FarmerId"]) : 0,
+                        FirstName = reader["FirstName"] != DBNull.Value ? Convert.ToString(reader["FirstName"]) : string.Empty,
+                        LastName = reader["LastName"] != DBNull.Value ? Convert.ToString(reader["LastName"]) : string.Empty,
+                        City = reader["City"] != DBNull.Value ? Convert.ToString(reader["City"]) : string.Empty,
+                        ZipCode = reader["ZipCode"] != DBNull.Value ? (int?)Convert.ToInt32(reader["ZipCode"]) : null,
+                        Country = reader["Country"] != DBNull.Value ? Convert.ToString(reader["Country"]) : string.Empty,
+                        State = reader["State"] != DBNull.Value ? Convert.ToString(reader["State"]) : string.Empty,
+                        PhoneNumber = reader["PhoneNumber"] != DBNull.Value ? Convert.ToString(reader["PhoneNumber"]) : string.Empty,
+                        SecondaryPhoneNumber = reader["SecondaryPhoneNumber"] != DBNull.Value ? Convert.ToString(reader["SecondaryPhoneNumber"]) : null,
+                        CreatedBy = reader["CreatedBy"] != DBNull.Value ? Convert.ToString(reader["CreatedBy"]) : string.Empty,
+                        CreatedOn = reader["CreatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["CreatedOn"]) : DateTime.MinValue,
+                        UpdatedBy = reader["UpdatedBy"] != DBNull.Value ? Convert.ToString(reader["UpdatedBy"]) : null,
+                        UpdatedOn = reader["UpdatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["UpdatedOn"]) : (DateTime?)null
+                    };
                 }
             }
             catch (Exception ex)
@@ -122,11 +109,11 @@ namespace CropDev.Repository.Concrete
 
             return farmer;
         }
-/// <summary>
-/// 
-/// </summary>
-/// <param name="farmers"></param>
-/// <returns></returns>
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="updateFarmers"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Update(UpdateFarmers updateFarmers)
         {
             try
@@ -160,11 +147,11 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-/// <summary>
-/// 
-/// </summary>
-/// <param name="farmers"></param>
-/// <returns></returns>
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="createFarmers"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Create(CreateFarmers createFarmers)
         {
             try
@@ -197,13 +184,10 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-/// <summary>
-/// 
-/// </summary>
-/// <returns></returns>
+        ///
         public async Task<List<Farmers>> GetAll()
         {
-            List<Farmers> farmers = new List<Farmers>();
+            List<Farmers> farmers = [];
 
             try
             {
@@ -215,7 +199,7 @@ namespace CropDev.Repository.Concrete
                 using var reader = await sqlCommand.ExecuteReaderAsync();
                 while (await reader.ReadAsync())
                 {
-                    Farmers farmer = new Farmers
+                    Farmers farmer = new()
                     {
                         FarmerId = reader["FarmerId"] != DBNull.Value ? Convert.ToInt32(reader["FarmerId"]) : 0,
                         FirstName = reader["FirstName"] != DBNull.Value ? Convert.ToString(reader["FirstName"]) : string.Empty,

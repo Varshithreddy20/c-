@@ -1,9 +1,14 @@
 using CropDev.Repository.Concrete;
+using CropDev.Repository.Concrete.SignUp;
 using CropDev.Repository.Interface;
+using CropDev.Repository.Interface.SignUp;
 using CropDev.Service.Concrete;
 using CropDev.Service.Concrete.CropDev.Service.Concrete;
+using CropDev.Service.Concrete.SignUp;
 using CropDev.Service.Interface;
+using CropDev.Service.Interface.SignUp;
 using CropDev.Utilities;
+
 
 
 public class Program
@@ -26,7 +31,8 @@ public class Program
         builder.Services.AddScoped<IFarmerRequestService, FarmerRequestService>();
         builder.Services.AddScoped<IFarmerPaymentTransactionRepository, FarmerPaymentTransactionRepository>();
         builder.Services.AddScoped<IFarmerPaymentTransactionService, FarmerPaymentTransactionService>();
-
+        builder.Services.AddScoped<ISignUpService, SignUpService>();
+        builder.Services.AddScoped<ISignUpRepository, SignUpRepository>();
 
         // Add services to the container.
 

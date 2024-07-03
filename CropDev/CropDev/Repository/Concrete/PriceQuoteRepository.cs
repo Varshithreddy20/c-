@@ -12,16 +12,13 @@ using CropDev.Models.PriceQuote;
 
 namespace CropDev.Repository.Concrete
 {
-    public class PriceQuoteRepository : IPriceQuoteRepository
+    public class PriceQuoteRepository(IOptions<AppSettings> appSettings, ILogger<PriceQuoteRepository> logger) : IPriceQuoteRepository
     {
-        private readonly IOptions<AppSettings> appSettings;
-        private readonly ILogger<PriceQuoteRepository> logger;
-
-        public PriceQuoteRepository(IOptions<AppSettings> appSettings, ILogger<PriceQuoteRepository> logger)
-        {
-            this.appSettings = appSettings;
-            this.logger = logger;
-        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="updatePriceQuote"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Update(UpdatePriceQuote updatePriceQuote)
         {
             try
@@ -53,7 +50,11 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="priceQuoteId"></param>
+        /// <returns></returns>
         public async Task<PriceQuote> GetById(int priceQuoteId)
         {
             PriceQuote? priceQuote = null;
@@ -94,7 +95,11 @@ namespace CropDev.Repository.Concrete
             return priceQuote;
         }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="createPriceQuote"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Create(CreatePriceQuote createPriceQuote)
         {
             try
@@ -130,7 +135,10 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<PriceQuote>> GetAll()
         {
             var priceQuotes = new List<PriceQuote>();
@@ -171,6 +179,12 @@ namespace CropDev.Repository.Concrete
 
             return priceQuotes;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="priceQuoteId"></param>
+        /// <param name="updatedBy"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> SoftDelete(int priceQuoteId, string updatedBy)
         {
             try
@@ -200,7 +214,12 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="priceQuoteId"></param>
+        /// <param name="updatedBy"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Restore(int priceQuoteId, string updatedBy)
         {
             try

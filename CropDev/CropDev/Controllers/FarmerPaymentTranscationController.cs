@@ -18,14 +18,21 @@ namespace CropDev.Controllers
         {
             _farmerPaymentTransactionService = farmerPaymentTransactionService;
         }
-
+        /// <summary>
+        /// Gets All Farmer Payment Transaction details
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             var farmers = await _farmerPaymentTransactionService.GetAll();
             return Ok(farmers);
         }
-
+        /// <summary>
+        /// Creates a new FTP
+        /// </summary>
+        /// <param name="createFarmerPaymentTransaction"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateFarmerPaymentTransaction createFarmerPaymentTransaction)
         {
@@ -41,7 +48,11 @@ namespace CropDev.Controllers
                 _ => BadRequest("Unable to post the data")
             };
         }
-
+        /// <summary>
+        /// Updates a existing FTP
+        /// </summary>
+        /// <param name="updateFarmerPaymentTransaction"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] UpdateFarmerPaymentTransaction updateFarmerPaymentTransaction)
         {
@@ -52,7 +63,11 @@ namespace CropDev.Controllers
 
             return result == ResultStatus.Success ? Ok(result) : StatusCode(StatusCodes.Status400BadRequest, "Unable to Update Farmer Payment Transaction");
         }
-
+        /// <summary>
+        /// Gets FTP by Id
+        /// </summary>
+        /// <param name="farmerPaymentTransactionId"></param>
+        /// <returns></returns>
         [HttpGet("GetById/{farmerPaymentTransactionId}")]
         public async Task<IActionResult> GetById(int farmerPaymentTransactionId)
         {
@@ -60,7 +75,12 @@ namespace CropDev.Controllers
 
             return (result != null && result.FarmerPaymentTransactionId != null) ? Ok(result) : StatusCode(StatusCodes.Status204NoContent, "No Results Found.");
         }
-
+        /// <summary>
+        /// Deletes a FTP by Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="updatedBy"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> SoftDelete(int id, [FromQuery] string updatedBy)
         {
@@ -71,7 +91,12 @@ namespace CropDev.Controllers
             }
             return BadRequest("Failed to soft delete the farmer payment transaction.");
         }
-
+        /// <summary>
+        /// Restores a FTP by Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="updatedBy"></param>
+        /// <returns></returns>
         [HttpPatch]
         public async Task<IActionResult> Restore(int id, [FromQuery] string updatedBy)
         {

@@ -19,14 +19,21 @@ namespace CropDev.Controllers
         {
             _farmerLandDetailsService = farmerLandDetailsService;
         }
-
+        /// <summary>
+        /// Gets all Farmer Land Details inputs
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             var farmers = await _farmerLandDetailsService.GetAll();
             return Ok(farmers);
         }
-
+        /// <summary>
+        /// Creates Farmer Land Details 
+        /// </summary>
+        /// <param name="CreateFarmerLandDetails"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateFarmerLandDetails CreateFarmerLandDetails)
         {
@@ -42,6 +49,11 @@ namespace CropDev.Controllers
                 _ => BadRequest("Unable to post the data")
             };
         }
+        /// <summary>
+        /// Updates Farmer Land Details 
+        /// </summary>
+        /// <param name="updateFarmerLandDetails"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] UpdateFarmerLandDetails updateFarmerLandDetails)
         {
@@ -53,6 +65,11 @@ namespace CropDev.Controllers
             return result == ResultStatus.Success ? Ok(result)
                     : StatusCode(StatusCodes.Status400BadRequest, "Unable to Update Farmer");
         }
+        /// <summary>
+        /// Gets Farmer Land Details inputs by Id
+        /// </summary>
+        /// <param name="farmerLandDetailsId"></param>
+        /// <returns></returns>
         [HttpGet("GetById/{farmerLandDetailsId}")]
         public async Task<IActionResult> GetById(int farmerLandDetailsId)
         {
@@ -60,6 +77,12 @@ namespace CropDev.Controllers
 
             return (result != null && result.FarmerId != 0) ? Ok(result) : StatusCode(StatusCodes.Status204NoContent, "No Results Found.");
         }
+        /// <summary>
+        /// Deletes Farmer Land Details by Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="updatedBy"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> SoftDelete(int id, [FromQuery] string updatedBy)
         {
@@ -70,6 +93,12 @@ namespace CropDev.Controllers
             }
             return BadRequest("Failed to soft delete the farmer.");
         }
+        /// <summary>
+        /// Restores Farmer Land Details by Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="updatedBy"></param>
+        /// <returns></returns>
 
         [HttpPatch]
         public async Task<IActionResult> Restore(int id, [FromQuery] string updatedBy)

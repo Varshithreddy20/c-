@@ -13,17 +13,14 @@ using CropDev.Models.AgentUsers;
 
 namespace CropDev.Repository.Concrete
 {
-    public class AgentUsersRepository : IAgentUsersRepository
+    public class AgentUsersRepository(IOptions<AppSettings> appSettings, ILogger<AgentUsersRepository> logger) : IAgentUsersRepository
     {
-        private readonly IOptions<AppSettings> _appSettings;
-        private readonly ILogger<AgentUsersRepository> _logger;
-
-        public AgentUsersRepository(IOptions<AppSettings> appSettings, ILogger<AgentUsersRepository> logger)
-        {
-            _appSettings = appSettings;
-            _logger = logger;
-        }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="agentUserId"></param>
+        /// <param name="updatedBy"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> SoftDelete(int agentUserId, string updatedBy)
         {
             return await ExecuteNonQuery("[dbo].[SoftDeleteAgentUsersById]", agentUserId, updatedBy);
@@ -38,7 +35,7 @@ namespace CropDev.Repository.Concrete
         {
             try
             {
-                await using var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection);
+                await using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
                 await using var sqlCommand = new SqlCommand(storedProcedure, sqlConnection);
                 sqlCommand.CommandType = CommandType.StoredProcedure;
 
@@ -55,17 +52,22 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error executing {storedProcedure} for AgentUserId {agentUserId}");
+                logger.LogError(ex, $"Error executing {storedProcedure} for AgentUserId {agentUserId}");
                 return ResultStatus.Failed;
             }
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="agentUserId"></param>
+        /// <returns></returns>
         public async Task<AgentUser> GetById(int agentUserId)
         {
             AgentUser? agentUsers = null;
 
             try
             {
-                using var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection);
+                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
                 using var sqlCommand = new SqlCommand("[dbo].[GetAgentUserById]", sqlConnection);
                 sqlCommand.CommandType = CommandType.StoredProcedure;
 
@@ -98,17 +100,21 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error getting agent user by id {agentUserId}");
+                logger.LogError(ex, $"Error getting agent user by id {agentUserId}");
             }
 
             return agentUsers;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="updateAgentUser"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Update(UpdateAgentUser updateAgentUser)
         {
             try
             {
-                using var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection);
+                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
                 using var sqlCommand = new SqlCommand("[dbo].[UpdateAgentUsers]", sqlConnection);
                 sqlCommand.CommandType = CommandType.StoredProcedure;
 
@@ -133,16 +139,21 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error updating agent user with id {updateAgentUser.AgentUserId}");
+                logger.LogError(ex, $"Error updating agent user with id {updateAgentUser.AgentUserId}");
                 return ResultStatus.Failed;
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="createAgentUser"></param>
+        /// <returns></returns>
         public async Task<ResultStatus> Create(CreateAgentUser createAgentUser)
         {
             try
             {
-                using var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection);
+                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
                 using var sqlCommand = new SqlCommand("[dbo].[CreateAgentUsers]", sqlConnection);
                 sqlCommand.CommandType = CommandType.StoredProcedure;
 
@@ -167,18 +178,21 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error creating agent user");
+                logger.LogError(ex, $"Error creating agent user");
                 return ResultStatus.Failed;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<AgentUser>> GetAll()
         {
             List<AgentUser> agentUsersList = new List<AgentUser>();
 
             try
             {
-                using var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection);
+                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
                 using var sqlCommand = new SqlCommand("[dbo].[GetAllAgentUsers]", sqlConnection);
                 sqlCommand.CommandType = CommandType.StoredProcedure;
                 await sqlConnection.OpenAsync();
@@ -208,7 +222,7 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error getting all agent users");
+                logger.LogError(ex, "Error getting all agent users");
             }
 
             return agentUsersList;
