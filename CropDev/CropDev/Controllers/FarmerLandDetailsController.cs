@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 using CropDev.Service.Concrete;
 using CropDev.Models.FarmerLadDetails;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CropDev.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class FarmerLandDetailsController : ControllerBase

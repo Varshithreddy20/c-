@@ -4,10 +4,12 @@ using CropDev.Service.Concrete;
 using CropDev.Service.Interface;
 using CropDev.Utilities.Enums;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace CropDev.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class FarmerRequestController : ControllerBase

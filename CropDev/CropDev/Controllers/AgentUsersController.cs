@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using CropDev.Models.AgentUsers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CropDev.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class AgentUsersController(IAgentUsersService agentUsersService) : ControllerBase

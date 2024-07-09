@@ -10,17 +10,14 @@ using System.Threading.Tasks;
 using CropDev.Utilities;
 using CropDev.Utilities.Enums;
 using CropDev.Models.AgentUsers;
+using Microsoft.Extensions.Configuration;
 
 namespace CropDev.Repository.Concrete
 {
-    public class AgentUsersRepository(IOptions<AppSettings> appSettings, ILogger<AgentUsersRepository> logger) : IAgentUsersRepository
+    public class AgentUsersRepository(IOptions<AppSettings> appSettings, ILogger<AgentUsersRepository> logger, IConfiguration configuration) : IAgentUsersRepository
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="agentUserId"></param>
-        /// <param name="updatedBy"></param>
-        /// <returns></returns>
+        private readonly AppSettings _appSettings = appSettings.Value;
+
         public async Task<ResultStatus> SoftDelete(int agentUserId, string updatedBy)
         {
             return await ExecuteNonQuery("[dbo].[SoftDeleteAgentUsersById]", agentUserId, updatedBy);
@@ -35,17 +32,20 @@ namespace CropDev.Repository.Concrete
         {
             try
             {
-                await using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                await using var sqlCommand = new SqlCommand(storedProcedure, sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                string connectionString = configuration.GetConnectionString("DefaultConnection");
+
+                using var sqlConnection = new SqlConnection(connectionString);
+                using var sqlCommand = new SqlCommand(storedProcedure, sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@AgentUserId", SqlDbType.Int) { Value = agentUserId });
                 sqlCommand.Parameters.Add(new SqlParameter("@UpdatedBy", SqlDbType.VarChar) { Value = updatedBy });
-
                 var outputParameter = sqlCommand.Parameters.Add(new SqlParameter("@StatusOutput", SqlDbType.Int) { Direction = ParameterDirection.Output });
 
-                await sqlConnection.OpenAsync().ConfigureAwait(false);
-                await sqlCommand.ExecuteNonQueryAsync().ConfigureAwait(false);
+                await sqlConnection.OpenAsync();
+                await sqlCommand.ExecuteNonQueryAsync();
 
                 int statusOutput = (int)outputParameter.Value;
                 return statusOutput == 1 ? ResultStatus.Success : ResultStatus.Failed;
@@ -56,46 +56,44 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="agentUserId"></param>
-        /// <returns></returns>
+
         public async Task<AgentUser> GetById(int agentUserId)
         {
-            AgentUser? agentUsers = null;
+            AgentUser? agentUser = null;
 
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[GetAgentUserById]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                string connectionString = configuration.GetConnectionString("DefaultConnection");
+
+                using var sqlConnection = new SqlConnection(connectionString);
+                using var sqlCommand = new SqlCommand("[dbo].[GetAgentUserById]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@AgentUserId", SqlDbType.Int) { Value = agentUserId });
 
                 await sqlConnection.OpenAsync();
+                using var reader = await sqlCommand.ExecuteReaderAsync();
 
-                using (var reader = await sqlCommand.ExecuteReaderAsync())
+                if (await reader.ReadAsync())
                 {
-                    if (await reader.ReadAsync())
+                    agentUser = new AgentUser
                     {
-                        agentUsers = new AgentUser
-                        {
-                            AgentUserId = reader["AgentUserId"] != DBNull.Value ? Convert.ToInt32(reader["AgentUserId"]) : 0,
-                            FirstName = reader["FirstName"] != DBNull.Value ? Convert.ToString(reader["FirstName"]) : string.Empty,
-                            LastName = reader["LastName"] != DBNull.Value ? Convert.ToString(reader["LastName"]) : string.Empty,
-                            City = reader["City"] != DBNull.Value ? Convert.ToString(reader["City"]) : string.Empty,
-                            ZipCode = reader["ZipCode"] != DBNull.Value ? (int?)Convert.ToInt32(reader["ZipCode"]) : null,
-                            Country = reader["Country"] != DBNull.Value ? Convert.ToString(reader["Country"]) : string.Empty,
-                            State = reader["State"] != DBNull.Value ? Convert.ToString(reader["State"]) : string.Empty,
-                            PhoneNumber = reader["PhoneNumber"] != DBNull.Value ? Convert.ToString(reader["PhoneNumber"]) : string.Empty,
-                            SecondaryPhoneNumber = reader["SecondaryPhoneNumber"] != DBNull.Value ? Convert.ToString(reader["SecondaryPhoneNumber"]) : null,
-                            CreatedBy = reader["CreatedBy"] != DBNull.Value ? Convert.ToString(reader["CreatedBy"]) : string.Empty,
-                            CreatedOn = reader["CreatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["CreatedOn"]) : default(DateTime?),
-                            UpdatedBy = reader["UpdatedBy"] != DBNull.Value ? Convert.ToString(reader["UpdatedBy"]) : null,
-                            UpdatedOn = reader["UpdatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["UpdatedOn"]) : (DateTime?)null
-                        };
-                    }
+                        AgentUserId = reader["AgentUserId"] != DBNull.Value ? Convert.ToInt32(reader["AgentUserId"]) : 0,
+                        FirstName = reader["FirstName"] != DBNull.Value ? Convert.ToString(reader["FirstName"]) : string.Empty,
+                        LastName = reader["LastName"] != DBNull.Value ? Convert.ToString(reader["LastName"]) : string.Empty,
+                        City = reader["City"] != DBNull.Value ? Convert.ToString(reader["City"]) : string.Empty,
+                        ZipCode = reader["ZipCode"] != DBNull.Value ? (int?)Convert.ToInt32(reader["ZipCode"]) : null,
+                        Country = reader["Country"] != DBNull.Value ? Convert.ToString(reader["Country"]) : string.Empty,
+                        State = reader["State"] != DBNull.Value ? Convert.ToString(reader["State"]) : string.Empty,
+                        PhoneNumber = reader["PhoneNumber"] != DBNull.Value ? Convert.ToString(reader["PhoneNumber"]) : string.Empty,
+                        SecondaryPhoneNumber = reader["SecondaryPhoneNumber"] != DBNull.Value ? Convert.ToString(reader["SecondaryPhoneNumber"]) : null,
+                        CreatedBy = reader["CreatedBy"] != DBNull.Value ? Convert.ToString(reader["CreatedBy"]) : string.Empty,
+                        CreatedOn = reader["CreatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["CreatedOn"]) : default(DateTime?),
+                        UpdatedBy = reader["UpdatedBy"] != DBNull.Value ? Convert.ToString(reader["UpdatedBy"]) : null,
+                        UpdatedOn = reader["UpdatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["UpdatedOn"]) : (DateTime?)null
+                    };
                 }
             }
             catch (Exception ex)
@@ -103,20 +101,20 @@ namespace CropDev.Repository.Concrete
                 logger.LogError(ex, $"Error getting agent user by id {agentUserId}");
             }
 
-            return agentUsers;
+            return agentUser;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="updateAgentUser"></param>
-        /// <returns></returns>
+
         public async Task<ResultStatus> Update(UpdateAgentUser updateAgentUser)
         {
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[UpdateAgentUsers]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                string connectionString = configuration.GetConnectionString("DefaultConnection");
+
+                using var sqlConnection = new SqlConnection(connectionString);
+                using var sqlCommand = new SqlCommand("[dbo].[UpdateAgentUsers]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@AgentUserId", SqlDbType.Int) { Value = updateAgentUser.AgentUserId });
                 sqlCommand.Parameters.Add(new SqlParameter("@FirstName", SqlDbType.VarChar, 100) { Value = updateAgentUser.FirstName });
@@ -144,18 +142,17 @@ namespace CropDev.Repository.Concrete
             }
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="createAgentUser"></param>
-        /// <returns></returns>
         public async Task<ResultStatus> Create(CreateAgentUser createAgentUser)
         {
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[CreateAgentUsers]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                string connectionString = configuration.GetConnectionString("DefaultConnection");
+
+                using var sqlConnection = new SqlConnection(connectionString);
+                using var sqlCommand = new SqlCommand("[dbo].[CreateAgentUsers]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@FirstName", SqlDbType.NVarChar, 100) { Value = createAgentUser.FirstName });
                 sqlCommand.Parameters.Add(new SqlParameter("@LastName", SqlDbType.NVarChar, 100) { Value = createAgentUser.LastName });
@@ -166,9 +163,8 @@ namespace CropDev.Repository.Concrete
                 sqlCommand.Parameters.Add(new SqlParameter("@PhoneNumber", SqlDbType.NVarChar, 20) { Value = createAgentUser.PhoneNumber });
                 sqlCommand.Parameters.Add(new SqlParameter("@SecondaryPhoneNumber", SqlDbType.NVarChar, 20) { Value = createAgentUser.SecondaryPhoneNumber });
                 sqlCommand.Parameters.Add(new SqlParameter("@CreatedBy", SqlDbType.NVarChar, 50) { Value = createAgentUser.CreatedBy });
-                
 
-                var outputParameter = sqlCommand.Parameters.Add(new SqlParameter("@StatusOutPut", SqlDbType.Int) { Direction = ParameterDirection.Output });
+                var outputParameter = sqlCommand.Parameters.Add(new SqlParameter("@StatusOutput", SqlDbType.Int) { Direction = ParameterDirection.Output });
 
                 await sqlConnection.OpenAsync();
                 await sqlCommand.ExecuteNonQueryAsync();
@@ -178,29 +174,31 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, $"Error creating agent user");
+                logger.LogError(ex, "Error creating agent user");
                 return ResultStatus.Failed;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
+
         public async Task<List<AgentUser>> GetAll()
         {
             List<AgentUser> agentUsersList = new List<AgentUser>();
 
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[GetAllAgentUsers]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
-                await sqlConnection.OpenAsync();
+                string connectionString = configuration.GetConnectionString("DefaultConnection");
 
+                using var sqlConnection = new SqlConnection(connectionString);
+                using var sqlCommand = new SqlCommand("[dbo].[GetAllAgentUsers]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+
+                await sqlConnection.OpenAsync();
                 using var reader = await sqlCommand.ExecuteReaderAsync();
+
                 while (await reader.ReadAsync())
                 {
-                    AgentUser agentUser = new AgentUser
+                    var agentUser = new AgentUser
                     {
                         AgentUserId = reader["AgentUserId"] != DBNull.Value ? Convert.ToInt32(reader["AgentUserId"]) : 0,
                         FirstName = reader["FirstName"] != DBNull.Value ? Convert.ToString(reader["FirstName"]) : string.Empty,
@@ -227,6 +225,5 @@ namespace CropDev.Repository.Concrete
 
             return agentUsersList;
         }
-
     }
 }

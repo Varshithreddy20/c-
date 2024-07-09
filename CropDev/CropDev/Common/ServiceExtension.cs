@@ -1,31 +1,22 @@
 ﻿using CropDev.Repository.Concrete;
-
 using CropDev.Repository.Interface;
-using CropDev.Repository.Interface.SignUp;
 using CropDev.Service.Concrete;
-using CropDev.Service.Concrete.CropDev.Service.Concrete;
-using CropDev.Service.Concrete.SignUp;
 using CropDev.Service.Interface;
 using CropDev.Utilities;
-using CropDev.Service.Interface.SignUp;
-using System.Runtime.CompilerServices;
-using CropDev.Repository.Concrete.SignUp;
-
-
+using CropDev.JwtInterface;
+using CropDev.JwtService;
+using CropDev.Service.Concrete.CropDev.Service.Concrete;
 
 namespace CropDev.Common
-{       
-    /// <summary>
-    /// 
-    /// </summary>
+{
     public static class ServiceExtension
     {
         public static IServiceCollection RegisterServices(this IServiceCollection services)
         {
             services.AddScoped<AppSettings, AppSettings>();
-            services.AddScoped<IFarmersRepository, FarmersRepository>();    
+            services.AddScoped<IFarmersRepository, FarmersRepository>();
             services.AddScoped<IFarmersService, FarmersService>();
-            services.AddScoped<IFarmerLandDetailsRepository, FarmerLandDetailsRepository>();
+            //services.AddScoped<IFarmerLandDetailsRepository, FarmerLandDetailsRepository>();
             services.AddScoped<IFarmerLandDetailsService, FarmerLandDetailsService>();
             services.AddScoped<IAgentUsersRepository, AgentUsersRepository>();
             services.AddScoped<IAgentUsersService, AgentUsersService>();
@@ -35,9 +26,12 @@ namespace CropDev.Common
             services.AddScoped<IFarmerRequestRepository, FarmerRequestRepository>();
             services.AddScoped<IFarmerPaymentTransactionService, FarmerPaymentTransactionService>();
             services.AddScoped<IFarmerPaymentTransactionRepository, FarmerPaymentTransactionRepository>();
-            services.AddScoped<ISignUpService, SignUpService>();
-            services.AddScoped<ISignUpRepository, SignUpRepository>();
+        
+            services.AddScoped<IJwtService, JwtService.JwtService>();
 
+            services.AddScoped<IUserRepository, UserRepository>();  
+            services.AddScoped<IUserService, UserService>();
+          
             return services;
         }
     }

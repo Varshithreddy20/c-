@@ -3,29 +3,35 @@ using CropDev.Repository.Interface;
 using CropDev.Utilities;
 using CropDev.Utilities.Enums;
 using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Configuration;
 using System.Data;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using Microsoft.Extensions.Logging;
 using CropDev.Models.PriceQuote;
 
 namespace CropDev.Repository.Concrete
 {
-    public class PriceQuoteRepository(IOptions<AppSettings> appSettings, ILogger<PriceQuoteRepository> logger) : IPriceQuoteRepository
+    public class PriceQuoteRepository : IPriceQuoteRepository
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="updatePriceQuote"></param>
-        /// <returns></returns>
+        private readonly IConfiguration _configuration;
+        private readonly ILogger<PriceQuoteRepository> _logger;
+
+        public PriceQuoteRepository(IConfiguration configuration, ILogger<PriceQuoteRepository> logger)
+        {
+            _configuration = configuration;
+            _logger = logger;
+        }
+
         public async Task<ResultStatus> Update(UpdatePriceQuote updatePriceQuote)
         {
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[UpdatePriceQuote]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                using var sqlConnection = new SqlConnection(_configuration.GetConnectionString("FarmersDBConnection"));
+                using var sqlCommand = new SqlCommand("[dbo].[UpdatePriceQuote]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@PriceQuoteId", SqlDbType.Int) { Value = updatePriceQuote.PriceQuoteId });
                 sqlCommand.Parameters.Add(new SqlParameter("@LandSize", SqlDbType.Decimal) { Value = (object)updatePriceQuote.LandSize ?? DBNull.Value });
@@ -41,29 +47,27 @@ namespace CropDev.Repository.Concrete
             }
             catch (SqlException ex)
             {
-                logger.LogError(ex, "SQL Error updating PriceQuote: {0}", ex.Message);
+                _logger.LogError(ex, "SQL Error updating PriceQuote: {0}", ex.Message);
                 return ResultStatus.Failed;
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "Error updating PriceQuote: {0}", ex.Message);
+                _logger.LogError(ex, "Error updating PriceQuote: {0}", ex.Message);
                 return ResultStatus.Failed;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="priceQuoteId"></param>
-        /// <returns></returns>
+
         public async Task<PriceQuote> GetById(int priceQuoteId)
         {
             PriceQuote? priceQuote = null;
 
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[GetPriceQuoteById]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                using var sqlConnection = new SqlConnection(_configuration.GetConnectionString("FarmersDBConnection"));
+                using var sqlCommand = new SqlCommand("[dbo].[GetPriceQuoteById]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
                 sqlCommand.Parameters.Add(new SqlParameter("@PriceQuoteId", SqlDbType.Int) { Value = priceQuoteId });
 
                 await sqlConnection.OpenAsync();
@@ -85,28 +89,25 @@ namespace CropDev.Repository.Concrete
             }
             catch (SqlException ex)
             {
-                logger.LogError(ex, "SQL Error getting PriceQuote by ID: {0}", ex.Message);
+                _logger.LogError(ex, "SQL Error getting PriceQuote by ID: {0}", ex.Message);
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "Error getting PriceQuote by ID: {0}", ex.Message);
+                _logger.LogError(ex, "Error getting PriceQuote by ID: {0}", ex.Message);
             }
 
             return priceQuote;
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="createPriceQuote"></param>
-        /// <returns></returns>
         public async Task<ResultStatus> Create(CreatePriceQuote createPriceQuote)
         {
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[CreatePriceQuote]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                using var sqlConnection = new SqlConnection(_configuration.GetConnectionString("FarmersDBConnection"));
+                using var sqlCommand = new SqlCommand("[dbo].[CreatePriceQuote]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@LandSize", SqlDbType.Decimal) { Value = (object)createPriceQuote.LandSize ?? DBNull.Value });
                 sqlCommand.Parameters.Add(new SqlParameter("@QuoteAmount", SqlDbType.Decimal) { Value = (object)createPriceQuote.QuoteAmount ?? DBNull.Value });
@@ -126,28 +127,27 @@ namespace CropDev.Repository.Concrete
             }
             catch (SqlException ex)
             {
-                logger.LogError(ex, "SQL Error creating PriceQuote: {0}", ex.Message);
+                _logger.LogError(ex, "SQL Error creating PriceQuote: {0}", ex.Message);
                 return ResultStatus.Failed;
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "Error creating PriceQuote: {0}", ex.Message);
+                _logger.LogError(ex, "Error creating PriceQuote: {0}", ex.Message);
                 return ResultStatus.Failed;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
+
         public async Task<List<PriceQuote>> GetAll()
         {
             var priceQuotes = new List<PriceQuote>();
 
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[GetAllPriceQuote]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                using var sqlConnection = new SqlConnection(_configuration.GetConnectionString("FarmersDBConnection"));
+                using var sqlCommand = new SqlCommand("[dbo].[GetAllPriceQuote]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 await sqlConnection.OpenAsync();
                 using var reader = await sqlCommand.ExecuteReaderAsync();
@@ -170,28 +170,25 @@ namespace CropDev.Repository.Concrete
             }
             catch (SqlException ex)
             {
-                logger.LogError(ex, "SQL Error getting all PriceQuotes: {0}", ex.Message);
+                _logger.LogError(ex, "SQL Error getting all PriceQuotes: {0}", ex.Message);
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "Error getting all PriceQuotes: {0}", ex.Message);
+                _logger.LogError(ex, "Error getting all PriceQuotes: {0}", ex.Message);
             }
 
             return priceQuotes;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="priceQuoteId"></param>
-        /// <param name="updatedBy"></param>
-        /// <returns></returns>
+
         public async Task<ResultStatus> SoftDelete(int priceQuoteId, string updatedBy)
         {
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[SoftDeletePriceQuote]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                using var sqlConnection = new SqlConnection(_configuration.GetConnectionString("FarmersDBConnection"));
+                using var sqlCommand = new SqlCommand("[dbo].[SoftDeletePriceQuote]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@PriceQuoteId", SqlDbType.Int) { Value = priceQuoteId });
                 sqlCommand.Parameters.Add(new SqlParameter("@UpdatedBy", SqlDbType.NVarChar, 50) { Value = updatedBy });
@@ -205,28 +202,26 @@ namespace CropDev.Repository.Concrete
             }
             catch (SqlException ex)
             {
-                logger.LogError(ex, "SQL Error soft deleting PriceQuote: {0}", ex.Message);
+                _logger.LogError(ex, "SQL Error soft deleting PriceQuote: {0}", ex.Message);
                 return ResultStatus.Failed;
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "Error soft deleting PriceQuote: {0}", ex.Message);
+                _logger.LogError(ex, "Error soft deleting PriceQuote: {0}", ex.Message);
                 return ResultStatus.Failed;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="priceQuoteId"></param>
-        /// <param name="updatedBy"></param>
-        /// <returns></returns>
+
         public async Task<ResultStatus> Restore(int priceQuoteId, string updatedBy)
         {
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[RestorePriceQuote]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                using var sqlConnection = new SqlConnection(_configuration.GetConnectionString("FarmersDBConnection"));
+                using var sqlCommand = new SqlCommand("[dbo].[RestorePriceQuote]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+
 
                 sqlCommand.Parameters.Add(new SqlParameter("@PriceQuoteId", SqlDbType.Int) { Value = priceQuoteId });
                 sqlCommand.Parameters.Add(new SqlParameter("@UpdatedBy", SqlDbType.NVarChar, 50) { Value = updatedBy });
@@ -240,12 +235,12 @@ namespace CropDev.Repository.Concrete
             }
             catch (SqlException ex)
             {
-                logger.LogError(ex, "SQL Error restoring PriceQuote: {0}", ex.Message);
+                _logger.LogError(ex, "SQL Error restoring PriceQuote: {0}", ex.Message);
                 return ResultStatus.Failed;
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "Error restoring PriceQuote: {0}", ex.Message);
+                _logger.LogError(ex, "Error restoring PriceQuote: {0}", ex.Message);
                 return ResultStatus.Failed;
             }
         }

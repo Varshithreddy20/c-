@@ -1,33 +1,27 @@
 ﻿using CropDev.Models.FPT;
 using CropDev.Repository.Interface;
 using CropDev.Utilities.Enums;
-using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Logging;
 using System.Data;
 using System.Data.SqlClient;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System;
-using CropDev.Utilities;
+using Microsoft.Extensions.Configuration;
 
 namespace CropDev.Repository.Concrete
 {
     public class FarmerPaymentTransactionRepository : IFarmerPaymentTransactionRepository
     {
-        private readonly IOptions<AppSettings> _appSettings;
+        private readonly IConfiguration _configuration;
         private readonly ILogger<FarmerPaymentTransactionRepository> _logger;
 
-        public FarmerPaymentTransactionRepository(IOptions<AppSettings> appSettings, ILogger<FarmerPaymentTransactionRepository> logger)
+        public FarmerPaymentTransactionRepository(IConfiguration configuration, ILogger<FarmerPaymentTransactionRepository> logger)
         {
-            _appSettings = appSettings;
+            _configuration = configuration;
             _logger = logger;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <param name="updatedBy"></param>
-        /// <returns></returns>
+
         public async Task<ResultStatus> SoftDelete(int id, string updatedBy)
         {
             return await ExecuteNonQuery("[dbo].[SoftDeleteFTPById]", id, updatedBy);
@@ -42,9 +36,12 @@ namespace CropDev.Repository.Concrete
         {
             try
             {
-                await using var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection);
-                await using var sqlCommand = new SqlCommand(storedProcedure, sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                var connectionString = _configuration.GetConnectionString("DefaultConnection");
+                await using var sqlConnection = new SqlConnection(connectionString);
+                await using var sqlCommand = new SqlCommand(storedProcedure, sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@FarmerPaymentTransactionId", SqlDbType.Int) { Value = id });
                 sqlCommand.Parameters.Add(new SqlParameter("@UpdatedBy", SqlDbType.VarChar) { Value = updatedBy });
@@ -63,16 +60,13 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="updateFarmerPaymentTransaction"></param>
-        /// <returns></returns>
+
         public async Task<ResultStatus> Update(UpdateFarmerPaymentTransaction updateFarmerPaymentTransaction)
         {
             try
             {
-                await using var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection);
+                var connectionString = _configuration.GetConnectionString("DefaultConnection");
+                await using var sqlConnection = new SqlConnection(connectionString);
                 await sqlConnection.OpenAsync();
 
                 await using var sqlCommand = new SqlCommand("[dbo].[UpdateFarmerPaymentTransaction]", sqlConnection)
@@ -99,18 +93,15 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="farmerPaymentTransactionId"></param>
-        /// <returns></returns>
+
         public async Task<FarmerPaymentTransaction> GetById(int farmerPaymentTransactionId)
         {
             FarmerPaymentTransaction? farmerPaymentTransaction = null;
 
             try
             {
-                await using var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection);
+                var connectionString = _configuration.GetConnectionString("DefaultConnection");
+                await using var sqlConnection = new SqlConnection(connectionString);
                 await using var sqlCommand = new SqlCommand("[dbo].[GetFarmerPaymentTransactionById]", sqlConnection)
                 {
                     CommandType = CommandType.StoredProcedure
@@ -146,16 +137,13 @@ namespace CropDev.Repository.Concrete
 
             return farmerPaymentTransaction;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="createFarmerPaymentTransaction"></param>
-        /// <returns></returns>
+
         public async Task<ResultStatus> Create(CreateFarmerPaymentTransaction createFarmerPaymentTransaction)
         {
             try
             {
-                await using var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection);
+                var connectionString = _configuration.GetConnectionString("DefaultConnection");
+                await using var sqlConnection = new SqlConnection(connectionString);
                 await sqlConnection.OpenAsync();
 
                 await using var sqlCommand = new SqlCommand("[dbo].[CreateFarmerPaymentTransaction]", sqlConnection)
@@ -181,17 +169,15 @@ namespace CropDev.Repository.Concrete
                 return ResultStatus.Failed;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
+
         public async Task<List<FarmerPaymentTransaction>> GetAll()
         {
             var farmerPaymentTransactions = new List<FarmerPaymentTransaction>();
 
             try
             {
-                await using var sqlConnection = new SqlConnection(_appSettings.Value.FarmersDBConnection);
+                var connectionString = _configuration.GetConnectionString("DefaultConnection");
+                await using var sqlConnection = new SqlConnection(connectionString);
                 await using var sqlCommand = new SqlCommand("[dbo].[GetAllFarmerPaymentTransactions]", sqlConnection)
                 {
                     CommandType = CommandType.StoredProcedure

@@ -5,9 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CropDev.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class FarmerPaymentTransactionController : ControllerBase

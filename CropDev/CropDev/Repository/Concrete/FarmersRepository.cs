@@ -4,32 +4,30 @@ using CropDev.Repository.Interface;
 using CropDev.Utilities;
 using CropDev.Utilities.Enums;
 using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Configuration;
 using System.Data;
+using System.Collections.Generic;
+using System;
+using System.Threading.Tasks;
 
 namespace CropDev.Repository.Concrete
 {
     public class FarmersRepository : IFarmersRepository
     {
-        private readonly IOptions<AppSettings> appSettings;
-        private readonly ILogger<FarmersRepository> logger;
+        private readonly IConfiguration _configuration;
+        private readonly ILogger<FarmersRepository> _logger;
 
-        public FarmersRepository(IOptions<AppSettings> appSettings, ILogger<FarmersRepository> logger)
+        public FarmersRepository(IConfiguration configuration, ILogger<FarmersRepository> logger)
         {
-            this.appSettings = appSettings;
-            this.logger = logger;
+            _configuration = configuration;
+            _logger = logger;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="farmerId"></param>
-        /// <param name="updatedBy"></param>
-        /// <returns></returns>
+
         public async Task<ResultStatus> SoftDelete(int farmerId, string updatedBy)
         {
             return await ExecuteNonQuery("[dbo].[SoftDeleteFarmerById]", farmerId, updatedBy);
         }
-
 
         public async Task<ResultStatus> Restore(int farmerId, string updatedBy)
         {
@@ -40,9 +38,12 @@ namespace CropDev.Repository.Concrete
         {
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand(storedProcedure, sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                var connectionString = _configuration.GetConnectionString("FarmersDBConnection");
+                await using var sqlConnection = new SqlConnection(connectionString);
+                await using var sqlCommand = new SqlCommand(storedProcedure, sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@FarmerId", SqlDbType.Int) { Value = farmerId });
                 sqlCommand.Parameters.Add(new SqlParameter("@UpdatedBy", SqlDbType.VarChar) { Value = updatedBy });
@@ -57,30 +58,29 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, $"Error executing {storedProcedure} for FarmerId {farmerId}");
+                _logger.LogError(ex, $"Error executing {storedProcedure} for FarmerId {farmerId}");
                 return ResultStatus.Failed;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="farmerId"></param>
-        /// <returns></returns>
+
         public async Task<Farmers> GetById(int farmerId)
         {
-            Farmers farmer = null;
+            Farmers? farmer = null;
 
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[GetFarmerById]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                var connectionString = _configuration.GetConnectionString("FarmersDBConnection");
+                await using var sqlConnection = new SqlConnection(connectionString);
+                await sqlConnection.OpenAsync();
+
+                await using var sqlCommand = new SqlCommand("[dbo].[GetFarmerById]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@FarmerId", SqlDbType.Int) { Value = farmerId });
 
-                await sqlConnection.OpenAsync();
-
-                using var reader = await sqlCommand.ExecuteReaderAsync();
+                await using var reader = await sqlCommand.ExecuteReaderAsync();
                 if (await reader.ReadAsync())
                 {
                     farmer = new Farmers
@@ -103,24 +103,24 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, $"Error getting farmer by id {farmerId}");
-                return farmer;
+                _logger.LogError(ex, $"Error getting farmer by id {farmerId}");
             }
 
             return farmer;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="updateFarmers"></param>
-        /// <returns></returns>
+
         public async Task<ResultStatus> Update(UpdateFarmers updateFarmers)
         {
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[UpdateFarmer]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                var connectionString = _configuration.GetConnectionString("FarmersDBConnection");
+                await using var sqlConnection = new SqlConnection(connectionString);
+                await sqlConnection.OpenAsync();
+
+                await using var sqlCommand = new SqlCommand("[dbo].[UpdateFarmer]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@FarmerId", SqlDbType.Int) { Value = updateFarmers.FarmerId });
                 sqlCommand.Parameters.Add(new SqlParameter("@FirstName", SqlDbType.VarChar) { Value = updateFarmers.FirstName });
@@ -135,7 +135,6 @@ namespace CropDev.Repository.Concrete
 
                 var outputParameter = sqlCommand.Parameters.Add(new SqlParameter("@StatusOutput", SqlDbType.Int) { Direction = ParameterDirection.Output });
 
-                await sqlConnection.OpenAsync();
                 await sqlCommand.ExecuteNonQueryAsync();
 
                 int statusOutput = (int)outputParameter.Value;
@@ -143,22 +142,23 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, $"Error updating farmer with id {updateFarmers.FarmerId}");
+                _logger.LogError(ex, $"Error updating farmer with id {updateFarmers.FarmerId}");
                 return ResultStatus.Failed;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="createFarmers"></param>
-        /// <returns></returns>
+
         public async Task<ResultStatus> Create(CreateFarmers createFarmers)
         {
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[CreateFarmer]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                var connectionString = _configuration.GetConnectionString("FarmersDBConnection");
+                await using var sqlConnection = new SqlConnection(connectionString);
+                await sqlConnection.OpenAsync();
+
+                await using var sqlCommand = new SqlCommand("[dbo].[CreateFarmer]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
 
                 sqlCommand.Parameters.Add(new SqlParameter("@FirstName", SqlDbType.NVarChar, 100) { Value = createFarmers.FirstName });
                 sqlCommand.Parameters.Add(new SqlParameter("@LastName", SqlDbType.NVarChar, 100) { Value = createFarmers.LastName });
@@ -172,7 +172,6 @@ namespace CropDev.Repository.Concrete
 
                 var outputParameter = sqlCommand.Parameters.Add(new SqlParameter("@StatusOutPut", SqlDbType.Int) { Direction = ParameterDirection.Output });
 
-                await sqlConnection.OpenAsync();
                 await sqlCommand.ExecuteNonQueryAsync();
 
                 int statusOutput = (int)outputParameter.Value;
@@ -180,26 +179,30 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, $"Error creating farmer");
+                _logger.LogError(ex, "Error creating farmer");
                 return ResultStatus.Failed;
             }
         }
-        ///
+
         public async Task<List<Farmers>> GetAll()
         {
-            List<Farmers> farmers = [];
+            var farmers = new List<Farmers>();
 
             try
             {
-                using var sqlConnection = new SqlConnection(appSettings.Value.FarmersDBConnection);
-                using var sqlCommand = new SqlCommand("[dbo].[GetAllFarmers]", sqlConnection);
-                sqlCommand.CommandType = CommandType.StoredProcedure;
+                var connectionString = _configuration.GetConnectionString("FarmersDBConnection");
+                await using var sqlConnection = new SqlConnection(connectionString);
                 await sqlConnection.OpenAsync();
 
-                using var reader = await sqlCommand.ExecuteReaderAsync();
+                await using var sqlCommand = new SqlCommand("[dbo].[GetAllFarmers]", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+
+                await using var reader = await sqlCommand.ExecuteReaderAsync();
                 while (await reader.ReadAsync())
                 {
-                    Farmers farmer = new()
+                    var farmer = new Farmers
                     {
                         FarmerId = reader["FarmerId"] != DBNull.Value ? Convert.ToInt32(reader["FarmerId"]) : 0,
                         FirstName = reader["FirstName"] != DBNull.Value ? Convert.ToString(reader["FirstName"]) : string.Empty,
@@ -211,9 +214,9 @@ namespace CropDev.Repository.Concrete
                         PhoneNumber = reader["PhoneNumber"] != DBNull.Value ? Convert.ToString(reader["PhoneNumber"]) : string.Empty,
                         SecondaryPhoneNumber = reader["SecondaryPhoneNumber"] != DBNull.Value ? Convert.ToString(reader["SecondaryPhoneNumber"]) : null,
                         CreatedBy = reader["CreatedBy"] != DBNull.Value ? Convert.ToString(reader["CreatedBy"]) : string.Empty,
-                        CreatedOn = Convert.ToDateTime(reader["CreatedOn"]),
+                        CreatedOn = reader["CreatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["CreatedOn"]) : DateTime.MinValue,
                         UpdatedBy = reader["UpdatedBy"] != DBNull.Value ? Convert.ToString(reader["UpdatedBy"]) : null,
-                        UpdatedOn = Convert.ToDateTime(reader["UpdatedOn"])
+                        UpdatedOn = reader["UpdatedOn"] != DBNull.Value ? Convert.ToDateTime(reader["UpdatedOn"]) : (DateTime?)null
                     };
 
                     farmers.Add(farmer);
@@ -221,12 +224,10 @@ namespace CropDev.Repository.Concrete
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "Error getting all farmers");
-                return farmers;
+                _logger.LogError(ex, "Error getting all farmers");
             }
 
             return farmers;
         }
-
     }
 }
