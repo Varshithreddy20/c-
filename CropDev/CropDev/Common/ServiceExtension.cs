@@ -16,7 +16,7 @@ namespace CropDev.Common
             services.AddScoped<AppSettings, AppSettings>();
             services.AddScoped<IFarmersRepository, FarmersRepository>();
             services.AddScoped<IFarmersService, FarmersService>();
-            //services.AddScoped<IFarmerLandDetailsRepository, FarmerLandDetailsRepository>();
+            services.AddScoped<IFarmerLandDetailsRepository, FarmerLandDetailsRepository>();
             services.AddScoped<IFarmerLandDetailsService, FarmerLandDetailsService>();
             services.AddScoped<IAgentUsersRepository, AgentUsersRepository>();
             services.AddScoped<IAgentUsersService, AgentUsersService>();
