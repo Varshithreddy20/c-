@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CropDev")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59507315a936fa42e106078fcc24da908518321a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b8a49d2e803794a94c406835579a1e1e80c0ede")]
 [assembly: System.Reflection.AssemblyProductAttribute("CropDev")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CropDev")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

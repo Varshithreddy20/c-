@@ -3,52 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\concrete\\farmersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\concrete\\farmersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\interface\\ifarmersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\interface\\ifarmersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\utilities\\enums\\resultstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\utilities\\enums\\resultstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\models\\farmers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\models\\farmers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\concrete\\agentusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\concrete\\agentusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\interface\\iagentusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\interface\\iagentusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\service\\concrete\\agentusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\service\\concrete\\agentusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\service\\interface\\iagentusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\service\\interface\\iagentusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\models\\farmerlanddetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\models\\farmerlanddetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\models\\agentusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\models\\agentusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\controllers\\agentuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\controllers\\agentuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\common\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\common\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\controllers\\agentuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\controllers\\agentuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\utilities\\enums\\resultstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\utilities\\enums\\resultstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\service\\concrete\\agentusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\service\\concrete\\agentusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\interface\\iagentusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\interface\\iagentusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -59,28 +67,52 @@
       "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\utilities\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\cropdev.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\cropdev.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\service\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\service\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\cropdev.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\cropdev.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\concrete\\pricequoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\concrete\\pricequoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\concrete\\farmersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\concrete\\farmersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\service\\interface\\iagentusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\service\\interface\\iagentusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\service\\interface\\ifarmerpaymenttranscationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\service\\interface\\ifarmerpaymenttranscationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\cropdev.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\cropdev.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\concrete\\farmerrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,24 +143,8 @@
       "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\controllers\\farmerlanddetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\concrete\\farmerlanddetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\concrete\\farmerlanddetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\models\\farmers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\models\\farmers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\models\\farmerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -137,10 +153,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\service\\concrete\\farmerpaymenttranscationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\service\\concrete\\farmerpaymenttranscationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\models\\farmerlanddetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\models\\farmerlanddetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\service\\interface\\ipricequoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -169,14 +181,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\interface\\ipricequoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\interface\\ipricequoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\repository\\interface\\ifarmersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\repository\\interface\\ifarmersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|c:\\users\\al6113\\desktop\\sample\\cropdev\\cropdev\\service\\interface\\ifarmerpaymenttranscationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F144CEA6-49C4-4020-8B20-19C6B924905F}|CropDev\\CropDev.csproj|solutionrelative:cropdev\\service\\interface\\ifarmerpaymenttranscationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -186,40 +190,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\JwtService.cs",
-              "RelativeDocumentMoniker": "CropDev\\JwtService.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\JwtService.cs",
-              "RelativeToolTip": "CropDev\\JwtService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T05:55:42.761Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAgentUsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IAgentUsersRepository.cs",
-              "RelativeDocumentMoniker": "CropDev\\Repository\\Interface\\IAgentUsersRepository.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IAgentUsersRepository.cs",
-              "RelativeToolTip": "CropDev\\Repository\\Interface\\IAgentUsersRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBQAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T21:08:53.828Z"
             },
             {
               "$type": "Document",
@@ -229,25 +208,92 @@
               "RelativeDocumentMoniker": "CropDev\\Repository\\Concrete\\AgentUsersRepository.cs",
               "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\AgentUsersRepository.cs",
               "RelativeToolTip": "CropDev\\Repository\\Concrete\\AgentUsersRepository.cs",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAUwNAAAABiAAAA",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAIwJ4AAACIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T06:49:07.186Z"
+              "WhenOpened": "2024-07-04T06:49:07.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ResultStatus.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Utilities\\Enums\\ResultStatus.cs",
-              "RelativeDocumentMoniker": "CropDev\\Utilities\\Enums\\ResultStatus.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Utilities\\Enums\\ResultStatus.cs",
-              "RelativeToolTip": "CropDev\\Utilities\\Enums\\ResultStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Title": "Farmers.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\Farmers.cs",
+              "RelativeDocumentMoniker": "CropDev\\Models\\Farmers.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\Farmers.cs",
+              "RelativeToolTip": "CropDev\\Models\\Farmers.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAiwA4AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T06:37:52.177Z"
+              "WhenOpened": "2024-07-02T21:02:06.684Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IFarmersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IFarmersRepository.cs",
+              "RelativeDocumentMoniker": "CropDev\\Repository\\Interface\\IFarmersRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IFarmersRepository.cs",
+              "RelativeToolTip": "CropDev\\Repository\\Interface\\IFarmersRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwCoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T21:10:52.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FarmersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\FarmersRepository.cs",
+              "RelativeDocumentMoniker": "CropDev\\Repository\\Concrete\\FarmersRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\FarmersRepository.cs",
+              "RelativeToolTip": "CropDev\\Repository\\Concrete\\FarmersRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwKAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T21:07:03.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FarmerLandDetails.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\FarmerLandDetails.cs",
+              "RelativeDocumentMoniker": "CropDev\\Models\\FarmerLandDetails.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\FarmerLandDetails.cs",
+              "RelativeToolTip": "CropDev\\Models\\FarmerLandDetails.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA3wBAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T19:38:35.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgentUsers.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\AgentUsers.cs",
+              "RelativeDocumentMoniker": "CropDev\\Models\\AgentUsers.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\AgentUsers.cs",
+              "RelativeToolTip": "CropDev\\Models\\AgentUsers.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T05:42:01.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Common\\ServiceExtension.cs",
+              "RelativeDocumentMoniker": "CropDev\\Common\\ServiceExtension.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Common\\ServiceExtension.cs",
+              "RelativeToolTip": "CropDev\\Common\\ServiceExtension.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAzwCMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T18:42:57.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\IJwtService.cs",
               "RelativeDocumentMoniker": "CropDev\\IJwtService.cs",
@@ -255,83 +301,103 @@
               "RelativeToolTip": "CropDev\\IJwtService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T05:54:31.23Z"
+              "WhenOpened": "2024-07-04T05:54:31.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\JwtService.cs",
+              "RelativeDocumentMoniker": "CropDev\\JwtService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\JwtService.cs",
+              "RelativeToolTip": "CropDev\\JwtService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:55:42.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAgentUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IAgentUsersRepository.cs",
+              "RelativeDocumentMoniker": "CropDev\\Repository\\Interface\\IAgentUsersRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IAgentUsersRepository.cs",
+              "RelativeToolTip": "CropDev\\Repository\\Interface\\IAgentUsersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T21:08:53.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AgentUsersService.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Concrete\\AgentUsersService.cs",
               "RelativeDocumentMoniker": "CropDev\\Service\\Concrete\\AgentUsersService.cs",
               "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Concrete\\AgentUsersService.cs",
               "RelativeToolTip": "CropDev\\Service\\Concrete\\AgentUsersService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T06:04:09.528Z"
+              "WhenOpened": "2024-07-03T06:04:09.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAgentUsersService.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IAgentUsersService.cs",
-              "RelativeDocumentMoniker": "CropDev\\Service\\Interface\\IAgentUsersService.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IAgentUsersService.cs",
-              "RelativeToolTip": "CropDev\\Service\\Interface\\IAgentUsersService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA9AAAA",
+              "DocumentIndex": 10,
+              "Title": "ResultStatus.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Utilities\\Enums\\ResultStatus.cs",
+              "RelativeDocumentMoniker": "CropDev\\Utilities\\Enums\\ResultStatus.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Utilities\\Enums\\ResultStatus.cs",
+              "RelativeToolTip": "CropDev\\Utilities\\Enums\\ResultStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T07:28:16.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AgentUsers.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\AgentUsers.cs",
-              "RelativeDocumentMoniker": "CropDev\\Models\\AgentUsers.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\AgentUsers.cs",
-              "RelativeToolTip": "CropDev\\Models\\AgentUsers.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAzwCsAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T05:42:01.768Z"
+              "WhenOpened": "2024-07-04T06:37:52.177Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "AgentUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\AgentUsersController.cs",
+              "RelativeDocumentMoniker": "CropDev\\Controllers\\AgentUsersController.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\AgentUsersController.cs",
+              "RelativeToolTip": "CropDev\\Controllers\\AgentUsersController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAFsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:41:27.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Program.cs",
               "RelativeDocumentMoniker": "CropDev\\Program.cs",
               "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Program.cs",
               "RelativeToolTip": "CropDev\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAjwBMAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:42:20.71Z"
+              "WhenOpened": "2024-07-02T18:42:20.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ServiceExtension.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Common\\ServiceExtension.cs",
-              "RelativeDocumentMoniker": "CropDev\\Common\\ServiceExtension.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Common\\ServiceExtension.cs",
-              "RelativeToolTip": "CropDev\\Common\\ServiceExtension.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBIAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:42:57.417Z"
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CropDev\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\appsettings.Development.json",
+              "RelativeToolTip": "CropDev\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-08T09:35:41.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\UserRepository.cs",
-              "RelativeDocumentMoniker": "CropDev\\Repository\\Concrete\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\UserRepository.cs",
-              "RelativeToolTip": "CropDev\\Repository\\Concrete\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T09:42:15.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "AppSettings.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Utilities\\AppSettings.cs",
               "RelativeDocumentMoniker": "CropDev\\Utilities\\AppSettings.cs",
@@ -339,23 +405,151 @@
               "RelativeToolTip": "CropDev\\Utilities\\AppSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:24:15.305Z"
+              "WhenOpened": "2024-07-04T11:24:15.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AgentUsersController.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\AgentUsersController.cs",
-              "RelativeDocumentMoniker": "CropDev\\Controllers\\AgentUsersController.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\AgentUsersController.cs",
-              "RelativeToolTip": "CropDev\\Controllers\\AgentUsersController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwBIAAAAnAAAA",
+              "DocumentIndex": 16,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CropDev\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CropDev\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T05:41:27.261Z"
+              "WhenOpened": "2024-07-05T09:46:51.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CropDev\\Repository\\Concrete\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\UserRepository.cs",
+              "RelativeToolTip": "CropDev\\Repository\\Concrete\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T09:42:15.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CropDev\\Repository\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "CropDev\\Repository\\Interface\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T09:40:06.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "CropDev\\Service\\Interface\\IUserService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IUserService.cs",
+              "RelativeToolTip": "CropDev\\Service\\Interface\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T11:23:57.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Concrete\\UserService.cs",
+              "RelativeDocumentMoniker": "CropDev\\Service\\Concrete\\UserService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Concrete\\UserService.cs",
+              "RelativeToolTip": "CropDev\\Service\\Concrete\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T11:24:16.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\appsettings.json",
+              "RelativeDocumentMoniker": "CropDev\\appsettings.json",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\appsettings.json",
+              "RelativeToolTip": "CropDev\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-03T06:49:26.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CropDev\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\User.cs",
+              "RelativeToolTip": "CropDev\\Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T09:39:13.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CropDev.http",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\CropDev.http",
+              "RelativeDocumentMoniker": "CropDev\\CropDev.http",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\CropDev.http",
+              "RelativeToolTip": "CropDev\\CropDev.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-07-26T08:08:33.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PriceQuoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\PriceQuoteRepository.cs",
+              "RelativeDocumentMoniker": "CropDev\\Repository\\Concrete\\PriceQuoteRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\PriceQuoteRepository.cs",
+              "RelativeToolTip": "CropDev\\Repository\\Concrete\\PriceQuoteRepository.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAiwD0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T21:08:05.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAgentUsersService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IAgentUsersService.cs",
+              "RelativeDocumentMoniker": "CropDev\\Service\\Interface\\IAgentUsersService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IAgentUsersService.cs",
+              "RelativeToolTip": "CropDev\\Service\\Interface\\IAgentUsersService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T07:28:16.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IFarmerPaymentTranscationService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IFarmerPaymentTranscationService.cs",
+              "RelativeDocumentMoniker": "CropDev\\Service\\Interface\\IFarmerPaymentTranscationService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IFarmerPaymentTranscationService.cs",
+              "RelativeToolTip": "CropDev\\Service\\Interface\\IFarmerPaymentTranscationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T18:32:22.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "FarmerPaymentTranscationRepository.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\FarmerPaymentTranscationRepository.cs",
               "RelativeDocumentMoniker": "CropDev\\Repository\\Concrete\\FarmerPaymentTranscationRepository.cs",
@@ -367,43 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "CropDev\\Repository\\Interface\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IUserRepository.cs",
-              "RelativeToolTip": "CropDev\\Repository\\Interface\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T09:40:06.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CropDev\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\appsettings.Development.json",
-              "RelativeToolTip": "CropDev\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-08T09:35:41.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\User.cs",
-              "RelativeDocumentMoniker": "CropDev\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\User.cs",
-              "RelativeToolTip": "CropDev\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T09:39:13.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "CropDev.csproj",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\CropDev.csproj",
               "RelativeDocumentMoniker": "CropDev\\CropDev.csproj",
@@ -415,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "PriceQuoteController.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\PriceQuoteController.cs",
               "RelativeDocumentMoniker": "CropDev\\Controllers\\PriceQuoteController.cs",
@@ -427,44 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PriceQuoteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\PriceQuoteRepository.cs",
-              "RelativeDocumentMoniker": "CropDev\\Repository\\Concrete\\PriceQuoteRepository.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\PriceQuoteRepository.cs",
-              "RelativeToolTip": "CropDev\\Repository\\Concrete\\PriceQuoteRepository.cs",
-              "ViewState": "AQIAANkAAAAAAAAAAAAcwPAAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T21:08:05.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FarmersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\FarmersRepository.cs",
-              "RelativeDocumentMoniker": "CropDev\\Repository\\Concrete\\FarmersRepository.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\FarmersRepository.cs",
-              "RelativeToolTip": "CropDev\\Repository\\Concrete\\FarmersRepository.cs",
-              "ViewState": "AQIAAMoAAAAAAAAAAAAUwOMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T21:07:03.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Concrete\\UserService.cs",
-              "RelativeDocumentMoniker": "CropDev\\Service\\Concrete\\UserService.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Concrete\\UserService.cs",
-              "RelativeToolTip": "CropDev\\Service\\Concrete\\UserService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAApwBYAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T11:24:16.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "FarmerRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\FarmerRequestRepository.cs",
               "RelativeDocumentMoniker": "CropDev\\Repository\\Concrete\\FarmerRequestRepository.cs",
@@ -476,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "FarmersController.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\FarmersController.cs",
               "RelativeDocumentMoniker": "CropDev\\Controllers\\FarmersController.cs",
@@ -488,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "FarmerRequestController.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\FarmerRequestController.cs",
               "RelativeDocumentMoniker": "CropDev\\Controllers\\FarmerRequestController.cs",
@@ -500,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "FarmerPaymentTranscationController.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\FarmerPaymentTranscationController.cs",
               "RelativeDocumentMoniker": "CropDev\\Controllers\\FarmerPaymentTranscationController.cs",
@@ -512,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "FarmerLandDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\FarmerLandDetailsController.cs",
               "RelativeDocumentMoniker": "CropDev\\Controllers\\FarmerLandDetailsController.cs",
@@ -524,19 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "CropDev\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "CropDev\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T09:46:51.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "FarmerLandDetailsRepository.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Concrete\\FarmerLandDetailsRepository.cs",
               "RelativeDocumentMoniker": "CropDev\\Repository\\Concrete\\FarmerLandDetailsRepository.cs",
@@ -548,43 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\appsettings.json",
-              "RelativeDocumentMoniker": "CropDev\\appsettings.json",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\appsettings.json",
-              "RelativeToolTip": "CropDev\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-03T06:49:26.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IUserService.cs",
-              "RelativeDocumentMoniker": "CropDev\\Service\\Interface\\IUserService.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IUserService.cs",
-              "RelativeToolTip": "CropDev\\Service\\Interface\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T11:23:57.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Farmers.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\Farmers.cs",
-              "RelativeDocumentMoniker": "CropDev\\Models\\Farmers.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\Farmers.cs",
-              "RelativeToolTip": "CropDev\\Models\\Farmers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T21:02:06.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "FarmerRequest.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\FarmerRequest.cs",
               "RelativeDocumentMoniker": "CropDev\\Models\\FarmerRequest.cs",
@@ -596,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "FarmerPaymentTranscationService.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Concrete\\FarmerPaymentTranscationService.cs",
               "RelativeDocumentMoniker": "CropDev\\Service\\Concrete\\FarmerPaymentTranscationService.cs",
@@ -608,19 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "FarmerLandDetails.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\FarmerLandDetails.cs",
-              "RelativeDocumentMoniker": "CropDev\\Models\\FarmerLandDetails.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\FarmerLandDetails.cs",
-              "RelativeToolTip": "CropDev\\Models\\FarmerLandDetails.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T19:38:35.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "IPriceQuoteService.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IPriceQuoteService.cs",
               "RelativeDocumentMoniker": "CropDev\\Service\\Interface\\IPriceQuoteService.cs",
@@ -632,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "IFarmerPaymentTranscationRepository.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IFarmerPaymentTranscationRepository.cs",
               "RelativeDocumentMoniker": "CropDev\\Repository\\Interface\\IFarmerPaymentTranscationRepository.cs",
@@ -644,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "IFarmerLandDetailsRepository.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IFarmerLandDetailsRepository.cs",
               "RelativeDocumentMoniker": "CropDev\\Repository\\Interface\\IFarmerLandDetailsRepository.cs",
@@ -656,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "IFarmerRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IFarmerRequestRepository.cs",
               "RelativeDocumentMoniker": "CropDev\\Repository\\Interface\\IFarmerRequestRepository.cs",
@@ -668,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "PriceQuote.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\PriceQuote.cs",
               "RelativeDocumentMoniker": "CropDev\\Models\\PriceQuote.cs",
@@ -680,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "FarmerPaymentTranscation.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Models\\FarmerPaymentTranscation.cs",
               "RelativeDocumentMoniker": "CropDev\\Models\\FarmerPaymentTranscation.cs",
@@ -692,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "IPriceQuoteRepository.cs",
               "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IPriceQuoteRepository.cs",
               "RelativeDocumentMoniker": "CropDev\\Repository\\Interface\\IPriceQuoteRepository.cs",
@@ -701,30 +762,6 @@
               "ViewState": "AQIAAB0AAAAAAAAAAAAgwCsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-02T21:17:50.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IFarmersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IFarmersRepository.cs",
-              "RelativeDocumentMoniker": "CropDev\\Repository\\Interface\\IFarmersRepository.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Repository\\Interface\\IFarmersRepository.cs",
-              "RelativeToolTip": "CropDev\\Repository\\Interface\\IFarmersRepository.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwCoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T21:10:52.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "IFarmerPaymentTranscationService.cs",
-              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IFarmerPaymentTranscationService.cs",
-              "RelativeDocumentMoniker": "CropDev\\Service\\Interface\\IFarmerPaymentTranscationService.cs",
-              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\CropDev\\CropDev\\Service\\Interface\\IFarmerPaymentTranscationService.cs",
-              "RelativeToolTip": "CropDev\\Service\\Interface\\IFarmerPaymentTranscationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:32:22.801Z"
             }
           ]
         }
