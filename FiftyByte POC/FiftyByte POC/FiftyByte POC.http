@@ -1,0 +1,6 @@
+@FiftyByte_POC_HostAddress = http://localhost:5039
+
+GET {{FiftyByte_POC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

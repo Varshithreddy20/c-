@@ -1,0 +1,637 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241015123507_AddLeaveManagementTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiftyByte POC\\Migrations\\20241015123507_AddLeaveManagementTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\controllers\\leaveapplicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\controllers\\leaveapplicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\services\\concrete\\leaveapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\services\\concrete\\leaveapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\repositories\\concrete\\leaveapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\repositories\\concrete\\leaveapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\repositories\\interface\\ileaveapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\repositories\\interface\\ileaveapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\services\\interface\\ileaveapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\services\\interface\\ileaveapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241015121404_AddLeaveManagementTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiftyByte POC\\Migrations\\20241015121404_AddLeaveManagementTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\models\\leave management\\leavepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\models\\leave management\\leavepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\models\\leave management\\leaveapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\models\\leave management\\leaveapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\models\\leave management\\costcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\models\\leave management\\costcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\controllers\\companylogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\controllers\\companylogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\services\\interface\\icompanylogoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\services\\interface\\icompanylogoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\repositories\\concrete\\companylogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\repositories\\concrete\\companylogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\services\\concrete\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\services\\concrete\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\models\\translation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\models\\translation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\models\\companylogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\models\\companylogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\services\\concrete\\companylogoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\services\\concrete\\companylogoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\repositories\\interface\\icompanylogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\repositories\\interface\\icompanylogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\controllers\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\controllers\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\services\\interface\\itranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\services\\interface\\itranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\repositories\\concrete\\translationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\repositories\\concrete\\translationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\services\\concrete\\translationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\services\\concrete\\translationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\repositories\\interface\\itranslationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\repositories\\interface\\itranslationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\repositories\\concrete\\countryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\repositories\\concrete\\countryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\services\\interface\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\services\\interface\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\repositories\\interface\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\repositories\\interface\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241010084852_InitialSetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiftyByte POC\\Migrations\\20241010084852_InitialSetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241010084515_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiftyByte POC\\Migrations\\20241010084515_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\migrations\\20241010112601_addcountrytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\migrations\\20241010112601_addcountrytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\migrations\\20241010085019_initialcreatenew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\migrations\\20241010085019_initialcreatenew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|c:\\users\\al6113\\desktop\\sample\\fiftybyte poc\\fiftybyte poc\\migrations\\20241011151753_addtranslations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B06DA1-B863-4585-B4C3-7578C8BFF01C}|FiftyByte POC\\FiftyByte POC.csproj|solutionrelative:fiftybyte poc\\migrations\\20241011151753_addtranslations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ILeaveApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Interface\\ILeaveApplicationService.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Services\\Interface\\ILeaveApplicationService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Interface\\ILeaveApplicationService.cs",
+              "RelativeToolTip": "FiftyByte POC\\Services\\Interface\\ILeaveApplicationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:20:41.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaveApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Concrete\\LeaveApplicationRepository.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Repositories\\Concrete\\LeaveApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Concrete\\LeaveApplicationRepository.cs",
+              "RelativeToolTip": "FiftyByte POC\\Repositories\\Concrete\\LeaveApplicationRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:19:19.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeaveApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Concrete\\LeaveApplicationService.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Services\\Concrete\\LeaveApplicationService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Concrete\\LeaveApplicationService.cs",
+              "RelativeToolTip": "FiftyByte POC\\Services\\Concrete\\LeaveApplicationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:20:25.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241015123507_AddLeaveManagementTables.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241015123507_AddLeaveManagementTables.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Migrations\\20241015123507_AddLeaveManagementTables.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241015123507_AddLeaveManagementTables.cs",
+              "RelativeToolTip": "FiftyByte POC\\Migrations\\20241015123507_AddLeaveManagementTables.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:35:07.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeaveApplicationController.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Controllers\\LeaveApplicationController.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Controllers\\LeaveApplicationController.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Controllers\\LeaveApplicationController.cs",
+              "RelativeToolTip": "FiftyByte POC\\Controllers\\LeaveApplicationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:23:00.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ILeaveApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Interface\\ILeaveApplicationRepository.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Repositories\\Interface\\ILeaveApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Interface\\ILeaveApplicationRepository.cs",
+              "RelativeToolTip": "FiftyByte POC\\Repositories\\Interface\\ILeaveApplicationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:19:31.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LeavePolicy.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\leave management\\LeavePolicy.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Models\\leave management\\LeavePolicy.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\leave management\\LeavePolicy.cs",
+              "RelativeToolTip": "FiftyByte POC\\Models\\leave management\\LeavePolicy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:15:40.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LeaveApplication.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\leave management\\LeaveApplication.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Models\\leave management\\LeaveApplication.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\leave management\\LeaveApplication.cs",
+              "RelativeToolTip": "FiftyByte POC\\Models\\leave management\\LeaveApplication.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:16:15.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CostCenter.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\leave management\\CostCenter.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Models\\leave management\\CostCenter.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\leave management\\CostCenter.cs",
+              "RelativeToolTip": "FiftyByte POC\\Models\\leave management\\CostCenter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:15:58.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "FiftyByte POC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAMEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:32:08.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FiftyByte POC\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T06:51:30.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "FiftyByte POC\\Controllers\\CountryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:23:56.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241015121404_AddLeaveManagementTables.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241015121404_AddLeaveManagementTables.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Migrations\\20241015121404_AddLeaveManagementTables.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241015121404_AddLeaveManagementTables.cs",
+              "RelativeToolTip": "FiftyByte POC\\Migrations\\20241015121404_AddLeaveManagementTables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:14:04.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CompanyLogoController.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Controllers\\CompanyLogoController.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Controllers\\CompanyLogoController.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Controllers\\CompanyLogoController.cs",
+              "RelativeToolTip": "FiftyByte POC\\Controllers\\CompanyLogoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T06:51:02.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICompanyLogoService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Interface\\ICompanyLogoService.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Services\\Interface\\ICompanyLogoService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Interface\\ICompanyLogoService.cs",
+              "RelativeToolTip": "FiftyByte POC\\Services\\Interface\\ICompanyLogoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T06:53:07.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CompanyLogoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Concrete\\CompanyLogoRepository.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Repositories\\Concrete\\CompanyLogoRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Concrete\\CompanyLogoRepository.cs",
+              "RelativeToolTip": "FiftyByte POC\\Repositories\\Concrete\\CompanyLogoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:44:22.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CountryService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Concrete\\CountryService.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Services\\Concrete\\CountryService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Concrete\\CountryService.cs",
+              "RelativeToolTip": "FiftyByte POC\\Services\\Concrete\\CountryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:14:54.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Models\\Country.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\Country.cs",
+              "RelativeToolTip": "FiftyByte POC\\Models\\Country.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:13:27.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CompanyLogo.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\CompanyLogo.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Models\\CompanyLogo.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\CompanyLogo.cs",
+              "RelativeToolTip": "FiftyByte POC\\Models\\CompanyLogo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T06:50:10.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Translation.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\Translation.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Models\\Translation.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Models\\Translation.cs",
+              "RelativeToolTip": "FiftyByte POC\\Models\\Translation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:05:28.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Program.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Program.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Program.cs",
+              "RelativeToolTip": "FiftyByte POC\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T06:57:23.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CompanyLogoService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Concrete\\CompanyLogoService.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Services\\Concrete\\CompanyLogoService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Concrete\\CompanyLogoService.cs",
+              "RelativeToolTip": "FiftyByte POC\\Services\\Concrete\\CompanyLogoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T06:52:48.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICompanyLogoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Interface\\ICompanyLogoRepository.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Repositories\\Interface\\ICompanyLogoRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Interface\\ICompanyLogoRepository.cs",
+              "RelativeToolTip": "FiftyByte POC\\Repositories\\Interface\\ICompanyLogoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T06:52:15.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TranslationService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Concrete\\TranslationService.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Services\\Concrete\\TranslationService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Concrete\\TranslationService.cs",
+              "RelativeToolTip": "FiftyByte POC\\Services\\Concrete\\TranslationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:06:28.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TranslationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Concrete\\TranslationRepository.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Repositories\\Concrete\\TranslationRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Concrete\\TranslationRepository.cs",
+              "RelativeToolTip": "FiftyByte POC\\Repositories\\Concrete\\TranslationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:05:50.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TranslationController.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Controllers\\TranslationController.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Controllers\\TranslationController.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Controllers\\TranslationController.cs",
+              "RelativeToolTip": "FiftyByte POC\\Controllers\\TranslationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:07:10.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ITranslationService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Interface\\ITranslationService.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Services\\Interface\\ITranslationService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Interface\\ITranslationService.cs",
+              "RelativeToolTip": "FiftyByte POC\\Services\\Interface\\ITranslationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:06:49.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20241011151753_AddTranslations.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241011151753_AddTranslations.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Migrations\\20241011151753_AddTranslations.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241011151753_AddTranslations.cs",
+              "RelativeToolTip": "FiftyByte POC\\Migrations\\20241011151753_AddTranslations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:17:53.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ITranslationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Interface\\ITranslationRepository.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Repositories\\Interface\\ITranslationRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Interface\\ITranslationRepository.cs",
+              "RelativeToolTip": "FiftyByte POC\\Repositories\\Interface\\ITranslationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:06:13.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CountryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Concrete\\CountryRepository.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Repositories\\Concrete\\CountryRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Concrete\\CountryRepository.cs",
+              "RelativeToolTip": "FiftyByte POC\\Repositories\\Concrete\\CountryRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:13:52.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20241010112601_AddCountryTable.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241010112601_AddCountryTable.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Migrations\\20241010112601_AddCountryTable.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241010112601_AddCountryTable.cs",
+              "RelativeToolTip": "FiftyByte POC\\Migrations\\20241010112601_AddCountryTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:26:01.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ICountryService.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Interface\\ICountryService.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Services\\Interface\\ICountryService.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Services\\Interface\\ICountryService.cs",
+              "RelativeToolTip": "FiftyByte POC\\Services\\Interface\\ICountryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:16:10.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ICountryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Interface\\ICountryRepository.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Repositories\\Interface\\ICountryRepository.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Repositories\\Interface\\ICountryRepository.cs",
+              "RelativeToolTip": "FiftyByte POC\\Repositories\\Interface\\ICountryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:14:17.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FiftyByte POC\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\appsettings.Development.json",
+              "RelativeToolTip": "FiftyByte POC\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-10T06:41:08.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20241010085019_InitialCreateNew.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241010085019_InitialCreateNew.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Migrations\\20241010085019_InitialCreateNew.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241010085019_InitialCreateNew.cs",
+              "RelativeToolTip": "FiftyByte POC\\Migrations\\20241010085019_InitialCreateNew.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:50:19.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20241010084515_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241010084515_InitialCreate.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Migrations\\20241010084515_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241010084515_InitialCreate.cs",
+              "RelativeToolTip": "FiftyByte POC\\Migrations\\20241010084515_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:45:15.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20241010084852_InitialSetup.cs",
+              "DocumentMoniker": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241010084852_InitialSetup.cs",
+              "RelativeDocumentMoniker": "FiftyByte POC\\Migrations\\20241010084852_InitialSetup.cs",
+              "ToolTip": "C:\\Users\\al6113\\Desktop\\sample\\FiftyByte POC\\FiftyByte POC\\Migrations\\20241010084852_InitialSetup.cs",
+              "RelativeToolTip": "FiftyByte POC\\Migrations\\20241010084852_InitialSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:48:52.366Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
